@@ -1,0 +1,620 @@
+{
+  "id": 20,
+  "title": "Simulare de sinteză",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Sensul unei restricții",
+      "prompt": "„La sesiunea de comunicare sunt admiși numai elevii înscriși.” Ce reformulare păstrează sensul?",
+      "options": [
+        "Orice elev înscris este neapărat admis.",
+        "Niciun elev înscris nu este admis.",
+        "Toți elevii școlii sunt admiși.",
+        "Orice elev admis este înscris."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Cuvântul numai limitează categoria celor admiși.",
+          "Înscrierea este o condiție necesară pentru admitere.",
+          "Din faptul că cineva este admis rezultă că este înscris.",
+          "Nu rezultă automat că înscrierea garantează admiterea."
+        ],
+        "rule": "Numai introduce o condiție necesară.",
+        "trap": "Nu inversa sensul relației dintre înscriere și admitere.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t20-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Susținerea unei concluzii",
+      "prompt": "Concluzie: „Mutarea atelierului de comunicare într-o sală mai mare ar rezolva problema locurilor insuficiente.” Ce informație susține cel mai direct concluzia?",
+      "options": [
+        "Unii elevi preferă activitățile în aer liber.",
+        "Atelierul este organizat și anul viitor.",
+        "Sala actuală are 20 de locuri, sunt 28 de înscriși, iar sala nouă are 35 de locuri.",
+        "Sala nouă are pereții albaștri."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Identifică problema exactă: capacitatea sălii.",
+          "Comparația 20 < 28 arată insuficiența sălii actuale.",
+          "Comparația 35 ≥ 28 arată că sala nouă poate găzdui înscrișii.",
+          "Celelalte informații nu stabilesc dacă există suficiente locuri."
+        ],
+        "rule": "O dovadă relevantă răspunde exact problemei concluziei.",
+        "trap": "Detaliile atractive despre sală nu demonstrează capacitatea ei.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t20-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Presupunere necesară",
+      "prompt": "„Vom trimite programul atelierului de comunicare exclusiv prin e-mail, astfel încât fiecare participant să-l poată consulta.” Ce presupunere este necesară acestui plan?",
+      "options": [
+        "Toți participanții folosesc același model de telefon.",
+        "Fiecare participant are acces la e-mailul la care este trimis programul.",
+        "Fiecare participant preferă atelierul dimineața.",
+        "Programul are exact două pagini."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Scopul este accesul fiecărui participant la program.",
+          "Mijlocul este exclusiv e-mailul.",
+          "Dacă o persoană nu poate accesa e-mailul respectiv, planul nu asigură accesul tuturor.",
+          "Preferințele, lungimea documentului și modelul telefonului nu sunt condiții necesare."
+        ],
+        "rule": "Testează o presupunere negând-o: dacă planul nu mai funcționează, ea poate fi necesară.",
+        "trap": "Nu confunda o condiție utilă cu una fără de care concluzia nu se susține.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t20-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Comparație și concluzie",
+      "prompt": "„Atelierul de comunicare are mai mulți înscriși decât clubul de teatru. Clubul de teatru are mai mulți înscriși decât clubul de șah.” Ce rezultă?",
+      "options": [
+        "Atelierul de comunicare are mai mulți înscriși decât clubul de șah.",
+        "Clubul de șah are mai mulți înscriși decât clubul de teatru.",
+        "Cele trei grupuri au același număr de înscriși.",
+        "Clubul de teatru are cei mai mulți înscriși."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Notează A > B pentru prima comparație.",
+          "Notează B > C pentru a doua.",
+          "Prin tranzitivitate, A > C.",
+          "Nu știm numerele exacte, dar știm ordinea celor trei efective."
+        ],
+        "rule": "Relația mai mare decât se transmite printr-un lanț de comparații.",
+        "trap": "Nu ai nevoie de numere concrete pentru a compara extremitățile lanțului.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t20-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Conector de cauză",
+      "prompt": "„Atelierul de comunicare a fost mutat în interior deoarece ploua.” Ce relație exprimă „deoarece”?",
+      "options": [
+        "Comparație",
+        "Concesie",
+        "Succesiune fără cauză",
+        "Cauză"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Identifică evenimentul: mutarea în interior.",
+          "Identifică explicația: ploaia.",
+          "Deoarece introduce motivul mutării.",
+          "Nu exprimă o comparație sau un rezultat în pofida unui obstacol."
+        ],
+        "rule": "Conectorii indică relația dintre idei.",
+        "trap": "Nu interpreta toți conectorii ca simple semne de ordine temporală.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t20-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Informație absentă",
+      "prompt": "„Atelierul de comunicare este opțional. Toți cei înscriși au primit materialele. Unii au participat vineri.”\nCare afirmație NU poate fi stabilită din text?",
+      "options": [
+        "Atelierul este opțional.",
+        "Cel puțin un participant înscris a venit vineri.",
+        "Toți cei înscriși au primit materialele.",
+        "Emil a participat vineri."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Observă cuvântul NU: căutăm o informație absentă.",
+          "Textul nu menționează persoana Emil.",
+          "Nu putem transforma o informație despre unii participanți într-o informație despre o persoană precisă.",
+          "Celelalte variante reproduc informații explicite sau sensul lui unii."
+        ],
+        "rule": "Lipsa informației nu dovedește nici adevărul, nici falsitatea unei afirmații.",
+        "trap": "A alege o afirmație adevărată când se cere ce NU se poate stabili inversează cerința.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t20-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Categorie comună",
+      "prompt": "Pe fișa lui Emil, ce categorie comună, suficient de precisă, include atât „psiholog”, cât și „medic”?",
+      "options": [
+        "forme de comunicare verbală",
+        "profesii",
+        "obiecte sau concepte fără categorie comună",
+        "unități de timp"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Analizează separat sensul lui psiholog și al lui medic.",
+          "Ambele se încadrează în categoria profesii.",
+          "Categoria trebuie să fie valabilă pentru ambii termeni.",
+          "Respinge o categorie care descrie numai un termen sau un domeniu diferit."
+        ],
+        "rule": "Clasifică pe baza trăsăturilor esențiale comune.",
+        "trap": "Nu confunda asemănările accidentale cu apartenența la aceeași categorie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t20-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Sumă și diferență",
+      "prompt": "Două echipe au împreună 68 elevi. A doua are cu 6 mai mulți decât prima. Câți elevi are prima?",
+      "options": [
+        "31",
+        "34",
+        "37",
+        "68"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Scoate diferența din total: 68 − 6 = 62.",
+          "Rămân două părți egale: 62 ÷ 2 = 31.",
+          "Control: 31 + 37 = 68.",
+          "Verificare: rezultatul cerut este 31."
+        ],
+        "rule": "Numărul mai mic este (suma − diferența) ÷ 2.",
+        "trap": "Împărțirea totalului la doi ignoră diferența.",
+        "alternative": "Metoda segmentelor: desenează mental două segmente egale, apoi adaugă șase unități unuia dintre ele. Totalul cuprinde două segmente plus șase. Scoți cele șase unități și împarți restul la doi pentru a găsi segmentul mai mic."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "31",
+        "options": [
+          "31",
+          "34",
+          "37",
+          "68"
+        ]
+      },
+      "historical": false,
+      "id": "t20-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Șir geometric",
+      "prompt": "Fiecare termen este dublul precedentului. Completează: 24, 48, 96, 192, 384, …",
+      "options": [
+        "386",
+        "773",
+        "1536",
+        "768"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Regula precizată este înmulțirea cu 2.",
+          "Ultimul termen este 384.",
+          "Următorul: 384 × 2 = 768.",
+          "Verificare: rezultatul cerut este 768."
+        ],
+        "rule": "Păstrează raportul constant al șirului geometric.",
+        "trap": "Nu trece de la înmulțire la o diferență arbitrară.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "768",
+        "options": [
+          "386",
+          "773",
+          "1536",
+          "768"
+        ]
+      },
+      "historical": false,
+      "id": "t20-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Scară de hartă",
+      "prompt": "Pe o hartă, 1 cm reprezintă 3 km. Două localități sunt la 27 cm. Care este distanța reală?",
+      "options": [
+        "84 km",
+        "2700 km",
+        "81 km",
+        "27 km"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Fiecărui centimetru îi corespund 3 km.",
+          "27 × 3 = 81 km.",
+          "Verificare: rezultatul cerut este 81 km."
+        ],
+        "rule": "Aplică aceeași scară fiecărei unități măsurate.",
+        "trap": "Nu folosi o conversie cm–km directă; harta are o scară precizată.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "81",
+        "options": [
+          "84",
+          "2700",
+          "81",
+          "27"
+        ]
+      },
+      "historical": false,
+      "id": "t20-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Unități de timp",
+      "prompt": "Un vehicul merge cu 174 km/h. Ce distanță parcurge în 30 de minute?",
+      "options": [
+        "102 km",
+        "87 km",
+        "174 km",
+        "5220 km"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "30 de minute = 1/2 oră.",
+          "Distanța: 174 × 1/2 = 87 km.",
+          "Verificare: rezultatul cerut este 87 km."
+        ],
+        "rule": "Convertește minutele în ore înainte să folosești km/h.",
+        "trap": "Înmulțirea vitezei cu 30 ar trata minutele drept ore.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "87",
+        "options": [
+          "102",
+          "87",
+          "174",
+          "5220"
+        ]
+      },
+      "historical": false,
+      "id": "t20-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Mediană",
+      "prompt": "Valorile ordonate sunt 29, 33, 37, 41, 59. Care este mediana?",
+      "options": [
+        "37",
+        "33",
+        "39,8",
+        "41"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Sunt 5 valori deja ordonate.",
+          "Poziția centrală este a treia.",
+          "A treia valoare este 37.",
+          "Verificare: rezultatul cerut este 37."
+        ],
+        "rule": "La un număr impar de valori, mediana este valoarea centrală după ordonare.",
+        "trap": "Mediana nu este neapărat media aritmetică.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "37",
+        "options": [
+          "37",
+          "33",
+          "199/5",
+          "41"
+        ]
+      },
+      "historical": false,
+      "id": "t20-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Raport parte–parte",
+      "prompt": "Într-un grup de 125 elevi, raportul fete : băieți este 3 : 2. Câte fete sunt?",
+      "options": [
+        "50",
+        "77",
+        "80",
+        "75"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Raportul are 3 + 2 = 5 părți.",
+          "O parte: 125 ÷ 5 = 25.",
+          "Fetele: 3 × 25 = 75.",
+          "Verificare: rezultatul cerut este 75."
+        ],
+        "rule": "Adună părțile raportului înainte să calculezi o parte.",
+        "trap": "3 : 2 nu înseamnă că fetele sunt 3/2 din întreg.",
+        "alternative": "Metoda segmentelor: desenează mental trei segmente egale pentru fete și două pentru băieți. Întregul conține cinci segmente. Împarte numărul total de elevi la cinci și ia trei asemenea părți pentru fete. Controlul se face adunând fetele și băieții și verificând raportul."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "75",
+        "options": [
+          "50",
+          "77",
+          "80",
+          "75"
+        ]
+      },
+      "historical": false,
+      "id": "t20-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Procent din întreg",
+      "prompt": "Din 620 de înscriși, 20% aleg un atelier online. Câți sunt?",
+      "options": [
+        "155",
+        "496",
+        "124",
+        "134"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "20% = 20/100 = 1/5.",
+          "Numărul cerut: 620 ÷ 5 = 124.",
+          "Verificare: rezultatul cerut este 124."
+        ],
+        "rule": "Procentul se aplică întregului indicat.",
+        "trap": "Restul de 80% reprezintă o altă categorie, nu răspunsul cerut.",
+        "alternative": "Regula de trei simplă: întregul corespunde lui 100%, iar partea cerută lui 20%. Înmulțești întregul cu 20 și împarți la 100. Deoarece 20/100 = 1/5, poți folosi și împărțirea directă la cinci."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "124",
+        "options": [
+          "155",
+          "496",
+          "124",
+          "134"
+        ]
+      },
+      "historical": false,
+      "id": "t20-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Bicondițional",
+      "prompt": "Emil primește ecuson dacă și numai dacă este înscris. Nu a primit ecuson. Ce rezultă?",
+      "options": [
+        "Toți cei înscriși nu primesc ecuson.",
+        "Nu este înscris.",
+        "Este înscris.",
+        "Nu se poate determina înscrierea."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Dacă și numai dacă exprimă două reguli: înscris → ecuson și ecuson → înscris.",
+          "Pentru prima regulă avem lipsa consecventului: nu ecuson.",
+          "Prin modus tollens rezultă nu înscris.",
+          "Concluzia privește persoana dată, nu întregul grup."
+        ],
+        "rule": "Bicondiționalul permite ambele direcții ale relației.",
+        "trap": "Nu trata dacă și numai dacă drept o simplă asociere posibilă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t20-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unui cuantificator",
+      "prompt": "Care este negarea exactă a afirmației „Toți evaluatorii atelierului de comunicare au verificat cel puțin un dosar”?",
+      "options": [
+        "Cel puțin un evaluator nu a verificat niciun dosar.",
+        "Niciun evaluator nu a verificat niciun dosar.",
+        "Toți evaluatorii au verificat exact un dosar.",
+        "Cel puțin un evaluator a verificat toate dosarele."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Structura este: pentru fiecare evaluator există un dosar verificat.",
+          "Negarea lui pentru fiecare este există cel puțin unul.",
+          "Pentru acel evaluator negăm existența unui dosar verificat: nu există niciunul.",
+          "Rezultă un evaluator care nu a verificat niciun dosar; nu trebuie să fie toți."
+        ],
+        "rule": "La negare, schimbă toți în cel puțin unul și neagă proprietatea.",
+        "trap": "Niciun evaluator este o afirmație mai puternică decât negarea exactă.",
+        "alternative": "Poți testa afirmația cu un contraexemplu. Pentru a respinge „toți au verificat măcar un dosar”, ai nevoie de un singur evaluator care nu a verificat niciunul. Nu ai nevoie ca întregul grup să fi procedat astfel. Negarea exactă este minimul logic care face afirmația inițială falsă."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t20-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Bloc de simboluri repetat",
+      "prompt": "Blocul ○, △, △, □ se repetă identic. Ce simbol se află pe poziția 33?",
+      "options": [
+        "△",
+        "□",
+        "Nu se poate determina",
+        "○"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Blocul conține 4 poziții.",
+          "Împarte 33 la 4; restul este 1.",
+          "Resturile 1, 2, 3 desemnează pozițiile respective; restul 0 desemnează poziția 4.",
+          "Simbolul cerut este ○."
+        ],
+        "rule": "Folosește restul împărțirii la lungimea blocului.",
+        "trap": "La rest 0, poziția este ultima din bloc, nu prima.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "symbol",
+        "block": [
+          "○",
+          "△",
+          "△",
+          "□"
+        ],
+        "position": 33,
+        "result": "○"
+      },
+      "historical": false,
+      "id": "t20-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Disjuncție exclusivă",
+      "prompt": "Emil participă fie la atelierul de comunicare, fie la cel de teatru, dar nu la ambele. Nu participă la teatru. Ce rezultă?",
+      "options": [
+        "Participă la ambele ateliere.",
+        "Informația nu permite nicio concluzie.",
+        "Participă la atelierul de comunicare.",
+        "Nu participă la niciun atelier."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Enunțul cere participarea la exact unul dintre două ateliere.",
+          "Varianta teatru este eliminată.",
+          "Rămâne cealaltă variantă, care trebuie să fie adevărată.",
+          "Absența de la ambele ar încălca regula inițială."
+        ],
+        "rule": "Dacă exact una dintre două alternative este adevărată, negarea uneia impune cealaltă.",
+        "trap": "Fie… fie, dar nu ambele este exclusiv, nu facultativ.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t20-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unei implicații",
+      "prompt": "Care situație face falsă regula „Dacă Emil este înscris, atunci primește materialele”?",
+      "options": [
+        "Este înscris și primește materialele.",
+        "Este înscris și nu primește materialele.",
+        "Nu este înscris și primește materialele.",
+        "Nu este înscris și nu primește materialele."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Regula promite materiale în cazul înscrierii.",
+          "Este încălcată numai când înscrierea există, dar materialele lipsesc.",
+          "Dacă înscrierea lipsește, regula nu decide distribuirea materialelor.",
+          "Situația falsificatoare are forma P și nu Q."
+        ],
+        "rule": "O implicație este falsă când antecedentul este adevărat și consecventul fals.",
+        "trap": "Regula nu spune numai cei înscriși primesc materiale.",
+        "alternative": "Tabelul de adevăr are patru cazuri pentru P și Q. P adevărat și Q adevărat respectă regula; P fals și Q adevărat nu o încalcă; P fals și Q fals nu o încalcă. Numai P adevărat și Q fals o încalcă. Acesta este cazul căutat."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t20-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Exact unul adevărat",
+      "prompt": "Despre locul lui Emil în clasament, două afirmații sunt: 1. „Este pe locul 1.” 2. „Este pe locul 1 sau 2.” Exact una este adevărată. Pe ce loc este?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Nu se poate determina"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Dacă ar fi pe 1, ambele afirmații ar fi adevărate.",
+          "Dacă ar fi pe 2, prima ar fi falsă și a doua adevărată.",
+          "Pe orice alt loc, ambele ar fi false.",
+          "Singura posibilitate cu exact o afirmație adevărată este locul 2."
+        ],
+        "rule": "Testează variantele și numără valorile de adevăr.",
+        "trap": "Exact una elimină atât cazul cu zero, cât și cazul cu două afirmații adevărate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "truth-position",
+        "result": 2
+      },
+      "historical": false,
+      "id": "t20-q20"
+    }
+  ]
+}

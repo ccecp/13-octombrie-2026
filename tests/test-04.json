@@ -1,0 +1,644 @@
+{
+  "id": 4,
+  "title": "Date și argumente",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Presupunere necesară",
+      "prompt": "„Vom trimite programul atelierului de teatru exclusiv prin e-mail, astfel încât fiecare participant să-l poată consulta.” Ce presupunere este necesară acestui plan?",
+      "options": [
+        "Fiecare participant preferă atelierul dimineața.",
+        "Programul are exact două pagini.",
+        "Toți participanții folosesc același model de telefon.",
+        "Fiecare participant are acces la e-mailul la care este trimis programul."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Scopul este accesul fiecărui participant la program.",
+          "Mijlocul este exclusiv e-mailul.",
+          "Dacă o persoană nu poate accesa e-mailul respectiv, planul nu asigură accesul tuturor.",
+          "Preferințele, lungimea documentului și modelul telefonului nu sunt condiții necesare."
+        ],
+        "rule": "Testează o presupunere negând-o: dacă planul nu mai funcționează, ea poate fi necesară.",
+        "trap": "Nu confunda o condiție utilă cu una fără de care concluzia nu se susține.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t04-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Cuantificatori în text",
+      "prompt": "„Majoritatea celor 15 elevi înscriși la teatru au venit la prima întâlnire.” Care afirmație rezultă sigur?",
+      "options": [
+        "Exact jumătate dintre cei înscriși au venit.",
+        "Niciun elev înscris nu a lipsit.",
+        "Mai mult de jumătate dintre cei înscriși au venit.",
+        "Toți cei înscriși au venit."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Majoritatea înseamnă mai mult de jumătate din grup.",
+          "Termenul nu precizează numărul exact.",
+          "Poate fi vorba despre toți, dar textul nu garantează acest lucru.",
+          "Concluzia sigură păstrează limita minimă exprimată de majoritatea."
+        ],
+        "rule": "Nu transforma majoritatea în toți sau în exact jumătate.",
+        "trap": "O posibilitate nu este o concluzie obligatorie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t04-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Concluzie excesivă",
+      "prompt": "„Doi participanți la atelierul de teatru au spus că preferă dimineața. Prin urmare, toți participanții preferă dimineața.” De ce concluzia este insuficient susținută?",
+      "options": [
+        "Concluzia privește numai cele două persoane.",
+        "Preferința a două persoane este extinsă nejustificat la întregul grup.",
+        "Textul dovedește că nimeni nu preferă dimineața.",
+        "Preferințele celor două persoane sunt identice cu programul."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Premisa conține informații despre două persoane.",
+          "Concluzia privește toți participanții.",
+          "Nu avem informații despre preferințele celorlalți.",
+          "Argumentul generalizează dintr-un grup restrâns fără justificare."
+        ],
+        "rule": "Mărimea și reprezentativitatea informației trebuie să susțină amploarea concluziei.",
+        "trap": "Nu confunda doi sau unii cu toți.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t04-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Informație absentă",
+      "prompt": "„Atelierul de teatru este opțional. Toți cei înscriși au primit materialele. Unii au participat vineri.”\nCare afirmație NU poate fi stabilită din text?",
+      "options": [
+        "Toți cei înscriși au primit materialele.",
+        "Dan a participat vineri.",
+        "Atelierul este opțional.",
+        "Cel puțin un participant înscris a venit vineri."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Observă cuvântul NU: căutăm o informație absentă.",
+          "Textul nu menționează persoana Dan.",
+          "Nu putem transforma o informație despre unii participanți într-o informație despre o persoană precisă.",
+          "Celelalte variante reproduc informații explicite sau sensul lui unii."
+        ],
+        "rule": "Lipsa informației nu dovedește nici adevărul, nici falsitatea unei afirmații.",
+        "trap": "A alege o afirmație adevărată când se cere ce NU se poate stabili inversează cerința.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t04-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Analogie: unealtă–acțiune",
+      "prompt": "În fișa atelierului de teatru, completează relația: cuțit : tăiere = ac : …",
+      "options": [
+        "măsurare",
+        "citire",
+        "vopsire",
+        "coasere"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Identifică prima relație: cuțit și tăiere sunt legate prin unealtă–acțiune.",
+          "Păstrează sensul și ordinea aceleiași relații pentru ac.",
+          "Termenul corespunzător este coasere.",
+          "Verifică ambele perechi: trebuie să aibă aceeași relație, nu doar cuvinte din același domeniu."
+        ],
+        "rule": "La analogii, numește relația înainte de a căuta răspunsul.",
+        "trap": "O asociere tematică nu este suficientă; relația și direcția trebuie păstrate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t04-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Sens în context",
+      "prompt": "În raportul atelierului de teatru apare enunțul „A formulat un argument pertinent.”. Ce înseamnă „pertinent”?",
+      "options": [
+        "contradictoriu",
+        "secundar",
+        "relevant",
+        "ambiguu"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Citește enunțul întreg, nu doar cuvântul izolat.",
+          "În acest context, pertinent are sensul relevant.",
+          "Înlocuiește mental cuvântul cu varianta aleasă.",
+          "Sensul propoziției trebuie să rămână același."
+        ],
+        "rule": "Sinonimul potrivit păstrează sensul contextual.",
+        "trap": "Nu alege un cuvânt doar pentru că are o conotație asemănătoare.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t04-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Rezumat fidel",
+      "prompt": "„La atelierul de teatru, înscrierea se face până joi. Dacă rămân locuri libere, se acceptă înscrieri și vineri.” Care rezumat păstrează exact informația?",
+      "options": [
+        "Joi nu se acceptă înscrieri.",
+        "Înscrierile sunt până joi, cu posibilă prelungire vineri dacă există locuri.",
+        "Înscrierile sunt obligatoriu doar vineri.",
+        "Oricine se poate înscrie vineri, indiferent de locuri."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Identifică regula generală: înscriere până joi.",
+          "Identifică excepția: vineri numai dacă rămân locuri.",
+          "Un rezumat fidel păstrează regula și condiția excepției.",
+          "Respinge rezumatele care elimină condiția sau inversează termenul."
+        ],
+        "rule": "La rezumat, păstrează condițiile și limitele afirmației.",
+        "trap": "Eliminarea expresiei dacă există locuri schimbă mesajul.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t04-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Scară de hartă",
+      "prompt": "Pe o hartă, 1 cm reprezintă 3 km. Două localități sunt la 11 cm. Care este distanța reală?",
+      "options": [
+        "33 km",
+        "11 km",
+        "36 km",
+        "1100 km"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Fiecărui centimetru îi corespund 3 km.",
+          "11 × 3 = 33 km.",
+          "Verificare: rezultatul cerut este 33 km."
+        ],
+        "rule": "Aplică aceeași scară fiecărei unități măsurate.",
+        "trap": "Nu folosi o conversie cm–km directă; harta are o scară precizată.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "33",
+        "options": [
+          "33",
+          "11",
+          "36",
+          "1100"
+        ]
+      },
+      "historical": false,
+      "id": "t04-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Unități de timp",
+      "prompt": "Un vehicul merge cu 78 km/h. Ce distanță parcurge în 30 de minute?",
+      "options": [
+        "78 km",
+        "2340 km",
+        "54 km",
+        "39 km"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "30 de minute = 1/2 oră.",
+          "Distanța: 78 × 1/2 = 39 km.",
+          "Verificare: rezultatul cerut este 39 km."
+        ],
+        "rule": "Convertește minutele în ore înainte să folosești km/h.",
+        "trap": "Înmulțirea vitezei cu 30 ar trata minutele drept ore.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "39",
+        "options": [
+          "78",
+          "2340",
+          "54",
+          "39"
+        ]
+      },
+      "historical": false,
+      "id": "t04-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Mediană",
+      "prompt": "Valorile ordonate sunt 13, 17, 21, 25, 43. Care este mediana?",
+      "options": [
+        "23,8",
+        "25",
+        "21",
+        "17"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Sunt 5 valori deja ordonate.",
+          "Poziția centrală este a treia.",
+          "A treia valoare este 21.",
+          "Verificare: rezultatul cerut este 21."
+        ],
+        "rule": "La un număr impar de valori, mediana este valoarea centrală după ordonare.",
+        "trap": "Mediana nu este neapărat media aritmetică.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "21",
+        "options": [
+          "119/5",
+          "25",
+          "21",
+          "17"
+        ]
+      },
+      "historical": false,
+      "id": "t04-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Raport parte–parte",
+      "prompt": "Într-un grup de 45 elevi, raportul fete : băieți este 3 : 2. Câte fete sunt?",
+      "options": [
+        "32",
+        "27",
+        "18",
+        "29"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Raportul are 3 + 2 = 5 părți.",
+          "O parte: 45 ÷ 5 = 9.",
+          "Fetele: 3 × 9 = 27.",
+          "Verificare: rezultatul cerut este 27."
+        ],
+        "rule": "Adună părțile raportului înainte să calculezi o parte.",
+        "trap": "3 : 2 nu înseamnă că fetele sunt 3/2 din întreg.",
+        "alternative": "Metoda segmentelor: desenează mental trei segmente egale pentru fete și două pentru băieți. Întregul conține cinci segmente. Împarte numărul total de elevi la cinci și ia trei asemenea părți pentru fete. Controlul se face adunând fetele și băieții și verificând raportul."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "27",
+        "options": [
+          "32",
+          "27",
+          "18",
+          "29"
+        ]
+      },
+      "historical": false,
+      "id": "t04-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Procent din întreg",
+      "prompt": "Din 300 de înscriși, 20% aleg un atelier online. Câți sunt?",
+      "options": [
+        "60",
+        "70",
+        "75",
+        "240"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "20% = 20/100 = 1/5.",
+          "Numărul cerut: 300 ÷ 5 = 60.",
+          "Verificare: rezultatul cerut este 60."
+        ],
+        "rule": "Procentul se aplică întregului indicat.",
+        "trap": "Restul de 80% reprezintă o altă categorie, nu răspunsul cerut.",
+        "alternative": "Regula de trei simplă: întregul corespunde lui 100%, iar partea cerută lui 20%. Înmulțești întregul cu 20 și împarți la 100. Deoarece 20/100 = 1/5, poți folosi și împărțirea directă la cinci."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "60",
+        "options": [
+          "60",
+          "70",
+          "75",
+          "240"
+        ]
+      },
+      "historical": false,
+      "id": "t04-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Viteză medie dus–întors",
+      "prompt": "Un vehicul parcurge 234 km cu 60 km/h și revine pe aceeași distanță cu 90 km/h. Fără opriri, viteza medie pe întregul drum este:",
+      "options": [
+        "75 km/h",
+        "70 km/h",
+        "80 km/h",
+        "72 km/h"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Distanța totală este 468 km.",
+          "Timpul total este 234/60 + 234/90 = 6,5 ore.",
+          "Viteza medie = distanță totală ÷ timp total = 72 km/h.",
+          "Verificare: rezultatul cerut este 72 km/h."
+        ],
+        "rule": "Viteza medie se calculează din distanța totală și timpul total.",
+        "trap": "Media aritmetică a vitezelor nu este potrivită pentru distanțe egale.",
+        "alternative": "Pentru două distanțe egale poți folosi formula 2 × v₁ × v₂ / (v₁ + v₂). Formula rezultă din distanța totală împărțită la timpul total; nu trebuie aplicată automat când distanțele diferă. Verifică dacă rezultatul se află între cele două viteze."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "72",
+        "options": [
+          "75",
+          "70",
+          "80",
+          "72"
+        ]
+      },
+      "historical": false,
+      "id": "t04-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Media și valoarea lipsă",
+      "prompt": "Trei valori au media 14. Primele două sunt 11 și 14. Care este a treia?",
+      "options": [
+        "20",
+        "42",
+        "17",
+        "14"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Suma celor trei valori: 3 × 14 = 42.",
+          "Suma celor două cunoscute: 11 + 14 = 25.",
+          "Valoarea lipsă: 42 − 25 = 17.",
+          "Verificare: rezultatul cerut este 17."
+        ],
+        "rule": "Din medie și efectiv obții suma, apoi scazi valorile cunoscute.",
+        "trap": "Media nu este automat valoarea lipsă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "17",
+        "options": [
+          "20",
+          "42",
+          "17",
+          "14"
+        ]
+      },
+      "historical": false,
+      "id": "t04-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Număr minim garantat",
+      "prompt": "În sertarul lui Dan sunt șosete de 5 culori, multe din fiecare culoare. Extragi fără să vezi. Câte trebuie extrase pentru a garanta 2 șosete de aceeași culoare?",
+      "options": [
+        "11",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "În cel mai nefavorabil caz, extragi 1 din fiecare culoare.",
+          "Astfel poți avea 5 × 1 = 5 șosete fără să atingi pragul.",
+          "Următoarea șosetă ridică una dintre culori la 2.",
+          "Minimul garantat este 6."
+        ],
+        "rule": "Principiul cutiei: depășește maximul posibil fără atingerea pragului.",
+        "trap": "Se cere garanție în cel mai rău caz, nu o posibilitate favorabilă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t04-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Ordine parțială: variantă posibilă",
+      "prompt": "Dan trebuie înainte de Florin, iar Elena înainte de Dan. Care ordine respectă ambele reguli?",
+      "options": [
+        "Dan → Elena → Florin → Gabriela",
+        "Elena → Dan → Florin → Gabriela",
+        "Gabriela → Florin → Elena → Dan",
+        "Florin → Dan → Elena → Gabriela"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Combină regulile: Elena → Dan → Florin.",
+          "Poziția lui Gabriela nu este restricționată.",
+          "Varianta Elena → Dan → Florin → Gabriela respectă ambele reguli.",
+          "Se cere o ordine posibilă dintre variante, nu ordinea unică a tuturor persoanelor."
+        ],
+        "rule": "Verifică fiecare regulă în fiecare variantă.",
+        "trap": "Nu adăuga o condiție pentru persoana despre care enunțul nu spune nimic.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t04-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Numărare de ordini posibile",
+      "prompt": "Dan, Elena și Florin prezintă fiecare o dată. Singura regulă este că Dan trebuie înainte de Elena. Câte ordini sunt posibile?",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "1"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Trei persoane pot fi ordonate în 3 × 2 × 1 = 6 moduri.",
+          "Exact jumătate au Dan înainte de Elena.",
+          "Ordini valide: Dan–Elena–Florin, Dan–Florin–Elena, Florin–Dan–Elena.",
+          "Rezultă 3 ordini."
+        ],
+        "rule": "Enumeră sistematic posibilitățile și elimină-le pe cele care încalcă regula.",
+        "trap": "Nu calcula toate permutările fără să aplici restricția.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t04-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Silogism cu excludere",
+      "prompt": "Toți coordonatorii atelierului de teatru sunt profesori. Niciun profesor nu este voluntar în proiectul X. Ce rezultă?",
+      "options": [
+        "Unii coordonatori sunt voluntari în X.",
+        "Toți voluntarii în X sunt coordonatori.",
+        "Niciun coordonator nu este voluntar în proiectul X.",
+        "Toți profesorii sunt coordonatori."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Coordonatori ⊆ profesori.",
+          "Profesorii nu au membri comuni cu voluntarii în X.",
+          "Nici subcategoria coordonatorilor nu poate avea membri comuni cu voluntarii.",
+          "Nu inversa incluziunea: nu toți profesorii trebuie să fie coordonatori."
+        ],
+        "rule": "O excludere a unei categorii se aplică și subcategoriilor ei.",
+        "trap": "Nu deduce existența unor membri dacă premisele nu o garantează.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t04-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Ordonare cu vecinătate",
+      "prompt": "Dan prezintă înainte de Elena. Florin prezintă imediat după Elena. Gabriela prezintă înainte de Dan. Care este ordinea celor patru?",
+      "options": [
+        "Gabriela → Elena → Florin → Dan",
+        "Dan → Elena → Florin → Gabriela",
+        "Gabriela → Dan → Florin → Elena",
+        "Gabriela → Dan → Elena → Florin"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Pereche obligatorie consecutivă: Elena → Florin.",
+          "Dan trebuie înaintea perechii.",
+          "Gabriela trebuie înaintea lui Dan.",
+          "Ordinea unică: Gabriela → Dan → Elena → Florin."
+        ],
+        "rule": "Unește întâi blocurile consecutive, apoi aplică relațiile de ordine.",
+        "trap": "Imediat după este mai restrictiv decât undeva după.",
+        "alternative": "Metoda blocurilor: tratează cele două persoane care trebuie să fie consecutive ca pe un singur bloc. Așază celelalte persoane în raport cu blocul, respectând fiecare condiție. La sfârșit, desfă blocul și verifică toate regulile pe ordinea completă."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "unique",
+        "solutions": [
+          [
+            "Gabriela",
+            "Dan",
+            "Elena",
+            "Florin"
+          ]
+        ],
+        "options": [
+          [
+            "Dan",
+            "Elena",
+            "Florin",
+            "Gabriela"
+          ],
+          [
+            "Gabriela",
+            "Dan",
+            "Florin",
+            "Elena"
+          ],
+          [
+            "Gabriela",
+            "Dan",
+            "Elena",
+            "Florin"
+          ],
+          [
+            "Gabriela",
+            "Elena",
+            "Florin",
+            "Dan"
+          ]
+        ],
+        "result": 2
+      },
+      "historical": false,
+      "id": "t04-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Modus ponens",
+      "prompt": "Dacă Dan finalizează cursul, primește certificatul. Dan a finalizat cursul. Ce rezultă?",
+      "options": [
+        "Dan primește certificatul.",
+        "Dan nu primește certificatul.",
+        "Oricine primește certificatul a finalizat acest curs.",
+        "Toți participanții au finalizat cursul."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Regula are forma P → Q.",
+          "Premisa afirmă P: cursul a fost finalizat.",
+          "Aplică regula și obține Q: primește certificatul.",
+          "Nu extinde informația la toți participanții și nu inversa regula."
+        ],
+        "rule": "Din P → Q și P rezultă Q.",
+        "trap": "Concluzia trebuie să se refere la persoana pentru care avem premisa.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t04-q20"
+    }
+  ]
+}

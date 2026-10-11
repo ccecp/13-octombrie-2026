@@ -1,0 +1,607 @@
+{
+  "id": 7,
+  "title": "Text și productivitate",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Referință pronominală",
+      "prompt": "„Elevii au prezentat proiectul de ecologie în fața comisiei. Ei au răspuns apoi la întrebări.” La cine se referă „ei”?",
+      "options": [
+        "La proiect",
+        "La întrebări",
+        "La elevi",
+        "La comisie"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Identifică antecedentele posibile: elevii, comisia, proiectul.",
+          "Pronumele ei este masculin plural și desemnează persoanele care au prezentat.",
+          "Elevii corespunde ca număr, gen și rol în succesiunea acțiunilor.",
+          "Comisia și proiectul sunt singular; întrebările nu sunt persoanele care răspund."
+        ],
+        "rule": "Urmărește acordul gramatical și continuitatea acțiunilor.",
+        "trap": "Apropierea unui cuvânt de pronume nu este suficientă pentru a-l face antecedent.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Sensul unei restricții",
+      "prompt": "„La sesiunea de ecologie sunt admiși numai elevii înscriși.” Ce reformulare păstrează sensul?",
+      "options": [
+        "Toți elevii școlii sunt admiși.",
+        "Orice elev admis este înscris.",
+        "Orice elev înscris este neapărat admis.",
+        "Niciun elev înscris nu este admis."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Cuvântul numai limitează categoria celor admiși.",
+          "Înscrierea este o condiție necesară pentru admitere.",
+          "Din faptul că cineva este admis rezultă că este înscris.",
+          "Nu rezultă automat că înscrierea garantează admiterea."
+        ],
+        "rule": "Numai introduce o condiție necesară.",
+        "trap": "Nu inversa sensul relației dintre înscriere și admitere.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Susținerea unei concluzii",
+      "prompt": "Concluzie: „Mutarea atelierului de ecologie într-o sală mai mare ar rezolva problema locurilor insuficiente.” Ce informație susține cel mai direct concluzia?",
+      "options": [
+        "Sala actuală are 20 de locuri, sunt 28 de înscriși, iar sala nouă are 35 de locuri.",
+        "Sala nouă are pereții albaștri.",
+        "Unii elevi preferă activitățile în aer liber.",
+        "Atelierul este organizat și anul viitor."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Identifică problema exactă: capacitatea sălii.",
+          "Comparația 20 < 28 arată insuficiența sălii actuale.",
+          "Comparația 35 ≥ 28 arată că sala nouă poate găzdui înscrișii.",
+          "Celelalte informații nu stabilesc dacă există suficiente locuri."
+        ],
+        "rule": "O dovadă relevantă răspunde exact problemei concluziei.",
+        "trap": "Detaliile atractive despre sală nu demonstrează capacitatea ei.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Ordinea ideilor",
+      "prompt": "Aranjează propozițiile într-o succesiune firească:\n1. În final, participanții au prezentat produsele.\n2. Mai întâi, au primit instrucțiunile.\n3. Apoi, au lucrat în echipe la tema de ecologie.",
+      "options": [
+        "1–2–3",
+        "2–1–3",
+        "3–2–1",
+        "2–3–1"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Identifică marcatorii temporali: mai întâi, apoi, în final.",
+          "Instrucțiunile preced activitatea.",
+          "Lucrul în echipe precedă prezentarea produselor.",
+          "Ordinea este 2, 3, 1."
+        ],
+        "rule": "Marcatorii temporali și relația dintre acțiuni stabilesc succesiunea.",
+        "trap": "Ordinea tipăririi propozițiilor nu este neapărat ordinea evenimentelor.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Comparație și concluzie",
+      "prompt": "„Atelierul de ecologie are mai mulți înscriși decât clubul de teatru. Clubul de teatru are mai mulți înscriși decât clubul de șah.” Ce rezultă?",
+      "options": [
+        "Cele trei grupuri au același număr de înscriși.",
+        "Clubul de teatru are cei mai mulți înscriși.",
+        "Atelierul de ecologie are mai mulți înscriși decât clubul de șah.",
+        "Clubul de șah are mai mulți înscriși decât clubul de teatru."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Notează A > B pentru prima comparație.",
+          "Notează B > C pentru a doua.",
+          "Prin tranzitivitate, A > C.",
+          "Nu știm numerele exacte, dar știm ordinea celor trei efective."
+        ],
+        "rule": "Relația mai mare decât se transmite printr-un lanț de comparații.",
+        "trap": "Nu ai nevoie de numere concrete pentru a compara extremitățile lanțului.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Conector de cauză",
+      "prompt": "„Atelierul de ecologie a fost mutat în interior deoarece ploua.” Ce relație exprimă „deoarece”?",
+      "options": [
+        "Succesiune fără cauză",
+        "Cauză",
+        "Comparație",
+        "Concesie"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Identifică evenimentul: mutarea în interior.",
+          "Identifică explicația: ploaia.",
+          "Deoarece introduce motivul mutării.",
+          "Nu exprimă o comparație sau un rezultat în pofida unui obstacol."
+        ],
+        "rule": "Conectorii indică relația dintre idei.",
+        "trap": "Nu interpreta toți conectorii ca simple semne de ordine temporală.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Analogie: instrument–funcție",
+      "prompt": "În fișa atelierului de ecologie, completează relația: busolă : orientare = dicționar : …",
+      "options": [
+        "explicarea cuvintelor",
+        "măsurarea timpului",
+        "numărarea paginilor",
+        "desenarea hărților"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Identifică prima relație: busolă și orientare sunt legate prin instrument–funcție.",
+          "Păstrează sensul și ordinea aceleiași relații pentru dicționar.",
+          "Termenul corespunzător este explicarea cuvintelor.",
+          "Verifică ambele perechi: trebuie să aibă aceeași relație, nu doar cuvinte din același domeniu."
+        ],
+        "rule": "La analogii, numește relația înainte de a căuta răspunsul.",
+        "trap": "O asociere tematică nu este suficientă; relația și direcția trebuie păstrate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t07-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Distanță și conversie de timp",
+      "prompt": "Un vehicul merge cu 52 km/h timp de 1 oră și 30 de minute. Ce distanță parcurge?",
+      "options": [
+        "104 km",
+        "82 km",
+        "88 km",
+        "78 km"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "1 oră și 30 de minute = 1,5 ore.",
+          "Distanța = viteză × timp = 52 × 1,5 = 78 km.",
+          "Verificare: rezultatul cerut este 78 km."
+        ],
+        "rule": "Transformă timpul în aceeași unitate cu cea folosită în viteză.",
+        "trap": "1 h 30 min înseamnă 1,5 h, nu 1,30 h.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "78",
+        "options": [
+          "104",
+          "82",
+          "88",
+          "78"
+        ]
+      },
+      "historical": false,
+      "id": "t07-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Reuniunea a două grupuri",
+      "prompt": "36 elevi aleg engleza, 31 aleg franceza, iar 10 le aleg pe ambele. Câți aleg cel puțin una dintre cele două?",
+      "options": [
+        "47",
+        "62",
+        "57",
+        "67"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Adunarea simplă: 36 + 31 = 67.",
+          "Elevii care aleg ambele limbi sunt numărați de două ori.",
+          "Scade o dată intersecția: 67 − 10 = 57.",
+          "Verificare: rezultatul cerut este 57."
+        ],
+        "rule": "Reuniune = primul grup + al doilea − intersecție.",
+        "trap": "Cel puțin una îi include și pe cei care aleg ambele.",
+        "alternative": "Metoda mulțimilor: imaginează două cercuri care se suprapun. Zona comună este inclusă în fiecare cerc. Când aduni efectivele, o numeri de două ori. Scazi intersecția o singură dată pentru a rămâne cu fiecare persoană numărată exact o dată."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "57",
+        "options": [
+          "47",
+          "62",
+          "57",
+          "67"
+        ]
+      },
+      "historical": false,
+      "id": "t07-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Cost fix și variabil",
+      "prompt": "Un transport costă 12 lei taxă fixă și 9 lei pentru fiecare colet. Cât costă 5 colete?",
+      "options": [
+        "62 lei",
+        "57 lei",
+        "105 lei",
+        "45 lei"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Cost variabil: 5 × 9 = 45 lei.",
+          "Adaugă o singură taxă fixă: 45 + 12 = 57 lei.",
+          "Verificare: rezultatul cerut este 57 lei."
+        ],
+        "rule": "Total = cost fix + număr de unități × cost unitar.",
+        "trap": "Taxa fixă se plătește o dată, nu pentru fiecare colet.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "57",
+        "options": [
+          "62",
+          "57",
+          "105",
+          "45"
+        ]
+      },
+      "historical": false,
+      "id": "t07-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Fracție și rest",
+      "prompt": "Din 110 de cărți, 1/2 sunt romane și 3/10 sunt poezie. Restul sunt eseuri. Câte eseuri sunt?",
+      "options": [
+        "22",
+        "55",
+        "33",
+        "27"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Partea ocupată: 1/2 + 3/10 = 8/10.",
+          "Restul: 1 − 8/10 = 2/10 = 1/5.",
+          "Număr eseuri: 110 ÷ 5 = 22.",
+          "Verificare: rezultatul cerut este 22."
+        ],
+        "rule": "Adună fracțiile folosind un numitor comun, apoi calculează restul.",
+        "trap": "Fracțiile au aceeași bază: totalul cărților.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "22",
+        "options": [
+          "22",
+          "55",
+          "33",
+          "27"
+        ]
+      },
+      "historical": false,
+      "id": "t07-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Împărțire cu rotunjire în sus",
+      "prompt": "18 persoane sunt transportate în vehicule cu câte 5 locuri disponibile. Care este numărul minim de vehicule?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Împarte 18 la 5.",
+          "3 vehicule oferă numai 15 locuri, insuficiente.",
+          "4 vehicule oferă 20 locuri, suficiente.",
+          "Verificare: rezultatul cerut este 4."
+        ],
+        "rule": "Când restul reprezintă persoane care trebuie transportate, rotunjește în sus.",
+        "trap": "O fracție de vehicul nu poate fi folosită pentru persoanele rămase.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "4",
+        "options": [
+          "3",
+          "5",
+          "6",
+          "4"
+        ]
+      },
+      "historical": false,
+      "id": "t07-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Procente succesive",
+      "prompt": "Un produs de 800 lei se scumpește cu 10%, apoi noul preț scade cu 10%. Prețul final este:",
+      "options": [
+        "720 lei",
+        "796 lei",
+        "792 lei",
+        "800 lei"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Creșterea: 800 × 1,10 = 880 lei.",
+          "Reducerea se aplică noului preț: 880 × 0,90 = 792 lei.",
+          "Verificare: rezultatul cerut este 792 lei."
+        ],
+        "rule": "La procente succesive, înmulțește factorii de modificare.",
+        "trap": "+10% și −10% nu se anulează: bazele sunt diferite.",
+        "alternative": "Poți gândi în factori: o creștere de 10% înseamnă înmulțire cu 1,10, iar o reducere de 10% înseamnă înmulțire cu 0,90. Produsul lor este 0,99. Așadar, prețul final este 99% din prețul inițial, adică o scădere totală de 1%."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "792",
+        "options": [
+          "720",
+          "796",
+          "792",
+          "800"
+        ]
+      },
+      "historical": false,
+      "id": "t07-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Șir cu diferențe crescătoare",
+      "prompt": "Diferențele cresc cu 2. Completează: 9, 13, 19, 27, 37, …",
+      "options": [
+        "53",
+        "49",
+        "47",
+        "51"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Calculează diferențele: 4, 6, 8, 10.",
+          "Următoarea diferență este 12.",
+          "Următorul termen: 37 + 12 = 49.",
+          "Verificare: rezultatul cerut este 49."
+        ],
+        "rule": "Analizează diferențele când termenii nu cresc cu aceeași cantitate.",
+        "trap": "Regula privește diferențele, nu simpla repetare a ultimei creșteri.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "49",
+        "options": [
+          "53",
+          "49",
+          "47",
+          "51"
+        ]
+      },
+      "historical": false,
+      "id": "t07-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Modus ponens",
+      "prompt": "Dacă Gabriela finalizează cursul, primește certificatul. Gabriela a finalizat cursul. Ce rezultă?",
+      "options": [
+        "Gabriela primește certificatul.",
+        "Gabriela nu primește certificatul.",
+        "Oricine primește certificatul a finalizat acest curs.",
+        "Toți participanții au finalizat cursul."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Regula are forma P → Q.",
+          "Premisa afirmă P: cursul a fost finalizat.",
+          "Aplică regula și obține Q: primește certificatul.",
+          "Nu extinde informația la toți participanții și nu inversa regula."
+        ],
+        "rule": "Din P → Q și P rezultă Q.",
+        "trap": "Concluzia trebuie să se refere la persoana pentru care avem premisa.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unei conjuncții",
+      "prompt": "Care este negarea exactă a enunțului „Gabriela este prezent și Horia este prezent”?",
+      "options": [
+        "Gabriela și Horia sunt amândoi absenți.",
+        "Gabriela este prezent sau Horia este prezent.",
+        "Gabriela și Horia sunt amândoi prezenți.",
+        "Gabriela este absent sau Horia este absent, inclusiv posibil amândoi."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Afirmația inițială cere prezența ambelor persoane.",
+          "Este falsă dacă lipsește cel puțin una.",
+          "Lipsa ambelor este posibilă, dar nu este obligatorie.",
+          "Negarea lui P și Q este nu P sau nu Q, cu sau inclusiv."
+        ],
+        "rule": "Legea lui De Morgan: nu(P și Q) = nu P sau nu Q.",
+        "trap": "Negarea nu impune absența ambelor persoane.",
+        "alternative": "Verifică cele patru cazuri: ambii prezenți, doar primul prezent, doar al doilea prezent, ambii absenți. Afirmația inițială este adevărată numai în primul caz. Negarea trebuie să acopere celelalte trei, adică absența cel puțin a unei persoane."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Silogism cu existență",
+      "prompt": "Unii participanți la ecologie sunt profesori. Toți profesorii din acest grup au ecuson. Ce rezultă?",
+      "options": [
+        "Niciun participant nu are ecuson.",
+        "Toți cei cu ecuson sunt profesori.",
+        "Unii participanți au ecuson.",
+        "Toți participanții sunt profesori."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Unii garantează existența a cel puțin unui participant profesor.",
+          "Pentru acea persoană se aplică regula profesor → ecuson.",
+          "Există deci cel puțin un participant cu ecuson.",
+          "Nu extinde concluzia la toți participanții și nu inversa relația."
+        ],
+        "rule": "O existență dintr-o categorie poate fi transmisă către o categorie care o include.",
+        "trap": "Unii nu înseamnă toți.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Număr minim garantat",
+      "prompt": "În sertarul lui Gabriela sunt șosete de 4 culori, multe din fiecare culoare. Extragi fără să vezi. Câte trebuie extrase pentru a garanta 3 șosete de aceeași culoare?",
+      "options": [
+        "13",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "În cel mai nefavorabil caz, extragi 2 din fiecare culoare.",
+          "Astfel poți avea 4 × 2 = 8 șosete fără să atingi pragul.",
+          "Următoarea șosetă ridică una dintre culori la 3.",
+          "Minimul garantat este 9."
+        ],
+        "rule": "Principiul cutiei: depășește maximul posibil fără atingerea pragului.",
+        "trap": "Se cere garanție în cel mai rău caz, nu o posibilitate favorabilă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Ordine parțială: variantă posibilă",
+      "prompt": "Gabriela trebuie înainte de Ioana, iar Horia înainte de Gabriela. Care ordine respectă ambele reguli?",
+      "options": [
+        "Gabriela → Horia → Ioana → Luca",
+        "Horia → Gabriela → Ioana → Luca",
+        "Luca → Ioana → Horia → Gabriela",
+        "Ioana → Gabriela → Horia → Luca"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Combină regulile: Horia → Gabriela → Ioana.",
+          "Poziția lui Luca nu este restricționată.",
+          "Varianta Horia → Gabriela → Ioana → Luca respectă ambele reguli.",
+          "Se cere o ordine posibilă dintre variante, nu ordinea unică a tuturor persoanelor."
+        ],
+        "rule": "Verifică fiecare regulă în fiecare variantă.",
+        "trap": "Nu adăuga o condiție pentru persoana despre care enunțul nu spune nimic.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Numărare de ordini posibile",
+      "prompt": "Gabriela, Horia și Ioana prezintă fiecare o dată. Singura regulă este că Gabriela trebuie înainte de Horia. Câte ordini sunt posibile?",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "1"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Trei persoane pot fi ordonate în 3 × 2 × 1 = 6 moduri.",
+          "Exact jumătate au Gabriela înainte de Horia.",
+          "Ordini valide: Gabriela–Horia–Ioana, Gabriela–Ioana–Horia, Ioana–Gabriela–Horia.",
+          "Rezultă 3 ordini."
+        ],
+        "rule": "Enumeră sistematic posibilitățile și elimină-le pe cele care încalcă regula.",
+        "trap": "Nu calcula toate permutările fără să aplici restricția.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t07-q20"
+    }
+  ]
+}

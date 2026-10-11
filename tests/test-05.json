@@ -1,0 +1,616 @@
+{
+  "id": 5,
+  "title": "Analogie și ordine",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Conector de cauză",
+      "prompt": "„Atelierul de astronomie a fost mutat în interior deoarece ploua.” Ce relație exprimă „deoarece”?",
+      "options": [
+        "Cauză",
+        "Comparație",
+        "Concesie",
+        "Succesiune fără cauză"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Identifică evenimentul: mutarea în interior.",
+          "Identifică explicația: ploaia.",
+          "Deoarece introduce motivul mutării.",
+          "Nu exprimă o comparație sau un rezultat în pofida unui obstacol."
+        ],
+        "rule": "Conectorii indică relația dintre idei.",
+        "trap": "Nu interpreta toți conectorii ca simple semne de ordine temporală.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t05-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Informație absentă",
+      "prompt": "„Atelierul de astronomie este opțional. Toți cei înscriși au primit materialele. Unii au participat vineri.”\nCare afirmație NU poate fi stabilită din text?",
+      "options": [
+        "Elena a participat vineri.",
+        "Atelierul este opțional.",
+        "Cel puțin un participant înscris a venit vineri.",
+        "Toți cei înscriși au primit materialele."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Observă cuvântul NU: căutăm o informație absentă.",
+          "Textul nu menționează persoana Elena.",
+          "Nu putem transforma o informație despre unii participanți într-o informație despre o persoană precisă.",
+          "Celelalte variante reproduc informații explicite sau sensul lui unii."
+        ],
+        "rule": "Lipsa informației nu dovedește nici adevărul, nici falsitatea unei afirmații.",
+        "trap": "A alege o afirmație adevărată când se cere ce NU se poate stabili inversează cerința.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t05-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Analogie: organ de deplasare–animal",
+      "prompt": "În fișa atelierului de astronomie, completează relația: aripă : pasăre = înotătoare : …",
+      "options": [
+        "cuib",
+        "solz",
+        "pește",
+        "apă"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Identifică prima relație: aripă și pasăre sunt legate prin organ de deplasare–animal.",
+          "Păstrează sensul și ordinea aceleiași relații pentru înotătoare.",
+          "Termenul corespunzător este pește.",
+          "Verifică ambele perechi: trebuie să aibă aceeași relație, nu doar cuvinte din același domeniu."
+        ],
+        "rule": "La analogii, numește relația înainte de a căuta răspunsul.",
+        "trap": "O asociere tematică nu este suficientă; relația și direcția trebuie păstrate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t05-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Corelație și cauzalitate",
+      "prompt": "„Participanții la clubul de astronomie au avut rezultate mai bune. Așadar, clubul a produs rezultatele mai bune.” Care este problema argumentului?",
+      "options": [
+        "Argumentul compară elevii cu profesorii.",
+        "O asociere este tratată ca dovadă suficientă a cauzei.",
+        "Premisa spune că nu există participanți.",
+        "Concluzia afirmă că rezultatele sunt identice."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Premisa constată o asociere între participare și rezultate.",
+          "Concluzia adaugă o relație de cauzalitate.",
+          "Pot exista alte explicații: pregătire inițială, motivație sau sprijin suplimentar.",
+          "Prin urmare, asocierea singură nu demonstrează că participarea a produs diferența."
+        ],
+        "rule": "O corelație nu demonstrează singură o cauză.",
+        "trap": "Nu introduce în premisă informații care apar numai în concluzie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t05-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Rezumat fidel",
+      "prompt": "„La atelierul de astronomie, înscrierea se face până joi. Dacă rămân locuri libere, se acceptă înscrieri și vineri.” Care rezumat păstrează exact informația?",
+      "options": [
+        "Înscrierile sunt până joi, cu posibilă prelungire vineri dacă există locuri.",
+        "Înscrierile sunt obligatoriu doar vineri.",
+        "Oricine se poate înscrie vineri, indiferent de locuri.",
+        "Joi nu se acceptă înscrieri."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Identifică regula generală: înscriere până joi.",
+          "Identifică excepția: vineri numai dacă rămân locuri.",
+          "Un rezumat fidel păstrează regula și condiția excepției.",
+          "Respinge rezumatele care elimină condiția sau inversează termenul."
+        ],
+        "rule": "La rezumat, păstrează condițiile și limitele afirmației.",
+        "trap": "Eliminarea expresiei dacă există locuri schimbă mesajul.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t05-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Sensul unei concesii",
+      "prompt": "„Deși materialele pentru astronomie au sosit târziu, atelierul a început la ora stabilită.” Ce exprimă relația dintre cele două idei?",
+      "options": [
+        "Atelierul a întârziat din cauza materialelor.",
+        "Materialele au sosit înainte de termen.",
+        "Ora atelierului nu fusese stabilită.",
+        "Atelierul a început la timp în ciuda întârzierii materialelor."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Observă conectorul deși.",
+          "Acesta introduce un obstacol sau o situație contrară așteptării.",
+          "Continuarea spune că rezultatul a fost totuși începutul la timp.",
+          "Nu schimba rezultatul: textul nu afirmă întârzierea atelierului."
+        ],
+        "rule": "Deși exprimă concesie: rezultatul apare în pofida unui obstacol.",
+        "trap": "Nu interpreta o relație concesivă ca una cauzală.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t05-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Susținerea unei concluzii",
+      "prompt": "Concluzie: „Mutarea atelierului de astronomie într-o sală mai mare ar rezolva problema locurilor insuficiente.” Ce informație susține cel mai direct concluzia?",
+      "options": [
+        "Unii elevi preferă activitățile în aer liber.",
+        "Atelierul este organizat și anul viitor.",
+        "Sala actuală are 20 de locuri, sunt 28 de înscriși, iar sala nouă are 35 de locuri.",
+        "Sala nouă are pereții albaștri."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Identifică problema exactă: capacitatea sălii.",
+          "Comparația 20 < 28 arată insuficiența sălii actuale.",
+          "Comparația 35 ≥ 28 arată că sala nouă poate găzdui înscrișii.",
+          "Celelalte informații nu stabilesc dacă există suficiente locuri."
+        ],
+        "rule": "O dovadă relevantă răspunde exact problemei concluziei.",
+        "trap": "Detaliile atractive despre sală nu demonstrează capacitatea ei.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t05-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Împărțire cu rotunjire în sus",
+      "prompt": "16 persoane sunt transportate în vehicule cu câte 5 locuri disponibile. Care este numărul minim de vehicule?",
+      "options": [
+        "6",
+        "4",
+        "3",
+        "5"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Împarte 16 la 5.",
+          "3 vehicule oferă numai 15 locuri, insuficiente.",
+          "4 vehicule oferă 20 locuri, suficiente.",
+          "Verificare: rezultatul cerut este 4."
+        ],
+        "rule": "Când restul reprezintă persoane care trebuie transportate, rotunjește în sus.",
+        "trap": "O fracție de vehicul nu poate fi folosită pentru persoanele rămase.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "4",
+        "options": [
+          "6",
+          "4",
+          "3",
+          "5"
+        ]
+      },
+      "historical": false,
+      "id": "t05-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Procente succesive",
+      "prompt": "Un produs de 600 lei se scumpește cu 10%, apoi noul preț scade cu 10%. Prețul final este:",
+      "options": [
+        "594 lei",
+        "600 lei",
+        "540 lei",
+        "598 lei"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Creșterea: 600 × 1,10 = 660 lei.",
+          "Reducerea se aplică noului preț: 660 × 0,90 = 594 lei.",
+          "Verificare: rezultatul cerut este 594 lei."
+        ],
+        "rule": "La procente succesive, înmulțește factorii de modificare.",
+        "trap": "+10% și −10% nu se anulează: bazele sunt diferite.",
+        "alternative": "Poți gândi în factori: o creștere de 10% înseamnă înmulțire cu 1,10, iar o reducere de 10% înseamnă înmulțire cu 0,90. Produsul lor este 0,99. Așadar, prețul final este 99% din prețul inițial, adică o scădere totală de 1%."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "594",
+        "options": [
+          "594",
+          "600",
+          "540",
+          "598"
+        ]
+      },
+      "historical": false,
+      "id": "t05-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Șir cu diferențe crescătoare",
+      "prompt": "Diferențele cresc cu 2. Completează: 7, 11, 17, 25, 35, …",
+      "options": [
+        "45",
+        "49",
+        "51",
+        "47"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Calculează diferențele: 4, 6, 8, 10.",
+          "Următoarea diferență este 12.",
+          "Următorul termen: 35 + 12 = 47.",
+          "Verificare: rezultatul cerut este 47."
+        ],
+        "rule": "Analizează diferențele când termenii nu cresc cu aceeași cantitate.",
+        "trap": "Regula privește diferențele, nu simpla repetare a ultimei creșteri.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "47",
+        "options": [
+          "45",
+          "49",
+          "51",
+          "47"
+        ]
+      },
+      "historical": false,
+      "id": "t05-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Proporționalitate inversă",
+      "prompt": "6 lucrători termină în 16 zile. În câte zile termină 9 lucrători cu același randament, lucrând simultan la aceeași lucrare?",
+      "options": [
+        "24 zile",
+        "38/3 zile",
+        "32/3 zile",
+        "16 zile"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Volumul este 6 × 16 = 96 om-zile.",
+          "Cu 9 lucrători: 96 ÷ 9 = 32/3 zile.",
+          "Verificare: rezultatul cerut este 32/3 zile."
+        ],
+        "rule": "Pentru aceeași lucrare, numărul lucrătorilor și durata sunt invers proporționale.",
+        "trap": "Mai mulți lucrători reduc durata, în ipoteza randamentului identic.",
+        "alternative": "Metoda om-zile: o zi lucrată de o persoană este o unitate de muncă. Pentru aceeași lucrare, produsul dintre persoane și zile rămâne constant. Întâi calculezi volumul din situația cunoscută, apoi îl împarți la noul număr de lucrători."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "32/3",
+        "options": [
+          "24",
+          "38/3",
+          "32/3",
+          "16"
+        ]
+      },
+      "historical": false,
+      "id": "t05-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Vârste",
+      "prompt": "Acum 7 ani, un copil avea 12 ani, iar părintele de trei ori vârsta lui. Ce vârstă are copilul acum?",
+      "options": [
+        "26",
+        "19",
+        "12",
+        "43"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Copilul avea 12 ani.",
+          "Adaugă timpul scurs: 12 + 7 = 19.",
+          "Verificare: rezultatul cerut este 19."
+        ],
+        "rule": "Vârsta crește cu numărul anilor scurși.",
+        "trap": "Selectează datele relevante; vârsta părintelui nu este cerută.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "19",
+        "options": [
+          "26",
+          "19",
+          "12",
+          "43"
+        ]
+      },
+      "historical": false,
+      "id": "t05-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Creștere procentuală",
+      "prompt": "Numărul participanților crește de la 56 la 70. Care este creșterea procentuală?",
+      "options": [
+        "25 %",
+        "20 %",
+        "30 %",
+        "125 %"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Creșterea absolută: 70 − 56 = 14.",
+          "Raportează la inițial: 14 ÷ 56 × 100 = 25%.",
+          "Verificare: rezultatul cerut este 25 %."
+        ],
+        "rule": "Creșterea procentuală se raportează la valoarea inițială.",
+        "trap": "125% este noul nivel față de inițial, nu creșterea.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "25",
+        "options": [
+          "25",
+          "20",
+          "30",
+          "125"
+        ]
+      },
+      "historical": false,
+      "id": "t05-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Productivitate simultană",
+      "prompt": "A termină singură o lucrare în 8 zile, B în 16 zile. În cât timp o termină împreună, la ritm constant?",
+      "options": [
+        "8 zile",
+        "12 zile",
+        "4 zile",
+        "16/3 zile"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Ritmuri: 1/8 și 1/16 din lucrare pe zi.",
+          "Ritmul comun este 3/16.",
+          "Timpul este inversul ritmului: 16/3 = 16/3 zile.",
+          "Verificare: rezultatul cerut este 16/3 zile."
+        ],
+        "rule": "Adună ritmurile, apoi inversează pentru durata unei lucrări.",
+        "trap": "Nu aduna și nu media duratele individuale.",
+        "alternative": "Metoda unităților: alege ca volum al lucrării durata echipei mai lente, exprimată în unități. Echipa lentă face o unitate pe zi, iar cealaltă două. Împreună fac trei. Împarte volumul ales la trei pentru a afla durata. Această metodă și metoda fracțiilor dau același rezultat."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "16/3",
+        "options": [
+          "8",
+          "12",
+          "4",
+          "16/3"
+        ]
+      },
+      "historical": false,
+      "id": "t05-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Condiție necesară",
+      "prompt": "Accesul lui Elena este permis numai dacă are legitimație. Accesul i-a fost permis. Ce rezultă?",
+      "options": [
+        "Oricine are legitimație primește acces.",
+        "Legitimația este singura condiție posibilă.",
+        "Are legitimație.",
+        "Nu are legitimație."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Numai dacă introduce o condiție necesară.",
+          "Acces permis → legitimație.",
+          "Premisa confirmă accesul permis.",
+          "Aplică regula și deduci legitimația; nu deduci că legitimația singură garantează accesul."
+        ],
+        "rule": "În P numai dacă Q, direcția este P → Q.",
+        "trap": "Necesar nu înseamnă suficient.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t05-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Bicondițional",
+      "prompt": "Elena primește ecuson dacă și numai dacă este înscris. Nu a primit ecuson. Ce rezultă?",
+      "options": [
+        "Toți cei înscriși nu primesc ecuson.",
+        "Nu este înscris.",
+        "Este înscris.",
+        "Nu se poate determina înscrierea."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Dacă și numai dacă exprimă două reguli: înscris → ecuson și ecuson → înscris.",
+          "Pentru prima regulă avem lipsa consecventului: nu ecuson.",
+          "Prin modus tollens rezultă nu înscris.",
+          "Concluzia privește persoana dată, nu întregul grup."
+        ],
+        "rule": "Bicondiționalul permite ambele direcții ale relației.",
+        "trap": "Nu trata dacă și numai dacă drept o simplă asociere posibilă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t05-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unui cuantificator",
+      "prompt": "Care este negarea exactă a afirmației „Toți evaluatorii atelierului de astronomie au verificat cel puțin un dosar”?",
+      "options": [
+        "Cel puțin un evaluator nu a verificat niciun dosar.",
+        "Niciun evaluator nu a verificat niciun dosar.",
+        "Toți evaluatorii au verificat exact un dosar.",
+        "Cel puțin un evaluator a verificat toate dosarele."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Structura este: pentru fiecare evaluator există un dosar verificat.",
+          "Negarea lui pentru fiecare este există cel puțin unul.",
+          "Pentru acel evaluator negăm existența unui dosar verificat: nu există niciunul.",
+          "Rezultă un evaluator care nu a verificat niciun dosar; nu trebuie să fie toți."
+        ],
+        "rule": "La negare, schimbă toți în cel puțin unul și neagă proprietatea.",
+        "trap": "Niciun evaluator este o afirmație mai puternică decât negarea exactă.",
+        "alternative": "Poți testa afirmația cu un contraexemplu. Pentru a respinge „toți au verificat măcar un dosar”, ai nevoie de un singur evaluator care nu a verificat niciunul. Nu ai nevoie ca întregul grup să fi procedat astfel. Negarea exactă este minimul logic care face afirmația inițială falsă."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t05-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Bloc de simboluri repetat",
+      "prompt": "Blocul ○, △, △, □ se repetă identic. Ce simbol se află pe poziția 18?",
+      "options": [
+        "△",
+        "□",
+        "Nu se poate determina",
+        "○"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Blocul conține 4 poziții.",
+          "Împarte 18 la 4; restul este 2.",
+          "Resturile 1, 2, 3 desemnează pozițiile respective; restul 0 desemnează poziția 4.",
+          "Simbolul cerut este △."
+        ],
+        "rule": "Folosește restul împărțirii la lungimea blocului.",
+        "trap": "La rest 0, poziția este ultima din bloc, nu prima.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "symbol",
+        "block": [
+          "○",
+          "△",
+          "△",
+          "□"
+        ],
+        "position": 18,
+        "result": "△"
+      },
+      "historical": false,
+      "id": "t05-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Disjuncție exclusivă",
+      "prompt": "Elena participă fie la atelierul de astronomie, fie la cel de teatru, dar nu la ambele. Nu participă la teatru. Ce rezultă?",
+      "options": [
+        "Participă la ambele ateliere.",
+        "Informația nu permite nicio concluzie.",
+        "Participă la atelierul de astronomie.",
+        "Nu participă la niciun atelier."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Enunțul cere participarea la exact unul dintre două ateliere.",
+          "Varianta teatru este eliminată.",
+          "Rămâne cealaltă variantă, care trebuie să fie adevărată.",
+          "Absența de la ambele ar încălca regula inițială."
+        ],
+        "rule": "Dacă exact una dintre două alternative este adevărată, negarea uneia impune cealaltă.",
+        "trap": "Fie… fie, dar nu ambele este exclusiv, nu facultativ.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t05-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unei implicații",
+      "prompt": "Care situație face falsă regula „Dacă Elena este înscris, atunci primește materialele”?",
+      "options": [
+        "Este înscris și primește materialele.",
+        "Este înscris și nu primește materialele.",
+        "Nu este înscris și primește materialele.",
+        "Nu este înscris și nu primește materialele."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Regula promite materiale în cazul înscrierii.",
+          "Este încălcată numai când înscrierea există, dar materialele lipsesc.",
+          "Dacă înscrierea lipsește, regula nu decide distribuirea materialelor.",
+          "Situația falsificatoare are forma P și nu Q."
+        ],
+        "rule": "O implicație este falsă când antecedentul este adevărat și consecventul fals.",
+        "trap": "Regula nu spune numai cei înscriși primesc materiale.",
+        "alternative": "Tabelul de adevăr are patru cazuri pentru P și Q. P adevărat și Q adevărat respectă regula; P fals și Q adevărat nu o încalcă; P fals și Q fals nu o încalcă. Numai P adevărat și Q fals o încalcă. Acesta este cazul căutat."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t05-q20"
+    }
+  ]
+}

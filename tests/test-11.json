@@ -1,0 +1,634 @@
+{
+  "id": 11,
+  "title": "Condiții necesare",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Rezumat fidel",
+      "prompt": "„La atelierul de orientare profesională, înscrierea se face până joi. Dacă rămân locuri libere, se acceptă înscrieri și vineri.” Care rezumat păstrează exact informația?",
+      "options": [
+        "Oricine se poate înscrie vineri, indiferent de locuri.",
+        "Joi nu se acceptă înscrieri.",
+        "Înscrierile sunt până joi, cu posibilă prelungire vineri dacă există locuri.",
+        "Înscrierile sunt obligatoriu doar vineri."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Identifică regula generală: înscriere până joi.",
+          "Identifică excepția: vineri numai dacă rămân locuri.",
+          "Un rezumat fidel păstrează regula și condiția excepției.",
+          "Respinge rezumatele care elimină condiția sau inversează termenul."
+        ],
+        "rule": "La rezumat, păstrează condițiile și limitele afirmației.",
+        "trap": "Eliminarea expresiei dacă există locuri schimbă mesajul.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t11-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Sensul unei concesii",
+      "prompt": "„Deși materialele pentru orientare profesională au sosit târziu, atelierul a început la ora stabilită.” Ce exprimă relația dintre cele două idei?",
+      "options": [
+        "Ora atelierului nu fusese stabilită.",
+        "Atelierul a început la timp în ciuda întârzierii materialelor.",
+        "Atelierul a întârziat din cauza materialelor.",
+        "Materialele au sosit înainte de termen."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Observă conectorul deși.",
+          "Acesta introduce un obstacol sau o situație contrară așteptării.",
+          "Continuarea spune că rezultatul a fost totuși începutul la timp.",
+          "Nu schimba rezultatul: textul nu afirmă întârzierea atelierului."
+        ],
+        "rule": "Deși exprimă concesie: rezultatul apare în pofida unui obstacol.",
+        "trap": "Nu interpreta o relație concesivă ca una cauzală.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t11-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Fapt și apreciere",
+      "prompt": "Care enunț despre atelierul de orientare profesională este o apreciere subiectivă, nu o constatare verificabilă direct?",
+      "options": [
+        "Atelierul a fost cel mai frumos eveniment al anului.",
+        "Au participat 22 elevi.",
+        "Atelierul a început la ora 10.",
+        "Activitatea a durat două ore."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "O constatare poate fi verificată prin numărare, program sau înregistrare.",
+          "Numărul participanților, ora și durata au criterii obiective de verificare.",
+          "Cel mai frumos exprimă o evaluare personală, în absența unor criterii precizate.",
+          "Alege enunțul a cărui apreciere poate diferi de la o persoană la alta."
+        ],
+        "rule": "Distinge datele observabile de judecățile de valoare.",
+        "trap": "Un enunț poate fi sincer fără să fie o constatare obiectivă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t11-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Presupunere necesară",
+      "prompt": "„Vom trimite programul atelierului de orientare profesională exclusiv prin e-mail, astfel încât fiecare participant să-l poată consulta.” Ce presupunere este necesară acestui plan?",
+      "options": [
+        "Fiecare participant preferă atelierul dimineața.",
+        "Programul are exact două pagini.",
+        "Toți participanții folosesc același model de telefon.",
+        "Fiecare participant are acces la e-mailul la care este trimis programul."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Scopul este accesul fiecărui participant la program.",
+          "Mijlocul este exclusiv e-mailul.",
+          "Dacă o persoană nu poate accesa e-mailul respectiv, planul nu asigură accesul tuturor.",
+          "Preferințele, lungimea documentului și modelul telefonului nu sunt condiții necesare."
+        ],
+        "rule": "Testează o presupunere negând-o: dacă planul nu mai funcționează, ea poate fi necesară.",
+        "trap": "Nu confunda o condiție utilă cu una fără de care concluzia nu se susține.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t11-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Cuantificatori în text",
+      "prompt": "„Majoritatea celor 22 elevi înscriși la orientare profesională au venit la prima întâlnire.” Care afirmație rezultă sigur?",
+      "options": [
+        "Exact jumătate dintre cei înscriși au venit.",
+        "Niciun elev înscris nu a lipsit.",
+        "Mai mult de jumătate dintre cei înscriși au venit.",
+        "Toți cei înscriși au venit."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Majoritatea înseamnă mai mult de jumătate din grup.",
+          "Termenul nu precizează numărul exact.",
+          "Poate fi vorba despre toți, dar textul nu garantează acest lucru.",
+          "Concluzia sigură păstrează limita minimă exprimată de majoritatea."
+        ],
+        "rule": "Nu transforma majoritatea în toți sau în exact jumătate.",
+        "trap": "O posibilitate nu este o concluzie obligatorie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t11-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Concluzie excesivă",
+      "prompt": "„Doi participanți la atelierul de orientare profesională au spus că preferă dimineața. Prin urmare, toți participanții preferă dimineața.” De ce concluzia este insuficient susținută?",
+      "options": [
+        "Concluzia privește numai cele două persoane.",
+        "Preferința a două persoane este extinsă nejustificat la întregul grup.",
+        "Textul dovedește că nimeni nu preferă dimineața.",
+        "Preferințele celor două persoane sunt identice cu programul."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Premisa conține informații despre două persoane.",
+          "Concluzia privește toți participanții.",
+          "Nu avem informații despre preferințele celorlalți.",
+          "Argumentul generalizează dintr-un grup restrâns fără justificare."
+        ],
+        "rule": "Mărimea și reprezentativitatea informației trebuie să susțină amploarea concluziei.",
+        "trap": "Nu confunda doi sau unii cu toți.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t11-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Informație absentă",
+      "prompt": "„Atelierul de orientare profesională este opțional. Toți cei înscriși au primit materialele. Unii au participat vineri.”\nCare afirmație NU poate fi stabilită din text?",
+      "options": [
+        "Toți cei înscriși au primit materialele.",
+        "Mara a participat vineri.",
+        "Atelierul este opțional.",
+        "Cel puțin un participant înscris a venit vineri."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Observă cuvântul NU: căutăm o informație absentă.",
+          "Textul nu menționează persoana Mara.",
+          "Nu putem transforma o informație despre unii participanți într-o informație despre o persoană precisă.",
+          "Celelalte variante reproduc informații explicite sau sensul lui unii."
+        ],
+        "rule": "Lipsa informației nu dovedește nici adevărul, nici falsitatea unei afirmații.",
+        "trap": "A alege o afirmație adevărată când se cere ce NU se poate stabili inversează cerința.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t11-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Proporționalitate inversă",
+      "prompt": "6 lucrători termină în 22 zile. În câte zile termină 9 lucrători cu același randament, lucrând simultan la aceeași lucrare?",
+      "options": [
+        "22 zile",
+        "33 zile",
+        "50/3 zile",
+        "44/3 zile"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Volumul este 6 × 22 = 132 om-zile.",
+          "Cu 9 lucrători: 132 ÷ 9 = 44/3 zile.",
+          "Verificare: rezultatul cerut este 44/3 zile."
+        ],
+        "rule": "Pentru aceeași lucrare, numărul lucrătorilor și durata sunt invers proporționale.",
+        "trap": "Mai mulți lucrători reduc durata, în ipoteza randamentului identic.",
+        "alternative": "Metoda om-zile: o zi lucrată de o persoană este o unitate de muncă. Pentru aceeași lucrare, produsul dintre persoane și zile rămâne constant. Întâi calculezi volumul din situația cunoscută, apoi îl împarți la noul număr de lucrători."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "44/3",
+        "options": [
+          "22",
+          "33",
+          "50/3",
+          "44/3"
+        ]
+      },
+      "historical": false,
+      "id": "t11-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Vârste",
+      "prompt": "Acum 13 ani, un copil avea 12 ani, iar părintele de trei ori vârsta lui. Ce vârstă are copilul acum?",
+      "options": [
+        "49",
+        "38",
+        "25",
+        "12"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Copilul avea 12 ani.",
+          "Adaugă timpul scurs: 12 + 13 = 25.",
+          "Verificare: rezultatul cerut este 25."
+        ],
+        "rule": "Vârsta crește cu numărul anilor scurși.",
+        "trap": "Selectează datele relevante; vârsta părintelui nu este cerută.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "25",
+        "options": [
+          "49",
+          "38",
+          "25",
+          "12"
+        ]
+      },
+      "historical": false,
+      "id": "t11-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Creștere procentuală",
+      "prompt": "Numărul participanților crește de la 80 la 100. Care este creșterea procentuală?",
+      "options": [
+        "125 %",
+        "25 %",
+        "20 %",
+        "30 %"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Creșterea absolută: 100 − 80 = 20.",
+          "Raportează la inițial: 20 ÷ 80 × 100 = 25%.",
+          "Verificare: rezultatul cerut este 25 %."
+        ],
+        "rule": "Creșterea procentuală se raportează la valoarea inițială.",
+        "trap": "125% este noul nivel față de inițial, nu creșterea.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "25",
+        "options": [
+          "125",
+          "25",
+          "20",
+          "30"
+        ]
+      },
+      "historical": false,
+      "id": "t11-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Productivitate simultană",
+      "prompt": "A termină singură o lucrare în 14 zile, B în 28 zile. În cât timp o termină împreună, la ritm constant?",
+      "options": [
+        "28/3 zile",
+        "14 zile",
+        "21 zile",
+        "7 zile"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Ritmuri: 1/14 și 1/28 din lucrare pe zi.",
+          "Ritmul comun este 3/28.",
+          "Timpul este inversul ritmului: 28/3 = 28/3 zile.",
+          "Verificare: rezultatul cerut este 28/3 zile."
+        ],
+        "rule": "Adună ritmurile, apoi inversează pentru durata unei lucrări.",
+        "trap": "Nu aduna și nu media duratele individuale.",
+        "alternative": "Metoda unităților: alege ca volum al lucrării durata echipei mai lente, exprimată în unități. Echipa lentă face o unitate pe zi, iar cealaltă două. Împreună fac trei. Împarte volumul ales la trei pentru a afla durata. Această metodă și metoda fracțiilor dau același rezultat."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "28/3",
+        "options": [
+          "28/3",
+          "14",
+          "21",
+          "7"
+        ]
+      },
+      "historical": false,
+      "id": "t11-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Probabilitate simplă",
+      "prompt": "Într-o urnă sunt 14 bile identice ca formă, numerotate distinct. Una singură este roșie. La extragere aleatoare, probabilitatea unei bile roșii este:",
+      "options": [
+        "1/7",
+        "1/15",
+        "13/14",
+        "1/14"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Rezultate favorabile: 1 bilă roșie.",
+          "Rezultate posibile, echiprobabile: 14.",
+          "Probabilitatea: 1/14.",
+          "Verificare: rezultatul cerut este 1/14."
+        ],
+        "rule": "Probabilitate = cazuri favorabile ÷ cazuri posibile echiprobabile.",
+        "trap": "Nu calcula probabilitatea bilelor care nu sunt roșii.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "1/14",
+        "options": [
+          "1/7",
+          "1/15",
+          "13/14",
+          "1/14"
+        ]
+      },
+      "historical": false,
+      "id": "t11-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Totaluri în tabel",
+      "prompt": "Împrumuturi de cărți (clasa A / clasa B):\nLuni: 32 / 26\nMarți: 30 / 35\nMiercuri: 41 / 27\nJoi: 32 / 30\nÎn ce zi este cel mai mare total?",
+      "options": [
+        "Miercuri",
+        "Joi",
+        "Luni",
+        "Marți"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Adună valorile pe fiecare rând.",
+          "Totalurile, în ordinea zilelor, sunt: 58, 65, 68, 62.",
+          "Compară totalurile: maximul este 68.",
+          "Acest total aparține zilei Miercuri."
+        ],
+        "rule": "Compară totaluri corespunzătoare aceleiași unități.",
+        "trap": "Nu alege ziua cu maximul unei singure clase.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "maximum",
+        "values": [
+          58,
+          65,
+          68,
+          62
+        ],
+        "result": 2
+      },
+      "historical": true,
+      "chart": {
+        "title": "Împrumuturi pe zile — clasele A și B împreună",
+        "labels": [
+          "Luni",
+          "Marți",
+          "Miercuri",
+          "Joi"
+        ],
+        "values": [
+          58,
+          65,
+          68,
+          62
+        ]
+      },
+      "id": "t11-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Medie ponderată",
+      "prompt": "20 elevi au media 8, iar alți 40 au media 9. Media celor 60 elevi este:",
+      "options": [
+        "9",
+        "26/3",
+        "8,5",
+        "8,75"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Suma valorilor: 20 × 8 + 40 × 9 = 520.",
+          "Împarte la efectivul total: 520 ÷ 60 = 26/3.",
+          "Verificare: rezultatul cerut este 26/3."
+        ],
+        "rule": "Ponderează fiecare medie cu numărul persoanelor.",
+        "trap": "Media simplă 8,5 ar fi valabilă pentru grupuri de aceeași mărime.",
+        "alternative": "Imaginează-ți că ai scris nota fiecărui elev pe câte un bilețel. Media întregului grup este suma tuturor bilețelelor împărțită la numărul lor. Grupul mai numeros contribuie cu mai multe bilețele, deci are o influență mai mare asupra mediei finale."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "26/3",
+        "options": [
+          "9",
+          "26/3",
+          "17/2",
+          "35/4"
+        ]
+      },
+      "historical": false,
+      "id": "t11-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unui cuantificator",
+      "prompt": "Care este negarea exactă a afirmației „Toți evaluatorii atelierului de orientare profesională au verificat cel puțin un dosar”?",
+      "options": [
+        "Cel puțin un evaluator nu a verificat niciun dosar.",
+        "Niciun evaluator nu a verificat niciun dosar.",
+        "Toți evaluatorii au verificat exact un dosar.",
+        "Cel puțin un evaluator a verificat toate dosarele."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Structura este: pentru fiecare evaluator există un dosar verificat.",
+          "Negarea lui pentru fiecare este există cel puțin unul.",
+          "Pentru acel evaluator negăm existența unui dosar verificat: nu există niciunul.",
+          "Rezultă un evaluator care nu a verificat niciun dosar; nu trebuie să fie toți."
+        ],
+        "rule": "La negare, schimbă toți în cel puțin unul și neagă proprietatea.",
+        "trap": "Niciun evaluator este o afirmație mai puternică decât negarea exactă.",
+        "alternative": "Poți testa afirmația cu un contraexemplu. Pentru a respinge „toți au verificat măcar un dosar”, ai nevoie de un singur evaluator care nu a verificat niciunul. Nu ai nevoie ca întregul grup să fi procedat astfel. Negarea exactă este minimul logic care face afirmația inițială falsă."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t11-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Bloc de simboluri repetat",
+      "prompt": "Blocul ○, △, △, □ se repetă identic. Ce simbol se află pe poziția 24?",
+      "options": [
+        "△",
+        "□",
+        "Nu se poate determina",
+        "○"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Blocul conține 4 poziții.",
+          "Împarte 24 la 4; restul este 0.",
+          "Resturile 1, 2, 3 desemnează pozițiile respective; restul 0 desemnează poziția 4.",
+          "Simbolul cerut este □."
+        ],
+        "rule": "Folosește restul împărțirii la lungimea blocului.",
+        "trap": "La rest 0, poziția este ultima din bloc, nu prima.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "symbol",
+        "block": [
+          "○",
+          "△",
+          "△",
+          "□"
+        ],
+        "position": 24,
+        "result": "□"
+      },
+      "historical": false,
+      "id": "t11-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Disjuncție exclusivă",
+      "prompt": "Mara participă fie la atelierul de orientare profesională, fie la cel de teatru, dar nu la ambele. Nu participă la teatru. Ce rezultă?",
+      "options": [
+        "Participă la ambele ateliere.",
+        "Informația nu permite nicio concluzie.",
+        "Participă la atelierul de orientare profesională.",
+        "Nu participă la niciun atelier."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Enunțul cere participarea la exact unul dintre două ateliere.",
+          "Varianta teatru este eliminată.",
+          "Rămâne cealaltă variantă, care trebuie să fie adevărată.",
+          "Absența de la ambele ar încălca regula inițială."
+        ],
+        "rule": "Dacă exact una dintre două alternative este adevărată, negarea uneia impune cealaltă.",
+        "trap": "Fie… fie, dar nu ambele este exclusiv, nu facultativ.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t11-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unei implicații",
+      "prompt": "Care situație face falsă regula „Dacă Mara este înscris, atunci primește materialele”?",
+      "options": [
+        "Este înscris și primește materialele.",
+        "Este înscris și nu primește materialele.",
+        "Nu este înscris și primește materialele.",
+        "Nu este înscris și nu primește materialele."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Regula promite materiale în cazul înscrierii.",
+          "Este încălcată numai când înscrierea există, dar materialele lipsesc.",
+          "Dacă înscrierea lipsește, regula nu decide distribuirea materialelor.",
+          "Situația falsificatoare are forma P și nu Q."
+        ],
+        "rule": "O implicație este falsă când antecedentul este adevărat și consecventul fals.",
+        "trap": "Regula nu spune numai cei înscriși primesc materiale.",
+        "alternative": "Tabelul de adevăr are patru cazuri pentru P și Q. P adevărat și Q adevărat respectă regula; P fals și Q adevărat nu o încalcă; P fals și Q fals nu o încalcă. Numai P adevărat și Q fals o încalcă. Acesta este cazul căutat."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t11-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Exact unul adevărat",
+      "prompt": "Despre locul lui Mara în clasament, două afirmații sunt: 1. „Este pe locul 1.” 2. „Este pe locul 1 sau 2.” Exact una este adevărată. Pe ce loc este?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Nu se poate determina"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Dacă ar fi pe 1, ambele afirmații ar fi adevărate.",
+          "Dacă ar fi pe 2, prima ar fi falsă și a doua adevărată.",
+          "Pe orice alt loc, ambele ar fi false.",
+          "Singura posibilitate cu exact o afirmație adevărată este locul 2."
+        ],
+        "rule": "Testează variantele și numără valorile de adevăr.",
+        "trap": "Exact una elimină atât cazul cu zero, cât și cazul cu două afirmații adevărate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "truth-position",
+        "result": 2
+      },
+      "historical": false,
+      "id": "t11-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Relație tranzitivă",
+      "prompt": "Mara este mai înalt decât Nora. Nora este mai înalt decât Oana. Paul este mai scund decât Oana. Cine este cel mai înalt?",
+      "options": [
+        "Nora",
+        "Oana",
+        "Paul",
+        "Mara"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Prima regulă: Mara > Nora.",
+          "A doua: Nora > Oana.",
+          "A treia: Oana > Paul.",
+          "Lanțul este Mara > Nora > Oana > Paul."
+        ],
+        "rule": "Transformă comparațiile într-un lanț orientat.",
+        "trap": "Mai scund decât inversează ordinea față de mai înalt decât.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t11-q20"
+    }
+  ]
+}

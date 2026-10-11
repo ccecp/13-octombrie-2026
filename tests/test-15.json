@@ -1,0 +1,607 @@
+{
+  "id": 15,
+  "title": "Decizii din informații",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Ideea principală",
+      "prompt": "„Pentru clubul de matematică aplicată, informațiile sunt publicate într-un singur loc. Astfel, participanții găsesc mai ușor programul, iar modificările nu mai circulă în versiuni diferite.” Care este ideea principală?",
+      "options": [
+        "Participanții nu trebuie să citească informațiile.",
+        "Toate cluburile folosesc aceeași platformă.",
+        "Centralizarea informațiilor facilitează accesul și reduce confuziile.",
+        "Programul nu se modifică niciodată."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Caută ideea care leagă cele două propoziții.",
+          "Prima descrie centralizarea; a doua explică avantajele ei.",
+          "Varianta corectă cuprinde atât accesul mai ușor, cât și reducerea confuziilor.",
+          "Celelalte variante introduc afirmații absolute sau informații absente."
+        ],
+        "rule": "Ideea principală acoperă mesajul întregului fragment.",
+        "trap": "Un detaliu inventat nu devine idee principală doar pentru că este plauzibil.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Referință pronominală",
+      "prompt": "„Elevii au prezentat proiectul de matematică aplicată în fața comisiei. Ei au răspuns apoi la întrebări.” La cine se referă „ei”?",
+      "options": [
+        "La întrebări",
+        "La elevi",
+        "La comisie",
+        "La proiect"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Identifică antecedentele posibile: elevii, comisia, proiectul.",
+          "Pronumele ei este masculin plural și desemnează persoanele care au prezentat.",
+          "Elevii corespunde ca număr, gen și rol în succesiunea acțiunilor.",
+          "Comisia și proiectul sunt singular; întrebările nu sunt persoanele care răspund."
+        ],
+        "rule": "Urmărește acordul gramatical și continuitatea acțiunilor.",
+        "trap": "Apropierea unui cuvânt de pronume nu este suficientă pentru a-l face antecedent.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Sensul unei restricții",
+      "prompt": "„La sesiunea de matematică aplicată sunt admiși numai elevii înscriși.” Ce reformulare păstrează sensul?",
+      "options": [
+        "Orice elev admis este înscris.",
+        "Orice elev înscris este neapărat admis.",
+        "Niciun elev înscris nu este admis.",
+        "Toți elevii școlii sunt admiși."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Cuvântul numai limitează categoria celor admiși.",
+          "Înscrierea este o condiție necesară pentru admitere.",
+          "Din faptul că cineva este admis rezultă că este înscris.",
+          "Nu rezultă automat că înscrierea garantează admiterea."
+        ],
+        "rule": "Numai introduce o condiție necesară.",
+        "trap": "Nu inversa sensul relației dintre înscriere și admitere.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Slăbirea unei generalizări",
+      "prompt": "„Toți elevii care au participat la atelierul de matematică aplicată au obținut punctaj maxim.” Ce informație contrazice direct afirmația?",
+      "options": [
+        "Un elev absent nu a obținut punctaj maxim.",
+        "Un elev absent a obținut punctaj maxim.",
+        "Unii participanți au obținut punctaj maxim.",
+        "Radu a participat și nu a obținut punctaj maxim."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Afirmația privește toți participanții.",
+          "Pentru a o contrazice, trebuie un participant care nu îndeplinește rezultatul afirmat.",
+          "Radu este tocmai un asemenea contraexemplu.",
+          "Rezultatele absenților nu contrazic o regulă despre participanți."
+        ],
+        "rule": "O afirmație universală este respinsă de un singur contraexemplu relevant.",
+        "trap": "Contraexemplul trebuie să aparțină categoriei despre care se vorbește.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Ordinea ideilor",
+      "prompt": "Aranjează propozițiile într-o succesiune firească:\n1. În final, participanții au prezentat produsele.\n2. Mai întâi, au primit instrucțiunile.\n3. Apoi, au lucrat în echipe la tema de matematică aplicată.",
+      "options": [
+        "2–1–3",
+        "3–2–1",
+        "2–3–1",
+        "1–2–3"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Identifică marcatorii temporali: mai întâi, apoi, în final.",
+          "Instrucțiunile preced activitatea.",
+          "Lucrul în echipe precedă prezentarea produselor.",
+          "Ordinea este 2, 3, 1."
+        ],
+        "rule": "Marcatorii temporali și relația dintre acțiuni stabilesc succesiunea.",
+        "trap": "Ordinea tipăririi propozițiilor nu este neapărat ordinea evenimentelor.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Comparație și concluzie",
+      "prompt": "„Atelierul de matematică aplicată are mai mulți înscriși decât clubul de teatru. Clubul de teatru are mai mulți înscriși decât clubul de șah.” Ce rezultă?",
+      "options": [
+        "Clubul de teatru are cei mai mulți înscriși.",
+        "Atelierul de matematică aplicată are mai mulți înscriși decât clubul de șah.",
+        "Clubul de șah are mai mulți înscriși decât clubul de teatru.",
+        "Cele trei grupuri au același număr de înscriși."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Notează A > B pentru prima comparație.",
+          "Notează B > C pentru a doua.",
+          "Prin tranzitivitate, A > C.",
+          "Nu știm numerele exacte, dar știm ordinea celor trei efective."
+        ],
+        "rule": "Relația mai mare decât se transmite printr-un lanț de comparații.",
+        "trap": "Nu ai nevoie de numere concrete pentru a compara extremitățile lanțului.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Informație explicită",
+      "prompt": "„Clubul de matematică aplicată și-a prelungit programul în două zile ale săptămânii. Numărul participanților a crescut. Raportul nu stabilește cauza creșterii.”\nCare afirmație este susținută de text?",
+      "options": [
+        "Numărul participanților a crescut.",
+        "Programul s-a prelungit în fiecare zi.",
+        "Programul prelungit a provocat creșterea.",
+        "Fiecare participant a venit mai des."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Citește cerința: se caută o afirmație susținută de text.",
+          "Textul afirmă direct creșterea numărului de participanți.",
+          "Nu avem o cauză demonstrată și nici informații despre frecvența fiecărei persoane.",
+          "Alege constatarea explicită, fără să o transformi într-o explicație cauzală."
+        ],
+        "rule": "Separă observația de explicația ei.",
+        "trap": "În fiecare zi este mai mult decât în două zile; totalul nu descrie fiecare persoană.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t15-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Preț inițial",
+      "prompt": "După o reducere de 20%, prețul este 272 lei. Care a fost prețul inițial?",
+      "options": [
+        "326,4 lei",
+        "292 lei",
+        "350 lei",
+        "340 lei"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Prețul final reprezintă 80% din cel inițial.",
+          "Inițialul: 272 ÷ 0,80 = 340 lei.",
+          "Control: 340 × 0,80 = 272.",
+          "Verificare: rezultatul cerut este 340 lei."
+        ],
+        "rule": "Pentru a recupera întregul, împarte partea la proporția ei.",
+        "trap": "A adăuga 20% prețului final nu anulează reducerea de 20%.",
+        "alternative": "Regula de trei simplă: prețul final corespunde lui 80%, iar prețul inițial lui 100%. Scrie final / 80 = inițial / 100. Prin înmulțire în cruce, inițial = final × 100 / 80. Verifică aplicând din nou reducerea la prețul inițial obținut."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "340",
+        "options": [
+          "1632/5",
+          "292",
+          "350",
+          "340"
+        ]
+      },
+      "historical": false,
+      "id": "t15-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Distanță și conversie de timp",
+      "prompt": "Un vehicul merge cu 68 km/h timp de 1 oră și 30 de minute. Ce distanță parcurge?",
+      "options": [
+        "98 km",
+        "112 km",
+        "102 km",
+        "136 km"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "1 oră și 30 de minute = 1,5 ore.",
+          "Distanța = viteză × timp = 68 × 1,5 = 102 km.",
+          "Verificare: rezultatul cerut este 102 km."
+        ],
+        "rule": "Transformă timpul în aceeași unitate cu cea folosită în viteză.",
+        "trap": "1 h 30 min înseamnă 1,5 h, nu 1,30 h.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "102",
+        "options": [
+          "98",
+          "112",
+          "102",
+          "136"
+        ]
+      },
+      "historical": false,
+      "id": "t15-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Reuniunea a două grupuri",
+      "prompt": "44 elevi aleg engleza, 39 aleg franceza, iar 10 le aleg pe ambele. Câți aleg cel puțin una dintre cele două?",
+      "options": [
+        "78",
+        "73",
+        "83",
+        "63"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Adunarea simplă: 44 + 39 = 83.",
+          "Elevii care aleg ambele limbi sunt numărați de două ori.",
+          "Scade o dată intersecția: 83 − 10 = 73.",
+          "Verificare: rezultatul cerut este 73."
+        ],
+        "rule": "Reuniune = primul grup + al doilea − intersecție.",
+        "trap": "Cel puțin una îi include și pe cei care aleg ambele.",
+        "alternative": "Metoda mulțimilor: imaginează două cercuri care se suprapun. Zona comună este inclusă în fiecare cerc. Când aduni efectivele, o numeri de două ori. Scazi intersecția o singură dată pentru a rămâne cu fiecare persoană numărată exact o dată."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "73",
+        "options": [
+          "78",
+          "73",
+          "83",
+          "63"
+        ]
+      },
+      "historical": false,
+      "id": "t15-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Cost fix și variabil",
+      "prompt": "Un transport costă 12 lei taxă fixă și 17 lei pentru fiecare colet. Cât costă 5 colete?",
+      "options": [
+        "97 lei",
+        "145 lei",
+        "85 lei",
+        "102 lei"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Cost variabil: 5 × 17 = 85 lei.",
+          "Adaugă o singură taxă fixă: 85 + 12 = 97 lei.",
+          "Verificare: rezultatul cerut este 97 lei."
+        ],
+        "rule": "Total = cost fix + număr de unități × cost unitar.",
+        "trap": "Taxa fixă se plătește o dată, nu pentru fiecare colet.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "97",
+        "options": [
+          "97",
+          "145",
+          "85",
+          "102"
+        ]
+      },
+      "historical": false,
+      "id": "t15-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Fracție și rest",
+      "prompt": "Din 190 de cărți, 1/2 sunt romane și 3/10 sunt poezie. Restul sunt eseuri. Câte eseuri sunt?",
+      "options": [
+        "95",
+        "57",
+        "43",
+        "38"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Partea ocupată: 1/2 + 3/10 = 8/10.",
+          "Restul: 1 − 8/10 = 2/10 = 1/5.",
+          "Număr eseuri: 190 ÷ 5 = 38.",
+          "Verificare: rezultatul cerut este 38."
+        ],
+        "rule": "Adună fracțiile folosind un numitor comun, apoi calculează restul.",
+        "trap": "Fracțiile au aceeași bază: totalul cărților.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "38",
+        "options": [
+          "95",
+          "57",
+          "43",
+          "38"
+        ]
+      },
+      "historical": false,
+      "id": "t15-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Împărțire cu rotunjire în sus",
+      "prompt": "26 persoane sunt transportate în vehicule cu câte 5 locuri disponibile. Care este numărul minim de vehicule?",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "5"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Împarte 26 la 5.",
+          "5 vehicule oferă numai 25 locuri, insuficiente.",
+          "6 vehicule oferă 30 locuri, suficiente.",
+          "Verificare: rezultatul cerut este 6."
+        ],
+        "rule": "Când restul reprezintă persoane care trebuie transportate, rotunjește în sus.",
+        "trap": "O fracție de vehicul nu poate fi folosită pentru persoanele rămase.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "6",
+        "options": [
+          "7",
+          "8",
+          "6",
+          "5"
+        ]
+      },
+      "historical": false,
+      "id": "t15-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Procente succesive",
+      "prompt": "Un produs de 1600 lei se scumpește cu 10%, apoi noul preț scade cu 10%. Prețul final este:",
+      "options": [
+        "1588 lei",
+        "1584 lei",
+        "1600 lei",
+        "1440 lei"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Creșterea: 1600 × 1,10 = 1760 lei.",
+          "Reducerea se aplică noului preț: 1760 × 0,90 = 1584 lei.",
+          "Verificare: rezultatul cerut este 1584 lei."
+        ],
+        "rule": "La procente succesive, înmulțește factorii de modificare.",
+        "trap": "+10% și −10% nu se anulează: bazele sunt diferite.",
+        "alternative": "Poți gândi în factori: o creștere de 10% înseamnă înmulțire cu 1,10, iar o reducere de 10% înseamnă înmulțire cu 0,90. Produsul lor este 0,99. Așadar, prețul final este 99% din prețul inițial, adică o scădere totală de 1%."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "1584",
+        "options": [
+          "1588",
+          "1584",
+          "1600",
+          "1440"
+        ]
+      },
+      "historical": false,
+      "id": "t15-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Suficiența informației",
+      "prompt": "Radu, Sonia, Tudor au punctaje diferite. Știm numai că Radu are mai mult decât Sonia și mai mult decât Tudor. Ce se poate determina sigur?",
+      "options": [
+        "Radu are cel mai mare punctaj.",
+        "Sonia are cel mai mic punctaj.",
+        "Tudor are cel mai mic punctaj.",
+        "Sonia are mai mult decât Tudor."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Radu depășește fiecare dintre celelalte două persoane.",
+          "Așadar, maximul este determinat.",
+          "Nu avem comparația dintre celelalte două persoane.",
+          "Nu putem stabili minimul sau ordinea completă."
+        ],
+        "rule": "Separă partea determinată a ordinii de partea încă necunoscută.",
+        "trap": "Informația suficientă pentru maxim poate fi insuficientă pentru minim.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Modus tollens",
+      "prompt": "Dacă dosarul lui Radu este aprobat, atunci este complet. Dosarul nu este complet. Ce rezultă?",
+      "options": [
+        "Dosarul este aprobat.",
+        "Dosarul va fi completat mâine.",
+        "Dosarul este complet.",
+        "Dosarul nu este aprobat."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Notează P = aprobat și Q = complet.",
+          "Regula este P → Q.",
+          "Avem nu Q. Dacă ar exista P, ar trebui Q, ceea ce contrazice informația.",
+          "Rezultă nu P: dosarul nu este aprobat."
+        ],
+        "rule": "Din P → Q și nu Q rezultă nu P.",
+        "trap": "Nu confunda această deducție cu inversarea condiției.",
+        "alternative": "Gândește prin contradicție: presupune că dosarul ar fi aprobat. Regula ar impune să fie complet. Dar știm că este incomplet. Presupunerea duce la o contradicție, deci aprobarea nu poate fi adevărată."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Repartizare imposibilă",
+      "prompt": "Radu, Sonia, Tudor și Vlad formează două echipe de câte două persoane. Radu nu poate fi cu Sonia, iar Tudor trebuie să fie cu Vlad. Ce rezultă?",
+      "options": [
+        "Sonia trebuie să fie cu Vlad.",
+        "Există două repartizări valide.",
+        "Nu există o repartizare care respectă toate condițiile.",
+        "Radu trebuie să fie cu Tudor."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Tudor și Vlad ocupă complet prima echipă.",
+          "Rămân numai Radu și Sonia pentru a doua.",
+          "Dar asocierea Radu–Sonia este interzisă.",
+          "Cele două condiții, împreună cu mărimea echipelor, sunt incompatibile."
+        ],
+        "rule": "Aplică întâi perechea obligatorie și examinează persoanele rămase.",
+        "trap": "Nu rezolva o condiție ignorând-o pe cealaltă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Afirmarea consecventului",
+      "prompt": "Dacă Radu este coordonator, are acces la sală. Radu are acces la sală. Ce putem afirma despre statutul său?",
+      "options": [
+        "Niciun coordonator nu are acces.",
+        "Nu se poate determina dacă este coordonator.",
+        "Este obligatoriu coordonator.",
+        "Este obligatoriu necoordonator."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Regula spune că statutul de coordonator este suficient pentru acces.",
+          "Nu spune că numai coordonatorii au acces.",
+          "Accesul ar putea fi permis și altor persoane.",
+          "Din Q și P → Q nu rezultă nici P, nici nu P."
+        ],
+        "rule": "O condiție suficientă nu este automat necesară.",
+        "trap": "Afirmarea rezultatului nu dovedește condiția inițială.",
+        "alternative": "Construiește două scenarii compatibile: persoana este coordonator și are acces; sau persoana nu este coordonator, dar primește acces din alt motiv. Ambele respectă regula dată. Cum există două scenarii cu statut diferit, statutul nu poate fi determinat."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unei disjuncții",
+      "prompt": "Care este negarea exactă a afirmației „Radu participă la matematică aplicată sau la teatru”, unde „sau” permite și participarea la ambele?",
+      "options": [
+        "Nu participă nici la primul atelier, nici la teatru.",
+        "Participă la ambele.",
+        "Participă la primul, dar nu la teatru.",
+        "Participă la teatru, dar nu la primul."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Disjuncția inclusivă este adevărată dacă există cel puțin o participare.",
+          "Ca să fie falsă, ambele participări trebuie să lipsească.",
+          "Negarea este nu P și nu Q.",
+          "Participarea la ambele face enunțul inițial adevărat."
+        ],
+        "rule": "Legea lui De Morgan: nu(P sau Q) = nu P și nu Q.",
+        "trap": "Nu confunda negarea lui sau cu alegerea unei singure alternative.",
+        "alternative": "Construiește cazurile: participare la primul, la al doilea, la ambele sau la niciunul. Disjuncția inclusivă este adevărată în primele trei situații. Numai absența ambelor participări o face falsă."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Condiții în lanț",
+      "prompt": "Dacă Radu este coordonator, este membru al comisiei. Dacă este membru al comisiei, primește invitație. Nu a primit invitație. Ce rezultă?",
+      "options": [
+        "Este coordonator.",
+        "Este membru al comisiei.",
+        "Toți invitații sunt coordonatori.",
+        "Nu este coordonator."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Leagă regulile: coordonator → membru → invitație.",
+          "Lipsa invitației exclude statutul de membru.",
+          "Lipsa statutului de membru exclude statutul de coordonator.",
+          "Concluzia privește persoana menționată, nu toate persoanele invitate."
+        ],
+        "rule": "Aplică modus tollens înapoi prin lanțul condițiilor.",
+        "trap": "Nu porni de la invitație pentru a afirma automat coordonarea.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t15-q20"
+    }
+  ]
+}

@@ -1,0 +1,618 @@
+{
+  "id": 2,
+  "title": "Sens și proporții",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Sens în context",
+      "prompt": "În raportul atelierului de robotică apare enunțul „Raportul este succint.”. Ce înseamnă „succint”?",
+      "options": [
+        "inexact",
+        "concis",
+        "confuz",
+        "detaliat"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Citește enunțul întreg, nu doar cuvântul izolat.",
+          "În acest context, succint are sensul concis.",
+          "Înlocuiește mental cuvântul cu varianta aleasă.",
+          "Sensul propoziției trebuie să rămână același."
+        ],
+        "rule": "Sinonimul potrivit păstrează sensul contextual.",
+        "trap": "Nu alege un cuvânt doar pentru că are o conotație asemănătoare.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Ideea principală",
+      "prompt": "„Pentru clubul de robotică, informațiile sunt publicate într-un singur loc. Astfel, participanții găsesc mai ușor programul, iar modificările nu mai circulă în versiuni diferite.” Care este ideea principală?",
+      "options": [
+        "Centralizarea informațiilor facilitează accesul și reduce confuziile.",
+        "Programul nu se modifică niciodată.",
+        "Participanții nu trebuie să citească informațiile.",
+        "Toate cluburile folosesc aceeași platformă."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Caută ideea care leagă cele două propoziții.",
+          "Prima descrie centralizarea; a doua explică avantajele ei.",
+          "Varianta corectă cuprinde atât accesul mai ușor, cât și reducerea confuziilor.",
+          "Celelalte variante introduc afirmații absolute sau informații absente."
+        ],
+        "rule": "Ideea principală acoperă mesajul întregului fragment.",
+        "trap": "Un detaliu inventat nu devine idee principală doar pentru că este plauzibil.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Referință pronominală",
+      "prompt": "„Elevii au prezentat proiectul de robotică în fața comisiei. Ei au răspuns apoi la întrebări.” La cine se referă „ei”?",
+      "options": [
+        "La comisie",
+        "La proiect",
+        "La întrebări",
+        "La elevi"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Identifică antecedentele posibile: elevii, comisia, proiectul.",
+          "Pronumele ei este masculin plural și desemnează persoanele care au prezentat.",
+          "Elevii corespunde ca număr, gen și rol în succesiunea acțiunilor.",
+          "Comisia și proiectul sunt singular; întrebările nu sunt persoanele care răspund."
+        ],
+        "rule": "Urmărește acordul gramatical și continuitatea acțiunilor.",
+        "trap": "Apropierea unui cuvânt de pronume nu este suficientă pentru a-l face antecedent.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Fapt și apreciere",
+      "prompt": "Care enunț despre atelierul de robotică este o apreciere subiectivă, nu o constatare verificabilă direct?",
+      "options": [
+        "Atelierul a început la ora 10.",
+        "Activitatea a durat două ore.",
+        "Atelierul a fost cel mai frumos eveniment al anului.",
+        "Au participat 13 elevi."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "O constatare poate fi verificată prin numărare, program sau înregistrare.",
+          "Numărul participanților, ora și durata au criterii obiective de verificare.",
+          "Cel mai frumos exprimă o evaluare personală, în absența unor criterii precizate.",
+          "Alege enunțul a cărui apreciere poate diferi de la o persoană la alta."
+        ],
+        "rule": "Distinge datele observabile de judecățile de valoare.",
+        "trap": "Un enunț poate fi sincer fără să fie o constatare obiectivă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Slăbirea unei generalizări",
+      "prompt": "„Toți elevii care au participat la atelierul de robotică au obținut punctaj maxim.” Ce informație contrazice direct afirmația?",
+      "options": [
+        "Unii participanți au obținut punctaj maxim.",
+        "Bogdan a participat și nu a obținut punctaj maxim.",
+        "Un elev absent nu a obținut punctaj maxim.",
+        "Un elev absent a obținut punctaj maxim."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Afirmația privește toți participanții.",
+          "Pentru a o contrazice, trebuie un participant care nu îndeplinește rezultatul afirmat.",
+          "Bogdan este tocmai un asemenea contraexemplu.",
+          "Rezultatele absenților nu contrazic o regulă despre participanți."
+        ],
+        "rule": "O afirmație universală este respinsă de un singur contraexemplu relevant.",
+        "trap": "Contraexemplul trebuie să aparțină categoriei despre care se vorbește.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Ordinea ideilor",
+      "prompt": "Aranjează propozițiile într-o succesiune firească:\n1. În final, participanții au prezentat produsele.\n2. Mai întâi, au primit instrucțiunile.\n3. Apoi, au lucrat în echipe la tema de robotică.",
+      "options": [
+        "2–3–1",
+        "1–2–3",
+        "2–1–3",
+        "3–2–1"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Identifică marcatorii temporali: mai întâi, apoi, în final.",
+          "Instrucțiunile preced activitatea.",
+          "Lucrul în echipe precedă prezentarea produselor.",
+          "Ordinea este 2, 3, 1."
+        ],
+        "rule": "Marcatorii temporali și relația dintre acțiuni stabilesc succesiunea.",
+        "trap": "Ordinea tipăririi propozițiilor nu este neapărat ordinea evenimentelor.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Concluzie excesivă",
+      "prompt": "„Doi participanți la atelierul de robotică au spus că preferă dimineața. Prin urmare, toți participanții preferă dimineața.” De ce concluzia este insuficient susținută?",
+      "options": [
+        "Textul dovedește că nimeni nu preferă dimineața.",
+        "Preferințele celor două persoane sunt identice cu programul.",
+        "Concluzia privește numai cele două persoane.",
+        "Preferința a două persoane este extinsă nejustificat la întregul grup."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Premisa conține informații despre două persoane.",
+          "Concluzia privește toți participanții.",
+          "Nu avem informații despre preferințele celorlalți.",
+          "Argumentul generalizează dintr-un grup restrâns fără justificare."
+        ],
+        "rule": "Mărimea și reprezentativitatea informației trebuie să susțină amploarea concluziei.",
+        "trap": "Nu confunda doi sau unii cu toți.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Procent din întreg",
+      "prompt": "Din 260 de înscriși, 20% aleg un atelier online. Câți sunt?",
+      "options": [
+        "65",
+        "208",
+        "52",
+        "62"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "20% = 20/100 = 1/5.",
+          "Numărul cerut: 260 ÷ 5 = 52.",
+          "Verificare: rezultatul cerut este 52."
+        ],
+        "rule": "Procentul se aplică întregului indicat.",
+        "trap": "Restul de 80% reprezintă o altă categorie, nu răspunsul cerut.",
+        "alternative": "Regula de trei simplă: întregul corespunde lui 100%, iar partea cerută lui 20%. Înmulțești întregul cu 20 și împarți la 100. Deoarece 20/100 = 1/5, poți folosi și împărțirea directă la cinci."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "52",
+        "options": [
+          "65",
+          "208",
+          "52",
+          "62"
+        ]
+      },
+      "historical": false,
+      "id": "t02-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Viteză medie dus–întors",
+      "prompt": "Un vehicul parcurge 198 km cu 60 km/h și revine pe aceeași distanță cu 90 km/h. Fără opriri, viteza medie pe întregul drum este:",
+      "options": [
+        "80 km/h",
+        "72 km/h",
+        "75 km/h",
+        "70 km/h"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Distanța totală este 396 km.",
+          "Timpul total este 198/60 + 198/90 = 5,5 ore.",
+          "Viteza medie = distanță totală ÷ timp total = 72 km/h.",
+          "Verificare: rezultatul cerut este 72 km/h."
+        ],
+        "rule": "Viteza medie se calculează din distanța totală și timpul total.",
+        "trap": "Media aritmetică a vitezelor nu este potrivită pentru distanțe egale.",
+        "alternative": "Pentru două distanțe egale poți folosi formula 2 × v₁ × v₂ / (v₁ + v₂). Formula rezultă din distanța totală împărțită la timpul total; nu trebuie aplicată automat când distanțele diferă. Verifică dacă rezultatul se află între cele două viteze."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "72",
+        "options": [
+          "80",
+          "72",
+          "75",
+          "70"
+        ]
+      },
+      "historical": false,
+      "id": "t02-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Media și valoarea lipsă",
+      "prompt": "Trei valori au media 12. Primele două sunt 9 și 12. Care este a treia?",
+      "options": [
+        "15",
+        "12",
+        "18",
+        "36"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Suma celor trei valori: 3 × 12 = 36.",
+          "Suma celor două cunoscute: 9 + 12 = 21.",
+          "Valoarea lipsă: 36 − 21 = 15.",
+          "Verificare: rezultatul cerut este 15."
+        ],
+        "rule": "Din medie și efectiv obții suma, apoi scazi valorile cunoscute.",
+        "trap": "Media nu este automat valoarea lipsă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "15",
+        "options": [
+          "15",
+          "12",
+          "18",
+          "36"
+        ]
+      },
+      "historical": false,
+      "id": "t02-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Pondere complementară",
+      "prompt": "Din 120 de dosare, 70% sunt complete. Câte sunt incomplete?",
+      "options": [
+        "84",
+        "46",
+        "56",
+        "36"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Procentul incompletelor: 100% − 70% = 30%.",
+          "Număr: 120 × 0,30 = 36.",
+          "Verificare: rezultatul cerut este 36."
+        ],
+        "rule": "Folosește complementul dacă se cere categoria rămasă.",
+        "trap": "Nu calcula categoria menționată în enunț când se cere opusul ei.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "36",
+        "options": [
+          "84",
+          "46",
+          "56",
+          "36"
+        ]
+      },
+      "historical": false,
+      "id": "t02-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Procent dintr-o parte",
+      "prompt": "Un buget este de 1100 lei. 40% se alocă materialelor, iar 25% din suma pentru materiale se folosește pentru hârtie. Cât costă hârtia?",
+      "options": [
+        "440 lei",
+        "130 lei",
+        "110 lei",
+        "275 lei"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Materiale: 1100 × 0,40 = 440 lei.",
+          "Hârtie: 440 × 0,25 = 110 lei.",
+          "Verificare: rezultatul cerut este 110 lei."
+        ],
+        "rule": "Citește baza fiecărui procent; al doilea poate viza doar o parte.",
+        "trap": "25% se aplică bugetului pentru materiale, nu bugetului total.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "110",
+        "options": [
+          "440",
+          "130",
+          "110",
+          "275"
+        ]
+      },
+      "historical": false,
+      "id": "t02-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Perimetru",
+      "prompt": "O sală dreptunghiulară are lungimea 8 m și lățimea 6 m. Care este perimetrul?",
+      "options": [
+        "30 m",
+        "28 m",
+        "48 m",
+        "14 m"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Sunt două laturi de 8 m și două de 6 m.",
+          "Perimetru: 2 × (8 + 6) = 28 m.",
+          "Verificare: rezultatul cerut este 28 m."
+        ],
+        "rule": "Perimetrul este suma lungimilor laturilor.",
+        "trap": "Lungime × lățime reprezintă aria, nu perimetrul.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "28",
+        "options": [
+          "30",
+          "28",
+          "48",
+          "14"
+        ]
+      },
+      "historical": false,
+      "id": "t02-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Tarif pe unitate",
+      "prompt": "Ana parcurge 130 km, iar Bogdan 84 km. Tariful este 0,50 lei/km. Cu câți lei primește Ana mai mult?",
+      "options": [
+        "23 lei",
+        "33 lei",
+        "46 lei",
+        "28 lei"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Diferența de distanță: 130 − 84 = 46 km.",
+          "Diferența de plată: 46 × 0,50 = 23 lei.",
+          "Verificare: rezultatul cerut este 23 lei."
+        ],
+        "rule": "Înmulțește diferența de cantitate cu tariful comun.",
+        "trap": "Kilometrii și leii sunt unități diferite.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "23",
+        "options": [
+          "23",
+          "33",
+          "46",
+          "28"
+        ]
+      },
+      "historical": false,
+      "id": "t02-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Bloc de simboluri repetat",
+      "prompt": "Blocul ○, △, △, □ se repetă identic. Ce simbol se află pe poziția 15?",
+      "options": [
+        "△",
+        "□",
+        "Nu se poate determina",
+        "○"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Blocul conține 4 poziții.",
+          "Împarte 15 la 4; restul este 3.",
+          "Resturile 1, 2, 3 desemnează pozițiile respective; restul 0 desemnează poziția 4.",
+          "Simbolul cerut este △."
+        ],
+        "rule": "Folosește restul împărțirii la lungimea blocului.",
+        "trap": "La rest 0, poziția este ultima din bloc, nu prima.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "symbol",
+        "block": [
+          "○",
+          "△",
+          "△",
+          "□"
+        ],
+        "position": 15,
+        "result": "△"
+      },
+      "historical": false,
+      "id": "t02-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Disjuncție exclusivă",
+      "prompt": "Bogdan participă fie la atelierul de robotică, fie la cel de teatru, dar nu la ambele. Nu participă la teatru. Ce rezultă?",
+      "options": [
+        "Participă la ambele ateliere.",
+        "Informația nu permite nicio concluzie.",
+        "Participă la atelierul de robotică.",
+        "Nu participă la niciun atelier."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Enunțul cere participarea la exact unul dintre două ateliere.",
+          "Varianta teatru este eliminată.",
+          "Rămâne cealaltă variantă, care trebuie să fie adevărată.",
+          "Absența de la ambele ar încălca regula inițială."
+        ],
+        "rule": "Dacă exact una dintre două alternative este adevărată, negarea uneia impune cealaltă.",
+        "trap": "Fie… fie, dar nu ambele este exclusiv, nu facultativ.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unei implicații",
+      "prompt": "Care situație face falsă regula „Dacă Bogdan este înscris, atunci primește materialele”?",
+      "options": [
+        "Este înscris și primește materialele.",
+        "Este înscris și nu primește materialele.",
+        "Nu este înscris și primește materialele.",
+        "Nu este înscris și nu primește materialele."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Regula promite materiale în cazul înscrierii.",
+          "Este încălcată numai când înscrierea există, dar materialele lipsesc.",
+          "Dacă înscrierea lipsește, regula nu decide distribuirea materialelor.",
+          "Situația falsificatoare are forma P și nu Q."
+        ],
+        "rule": "O implicație este falsă când antecedentul este adevărat și consecventul fals.",
+        "trap": "Regula nu spune numai cei înscriși primesc materiale.",
+        "alternative": "Tabelul de adevăr are patru cazuri pentru P și Q. P adevărat și Q adevărat respectă regula; P fals și Q adevărat nu o încalcă; P fals și Q fals nu o încalcă. Numai P adevărat și Q fals o încalcă. Acesta este cazul căutat."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Exact unul adevărat",
+      "prompt": "Despre locul lui Bogdan în clasament, două afirmații sunt: 1. „Este pe locul 1.” 2. „Este pe locul 1 sau 2.” Exact una este adevărată. Pe ce loc este?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Nu se poate determina"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Dacă ar fi pe 1, ambele afirmații ar fi adevărate.",
+          "Dacă ar fi pe 2, prima ar fi falsă și a doua adevărată.",
+          "Pe orice alt loc, ambele ar fi false.",
+          "Singura posibilitate cu exact o afirmație adevărată este locul 2."
+        ],
+        "rule": "Testează variantele și numără valorile de adevăr.",
+        "trap": "Exact una elimină atât cazul cu zero, cât și cazul cu două afirmații adevărate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "truth-position",
+        "result": 2
+      },
+      "historical": false,
+      "id": "t02-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Relație tranzitivă",
+      "prompt": "Bogdan este mai înalt decât Carmen. Carmen este mai înalt decât Dan. Elena este mai scund decât Dan. Cine este cel mai înalt?",
+      "options": [
+        "Carmen",
+        "Dan",
+        "Elena",
+        "Bogdan"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Prima regulă: Bogdan > Carmen.",
+          "A doua: Carmen > Dan.",
+          "A treia: Dan > Elena.",
+          "Lanțul este Bogdan > Carmen > Dan > Elena."
+        ],
+        "rule": "Transformă comparațiile într-un lanț orientat.",
+        "trap": "Mai scund decât inversează ordinea față de mai înalt decât.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Condiție necesară",
+      "prompt": "Accesul lui Bogdan este permis numai dacă are legitimație. Accesul i-a fost permis. Ce rezultă?",
+      "options": [
+        "Oricine are legitimație primește acces.",
+        "Legitimația este singura condiție posibilă.",
+        "Are legitimație.",
+        "Nu are legitimație."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Numai dacă introduce o condiție necesară.",
+          "Acces permis → legitimație.",
+          "Premisa confirmă accesul permis.",
+          "Aplică regula și deduci legitimația; nu deduci că legitimația singură garantează accesul."
+        ],
+        "rule": "În P numai dacă Q, direcția este P → Q.",
+        "trap": "Necesar nu înseamnă suficient.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t02-q20"
+    }
+  ]
+}

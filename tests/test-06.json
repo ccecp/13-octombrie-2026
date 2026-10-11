@@ -1,0 +1,607 @@
+{
+  "id": 6,
+  "title": "Procente și deducții",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Categorie comună",
+      "prompt": "Pe fișa lui Florin, ce categorie comună, suficient de precisă, include atât „stejar”, cât și „fag”?",
+      "options": [
+        "forme de comunicare verbală",
+        "arbori",
+        "obiecte sau concepte fără categorie comună",
+        "unități de timp"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Analizează separat sensul lui stejar și al lui fag.",
+          "Ambele se încadrează în categoria arbori.",
+          "Categoria trebuie să fie valabilă pentru ambii termeni.",
+          "Respinge o categorie care descrie numai un termen sau un domeniu diferit."
+        ],
+        "rule": "Clasifică pe baza trăsăturilor esențiale comune.",
+        "trap": "Nu confunda asemănările accidentale cu apartenența la aceeași categorie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t06-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Corelație și cauzalitate",
+      "prompt": "„Participanții la clubul de fotografie au avut rezultate mai bune. Așadar, clubul a produs rezultatele mai bune.” Care este problema argumentului?",
+      "options": [
+        "O asociere este tratată ca dovadă suficientă a cauzei.",
+        "Premisa spune că nu există participanți.",
+        "Concluzia afirmă că rezultatele sunt identice.",
+        "Argumentul compară elevii cu profesorii."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Premisa constată o asociere între participare și rezultate.",
+          "Concluzia adaugă o relație de cauzalitate.",
+          "Pot exista alte explicații: pregătire inițială, motivație sau sprijin suplimentar.",
+          "Prin urmare, asocierea singură nu demonstrează că participarea a produs diferența."
+        ],
+        "rule": "O corelație nu demonstrează singură o cauză.",
+        "trap": "Nu introduce în premisă informații care apar numai în concluzie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Rezumat fidel",
+      "prompt": "„La atelierul de fotografie, înscrierea se face până joi. Dacă rămân locuri libere, se acceptă înscrieri și vineri.” Care rezumat păstrează exact informația?",
+      "options": [
+        "Înscrierile sunt obligatoriu doar vineri.",
+        "Oricine se poate înscrie vineri, indiferent de locuri.",
+        "Joi nu se acceptă înscrieri.",
+        "Înscrierile sunt până joi, cu posibilă prelungire vineri dacă există locuri."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Identifică regula generală: înscriere până joi.",
+          "Identifică excepția: vineri numai dacă rămân locuri.",
+          "Un rezumat fidel păstrează regula și condiția excepției.",
+          "Respinge rezumatele care elimină condiția sau inversează termenul."
+        ],
+        "rule": "La rezumat, păstrează condițiile și limitele afirmației.",
+        "trap": "Eliminarea expresiei dacă există locuri schimbă mesajul.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Sensul unei restricții",
+      "prompt": "„La sesiunea de fotografie sunt admiși numai elevii înscriși.” Ce reformulare păstrează sensul?",
+      "options": [
+        "Niciun elev înscris nu este admis.",
+        "Toți elevii școlii sunt admiși.",
+        "Orice elev admis este înscris.",
+        "Orice elev înscris este neapărat admis."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Cuvântul numai limitează categoria celor admiși.",
+          "Înscrierea este o condiție necesară pentru admitere.",
+          "Din faptul că cineva este admis rezultă că este înscris.",
+          "Nu rezultă automat că înscrierea garantează admiterea."
+        ],
+        "rule": "Numai introduce o condiție necesară.",
+        "trap": "Nu inversa sensul relației dintre înscriere și admitere.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Susținerea unei concluzii",
+      "prompt": "Concluzie: „Mutarea atelierului de fotografie într-o sală mai mare ar rezolva problema locurilor insuficiente.” Ce informație susține cel mai direct concluzia?",
+      "options": [
+        "Atelierul este organizat și anul viitor.",
+        "Sala actuală are 20 de locuri, sunt 28 de înscriși, iar sala nouă are 35 de locuri.",
+        "Sala nouă are pereții albaștri.",
+        "Unii elevi preferă activitățile în aer liber."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Identifică problema exactă: capacitatea sălii.",
+          "Comparația 20 < 28 arată insuficiența sălii actuale.",
+          "Comparația 35 ≥ 28 arată că sala nouă poate găzdui înscrișii.",
+          "Celelalte informații nu stabilesc dacă există suficiente locuri."
+        ],
+        "rule": "O dovadă relevantă răspunde exact problemei concluziei.",
+        "trap": "Detaliile atractive despre sală nu demonstrează capacitatea ei.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Presupunere necesară",
+      "prompt": "„Vom trimite programul atelierului de fotografie exclusiv prin e-mail, astfel încât fiecare participant să-l poată consulta.” Ce presupunere este necesară acestui plan?",
+      "options": [
+        "Fiecare participant are acces la e-mailul la care este trimis programul.",
+        "Fiecare participant preferă atelierul dimineața.",
+        "Programul are exact două pagini.",
+        "Toți participanții folosesc același model de telefon."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Scopul este accesul fiecărui participant la program.",
+          "Mijlocul este exclusiv e-mailul.",
+          "Dacă o persoană nu poate accesa e-mailul respectiv, planul nu asigură accesul tuturor.",
+          "Preferințele, lungimea documentului și modelul telefonului nu sunt condiții necesare."
+        ],
+        "rule": "Testează o presupunere negând-o: dacă planul nu mai funcționează, ea poate fi necesară.",
+        "trap": "Nu confunda o condiție utilă cu una fără de care concluzia nu se susține.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Comparație și concluzie",
+      "prompt": "„Atelierul de fotografie are mai mulți înscriși decât clubul de teatru. Clubul de teatru are mai mulți înscriși decât clubul de șah.” Ce rezultă?",
+      "options": [
+        "Clubul de șah are mai mulți înscriși decât clubul de teatru.",
+        "Cele trei grupuri au același număr de înscriși.",
+        "Clubul de teatru are cei mai mulți înscriși.",
+        "Atelierul de fotografie are mai mulți înscriși decât clubul de șah."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Notează A > B pentru prima comparație.",
+          "Notează B > C pentru a doua.",
+          "Prin tranzitivitate, A > C.",
+          "Nu știm numerele exacte, dar știm ordinea celor trei efective."
+        ],
+        "rule": "Relația mai mare decât se transmite printr-un lanț de comparații.",
+        "trap": "Nu ai nevoie de numere concrete pentru a compara extremitățile lanțului.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Productivitate simultană",
+      "prompt": "A termină singură o lucrare în 9 zile, B în 18 zile. În cât timp o termină împreună, la ritm constant?",
+      "options": [
+        "13,5 zile",
+        "4,5 zile",
+        "6 zile",
+        "9 zile"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Ritmuri: 1/9 și 1/18 din lucrare pe zi.",
+          "Ritmul comun este 3/18.",
+          "Timpul este inversul ritmului: 18/3 = 6 zile.",
+          "Verificare: rezultatul cerut este 6 zile."
+        ],
+        "rule": "Adună ritmurile, apoi inversează pentru durata unei lucrări.",
+        "trap": "Nu aduna și nu media duratele individuale.",
+        "alternative": "Metoda unităților: alege ca volum al lucrării durata echipei mai lente, exprimată în unități. Echipa lentă face o unitate pe zi, iar cealaltă două. Împreună fac trei. Împarte volumul ales la trei pentru a afla durata. Această metodă și metoda fracțiilor dau același rezultat."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "6",
+        "options": [
+          "27/2",
+          "9/2",
+          "6",
+          "9"
+        ]
+      },
+      "historical": false,
+      "id": "t06-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Proporționalitate directă",
+      "prompt": "4 dosare identice se verifică în 12 minute. La același ritm, câte minute necesită 9 dosare?",
+      "options": [
+        "36 minute",
+        "27 minute",
+        "30 minute",
+        "33 minute"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Un dosar necesită 12 ÷ 4 = 3 minute.",
+          "9 dosare necesită 9 × 3 = 27 minute.",
+          "Verificare: rezultatul cerut este 27 minute."
+        ],
+        "rule": "La ritm constant, timpul este direct proporțional cu numărul sarcinilor.",
+        "trap": "Nu folosi o proporție inversă când o singură persoană are mai multe sarcini.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "27",
+        "options": [
+          "36",
+          "27",
+          "30",
+          "33"
+        ]
+      },
+      "historical": false,
+      "id": "t06-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Sumă și diferență",
+      "prompt": "Două echipe au împreună 40 elevi. A doua are cu 6 mai mulți decât prima. Câți elevi are prima?",
+      "options": [
+        "17",
+        "20",
+        "23",
+        "40"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Scoate diferența din total: 40 − 6 = 34.",
+          "Rămân două părți egale: 34 ÷ 2 = 17.",
+          "Control: 17 + 23 = 40.",
+          "Verificare: rezultatul cerut este 17."
+        ],
+        "rule": "Numărul mai mic este (suma − diferența) ÷ 2.",
+        "trap": "Împărțirea totalului la doi ignoră diferența.",
+        "alternative": "Metoda segmentelor: desenează mental două segmente egale, apoi adaugă șase unități unuia dintre ele. Totalul cuprinde două segmente plus șase. Scoți cele șase unități și împarți restul la doi pentru a găsi segmentul mai mic."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "17",
+        "options": [
+          "17",
+          "20",
+          "23",
+          "40"
+        ]
+      },
+      "historical": false,
+      "id": "t06-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Șir geometric",
+      "prompt": "Fiecare termen este dublul precedentului. Completează: 10, 20, 40, 80, 160, …",
+      "options": [
+        "162",
+        "325",
+        "640",
+        "320"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Regula precizată este înmulțirea cu 2.",
+          "Ultimul termen este 160.",
+          "Următorul: 160 × 2 = 320.",
+          "Verificare: rezultatul cerut este 320."
+        ],
+        "rule": "Păstrează raportul constant al șirului geometric.",
+        "trap": "Nu trece de la înmulțire la o diferență arbitrară.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "320",
+        "options": [
+          "162",
+          "325",
+          "640",
+          "320"
+        ]
+      },
+      "historical": false,
+      "id": "t06-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Scară de hartă",
+      "prompt": "Pe o hartă, 1 cm reprezintă 3 km. Două localități sunt la 13 cm. Care este distanța reală?",
+      "options": [
+        "42 km",
+        "1300 km",
+        "39 km",
+        "13 km"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Fiecărui centimetru îi corespund 3 km.",
+          "13 × 3 = 39 km.",
+          "Verificare: rezultatul cerut este 39 km."
+        ],
+        "rule": "Aplică aceeași scară fiecărei unități măsurate.",
+        "trap": "Nu folosi o conversie cm–km directă; harta are o scară precizată.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "39",
+        "options": [
+          "42",
+          "1300",
+          "39",
+          "13"
+        ]
+      },
+      "historical": false,
+      "id": "t06-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Unități de timp",
+      "prompt": "Un vehicul merge cu 90 km/h. Ce distanță parcurge în 30 de minute?",
+      "options": [
+        "60 km",
+        "45 km",
+        "90 km",
+        "2700 km"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "30 de minute = 1/2 oră.",
+          "Distanța: 90 × 1/2 = 45 km.",
+          "Verificare: rezultatul cerut este 45 km."
+        ],
+        "rule": "Convertește minutele în ore înainte să folosești km/h.",
+        "trap": "Înmulțirea vitezei cu 30 ar trata minutele drept ore.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "45",
+        "options": [
+          "60",
+          "45",
+          "90",
+          "2700"
+        ]
+      },
+      "historical": false,
+      "id": "t06-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Mediană",
+      "prompt": "Valorile ordonate sunt 15, 19, 23, 27, 45. Care este mediana?",
+      "options": [
+        "23",
+        "19",
+        "25,8",
+        "27"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Sunt 5 valori deja ordonate.",
+          "Poziția centrală este a treia.",
+          "A treia valoare este 23.",
+          "Verificare: rezultatul cerut este 23."
+        ],
+        "rule": "La un număr impar de valori, mediana este valoarea centrală după ordonare.",
+        "trap": "Mediana nu este neapărat media aritmetică.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "23",
+        "options": [
+          "23",
+          "19",
+          "129/5",
+          "27"
+        ]
+      },
+      "historical": false,
+      "id": "t06-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Modus tollens",
+      "prompt": "Dacă dosarul lui Florin este aprobat, atunci este complet. Dosarul nu este complet. Ce rezultă?",
+      "options": [
+        "Dosarul este aprobat.",
+        "Dosarul va fi completat mâine.",
+        "Dosarul este complet.",
+        "Dosarul nu este aprobat."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Notează P = aprobat și Q = complet.",
+          "Regula este P → Q.",
+          "Avem nu Q. Dacă ar exista P, ar trebui Q, ceea ce contrazice informația.",
+          "Rezultă nu P: dosarul nu este aprobat."
+        ],
+        "rule": "Din P → Q și nu Q rezultă nu P.",
+        "trap": "Nu confunda această deducție cu inversarea condiției.",
+        "alternative": "Gândește prin contradicție: presupune că dosarul ar fi aprobat. Regula ar impune să fie complet. Dar știm că este incomplet. Presupunerea duce la o contradicție, deci aprobarea nu poate fi adevărată."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Repartizare imposibilă",
+      "prompt": "Florin, Gabriela, Horia și Ioana formează două echipe de câte două persoane. Florin nu poate fi cu Gabriela, iar Horia trebuie să fie cu Ioana. Ce rezultă?",
+      "options": [
+        "Gabriela trebuie să fie cu Ioana.",
+        "Există două repartizări valide.",
+        "Nu există o repartizare care respectă toate condițiile.",
+        "Florin trebuie să fie cu Horia."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Horia și Ioana ocupă complet prima echipă.",
+          "Rămân numai Florin și Gabriela pentru a doua.",
+          "Dar asocierea Florin–Gabriela este interzisă.",
+          "Cele două condiții, împreună cu mărimea echipelor, sunt incompatibile."
+        ],
+        "rule": "Aplică întâi perechea obligatorie și examinează persoanele rămase.",
+        "trap": "Nu rezolva o condiție ignorând-o pe cealaltă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Afirmarea consecventului",
+      "prompt": "Dacă Florin este coordonator, are acces la sală. Florin are acces la sală. Ce putem afirma despre statutul său?",
+      "options": [
+        "Niciun coordonator nu are acces.",
+        "Nu se poate determina dacă este coordonator.",
+        "Este obligatoriu coordonator.",
+        "Este obligatoriu necoordonator."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Regula spune că statutul de coordonator este suficient pentru acces.",
+          "Nu spune că numai coordonatorii au acces.",
+          "Accesul ar putea fi permis și altor persoane.",
+          "Din Q și P → Q nu rezultă nici P, nici nu P."
+        ],
+        "rule": "O condiție suficientă nu este automat necesară.",
+        "trap": "Afirmarea rezultatului nu dovedește condiția inițială.",
+        "alternative": "Construiește două scenarii compatibile: persoana este coordonator și are acces; sau persoana nu este coordonator, dar primește acces din alt motiv. Ambele respectă regula dată. Cum există două scenarii cu statut diferit, statutul nu poate fi determinat."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unei disjuncții",
+      "prompt": "Care este negarea exactă a afirmației „Florin participă la fotografie sau la teatru”, unde „sau” permite și participarea la ambele?",
+      "options": [
+        "Nu participă nici la primul atelier, nici la teatru.",
+        "Participă la ambele.",
+        "Participă la primul, dar nu la teatru.",
+        "Participă la teatru, dar nu la primul."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Disjuncția inclusivă este adevărată dacă există cel puțin o participare.",
+          "Ca să fie falsă, ambele participări trebuie să lipsească.",
+          "Negarea este nu P și nu Q.",
+          "Participarea la ambele face enunțul inițial adevărat."
+        ],
+        "rule": "Legea lui De Morgan: nu(P sau Q) = nu P și nu Q.",
+        "trap": "Nu confunda negarea lui sau cu alegerea unei singure alternative.",
+        "alternative": "Construiește cazurile: participare la primul, la al doilea, la ambele sau la niciunul. Disjuncția inclusivă este adevărată în primele trei situații. Numai absența ambelor participări o face falsă."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Condiții în lanț",
+      "prompt": "Dacă Florin este coordonator, este membru al comisiei. Dacă este membru al comisiei, primește invitație. Nu a primit invitație. Ce rezultă?",
+      "options": [
+        "Este coordonator.",
+        "Este membru al comisiei.",
+        "Toți invitații sunt coordonatori.",
+        "Nu este coordonator."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Leagă regulile: coordonator → membru → invitație.",
+          "Lipsa invitației exclude statutul de membru.",
+          "Lipsa statutului de membru exclude statutul de coordonator.",
+          "Concluzia privește persoana menționată, nu toate persoanele invitate."
+        ],
+        "rule": "Aplică modus tollens înapoi prin lanțul condițiilor.",
+        "trap": "Nu porni de la invitație pentru a afirma automat coordonarea.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Calendar și periodicitate",
+      "prompt": "Întâlnirea lui Florin este luni. Următoarea este peste 12 zile. Ce zi a săptămânii va fi?",
+      "options": [
+        "duminică",
+        "luni",
+        "vineri",
+        "sâmbătă"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Zilele săptămânii se repetă din 7 în 7.",
+          "12 împărțit la 7 are restul 5.",
+          "Avansează de luni cu 5 zile.",
+          "Ziua rezultată este sâmbătă."
+        ],
+        "rule": "Elimină săptămânile complete și folosește restul.",
+        "trap": "Peste o zi de luni înseamnă marți; nu număra ziua inițială drept prima zi scursă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t06-q20"
+    }
+  ]
+}

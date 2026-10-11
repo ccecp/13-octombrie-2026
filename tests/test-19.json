@@ -1,0 +1,659 @@
+{
+  "id": 19,
+  "title": "Verificare și inferență",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Corelație și cauzalitate",
+      "prompt": "„Participanții la clubul de biologie au avut rezultate mai bune. Așadar, clubul a produs rezultatele mai bune.” Care este problema argumentului?",
+      "options": [
+        "Concluzia afirmă că rezultatele sunt identice.",
+        "Argumentul compară elevii cu profesorii.",
+        "O asociere este tratată ca dovadă suficientă a cauzei.",
+        "Premisa spune că nu există participanți."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Premisa constată o asociere între participare și rezultate.",
+          "Concluzia adaugă o relație de cauzalitate.",
+          "Pot exista alte explicații: pregătire inițială, motivație sau sprijin suplimentar.",
+          "Prin urmare, asocierea singură nu demonstrează că participarea a produs diferența."
+        ],
+        "rule": "O corelație nu demonstrează singură o cauză.",
+        "trap": "Nu introduce în premisă informații care apar numai în concluzie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Rezumat fidel",
+      "prompt": "„La atelierul de biologie, înscrierea se face până joi. Dacă rămân locuri libere, se acceptă înscrieri și vineri.” Care rezumat păstrează exact informația?",
+      "options": [
+        "Joi nu se acceptă înscrieri.",
+        "Înscrierile sunt până joi, cu posibilă prelungire vineri dacă există locuri.",
+        "Înscrierile sunt obligatoriu doar vineri.",
+        "Oricine se poate înscrie vineri, indiferent de locuri."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Identifică regula generală: înscriere până joi.",
+          "Identifică excepția: vineri numai dacă rămân locuri.",
+          "Un rezumat fidel păstrează regula și condiția excepției.",
+          "Respinge rezumatele care elimină condiția sau inversează termenul."
+        ],
+        "rule": "La rezumat, păstrează condițiile și limitele afirmației.",
+        "trap": "Eliminarea expresiei dacă există locuri schimbă mesajul.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Sensul unei concesii",
+      "prompt": "„Deși materialele pentru biologie au sosit târziu, atelierul a început la ora stabilită.” Ce exprimă relația dintre cele două idei?",
+      "options": [
+        "Atelierul a început la timp în ciuda întârzierii materialelor.",
+        "Atelierul a întârziat din cauza materialelor.",
+        "Materialele au sosit înainte de termen.",
+        "Ora atelierului nu fusese stabilită."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Observă conectorul deși.",
+          "Acesta introduce un obstacol sau o situație contrară așteptării.",
+          "Continuarea spune că rezultatul a fost totuși începutul la timp.",
+          "Nu schimba rezultatul: textul nu afirmă întârzierea atelierului."
+        ],
+        "rule": "Deși exprimă concesie: rezultatul apare în pofida unui obstacol.",
+        "trap": "Nu interpreta o relație concesivă ca una cauzală.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Susținerea unei concluzii",
+      "prompt": "Concluzie: „Mutarea atelierului de biologie într-o sală mai mare ar rezolva problema locurilor insuficiente.” Ce informație susține cel mai direct concluzia?",
+      "options": [
+        "Sala nouă are pereții albaștri.",
+        "Unii elevi preferă activitățile în aer liber.",
+        "Atelierul este organizat și anul viitor.",
+        "Sala actuală are 20 de locuri, sunt 28 de înscriși, iar sala nouă are 35 de locuri."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Identifică problema exactă: capacitatea sălii.",
+          "Comparația 20 < 28 arată insuficiența sălii actuale.",
+          "Comparația 35 ≥ 28 arată că sala nouă poate găzdui înscrișii.",
+          "Celelalte informații nu stabilesc dacă există suficiente locuri."
+        ],
+        "rule": "O dovadă relevantă răspunde exact problemei concluziei.",
+        "trap": "Detaliile atractive despre sală nu demonstrează capacitatea ei.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Presupunere necesară",
+      "prompt": "„Vom trimite programul atelierului de biologie exclusiv prin e-mail, astfel încât fiecare participant să-l poată consulta.” Ce presupunere este necesară acestui plan?",
+      "options": [
+        "Programul are exact două pagini.",
+        "Toți participanții folosesc același model de telefon.",
+        "Fiecare participant are acces la e-mailul la care este trimis programul.",
+        "Fiecare participant preferă atelierul dimineața."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Scopul este accesul fiecărui participant la program.",
+          "Mijlocul este exclusiv e-mailul.",
+          "Dacă o persoană nu poate accesa e-mailul respectiv, planul nu asigură accesul tuturor.",
+          "Preferințele, lungimea documentului și modelul telefonului nu sunt condiții necesare."
+        ],
+        "rule": "Testează o presupunere negând-o: dacă planul nu mai funcționează, ea poate fi necesară.",
+        "trap": "Nu confunda o condiție utilă cu una fără de care concluzia nu se susține.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Cuantificatori în text",
+      "prompt": "„Majoritatea celor 30 elevi înscriși la biologie au venit la prima întâlnire.” Care afirmație rezultă sigur?",
+      "options": [
+        "Niciun elev înscris nu a lipsit.",
+        "Mai mult de jumătate dintre cei înscriși au venit.",
+        "Toți cei înscriși au venit.",
+        "Exact jumătate dintre cei înscriși au venit."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Majoritatea înseamnă mai mult de jumătate din grup.",
+          "Termenul nu precizează numărul exact.",
+          "Poate fi vorba despre toți, dar textul nu garantează acest lucru.",
+          "Concluzia sigură păstrează limita minimă exprimată de majoritatea."
+        ],
+        "rule": "Nu transforma majoritatea în toți sau în exact jumătate.",
+        "trap": "O posibilitate nu este o concluzie obligatorie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Conector de cauză",
+      "prompt": "„Atelierul de biologie a fost mutat în interior deoarece ploua.” Ce relație exprimă „deoarece”?",
+      "options": [
+        "Cauză",
+        "Comparație",
+        "Concesie",
+        "Succesiune fără cauză"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Identifică evenimentul: mutarea în interior.",
+          "Identifică explicația: ploaia.",
+          "Deoarece introduce motivul mutării.",
+          "Nu exprimă o comparație sau un rezultat în pofida unui obstacol."
+        ],
+        "rule": "Conectorii indică relația dintre idei.",
+        "trap": "Nu interpreta toți conectorii ca simple semne de ordine temporală.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Șir cu diferențe crescătoare",
+      "prompt": "Diferențele cresc cu 2. Completează: 21, 25, 31, 39, 49, …",
+      "options": [
+        "59",
+        "63",
+        "65",
+        "61"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Calculează diferențele: 4, 6, 8, 10.",
+          "Următoarea diferență este 12.",
+          "Următorul termen: 49 + 12 = 61.",
+          "Verificare: rezultatul cerut este 61."
+        ],
+        "rule": "Analizează diferențele când termenii nu cresc cu aceeași cantitate.",
+        "trap": "Regula privește diferențele, nu simpla repetare a ultimei creșteri.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "61",
+        "options": [
+          "59",
+          "63",
+          "65",
+          "61"
+        ]
+      },
+      "historical": false,
+      "id": "t19-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Proporționalitate inversă",
+      "prompt": "6 lucrători termină în 30 zile. În câte zile termină 9 lucrători cu același randament, lucrând simultan la aceeași lucrare?",
+      "options": [
+        "45 zile",
+        "22 zile",
+        "20 zile",
+        "30 zile"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Volumul este 6 × 30 = 180 om-zile.",
+          "Cu 9 lucrători: 180 ÷ 9 = 20 zile.",
+          "Verificare: rezultatul cerut este 20 zile."
+        ],
+        "rule": "Pentru aceeași lucrare, numărul lucrătorilor și durata sunt invers proporționale.",
+        "trap": "Mai mulți lucrători reduc durata, în ipoteza randamentului identic.",
+        "alternative": "Metoda om-zile: o zi lucrată de o persoană este o unitate de muncă. Pentru aceeași lucrare, produsul dintre persoane și zile rămâne constant. Întâi calculezi volumul din situația cunoscută, apoi îl împarți la noul număr de lucrători."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "20",
+        "options": [
+          "45",
+          "22",
+          "20",
+          "30"
+        ]
+      },
+      "historical": false,
+      "id": "t19-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Vârste",
+      "prompt": "Acum 21 ani, un copil avea 12 ani, iar părintele de trei ori vârsta lui. Ce vârstă are copilul acum?",
+      "options": [
+        "54",
+        "33",
+        "12",
+        "57"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Copilul avea 12 ani.",
+          "Adaugă timpul scurs: 12 + 21 = 33.",
+          "Verificare: rezultatul cerut este 33."
+        ],
+        "rule": "Vârsta crește cu numărul anilor scurși.",
+        "trap": "Selectează datele relevante; vârsta părintelui nu este cerută.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "33",
+        "options": [
+          "54",
+          "33",
+          "12",
+          "57"
+        ]
+      },
+      "historical": false,
+      "id": "t19-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Creștere procentuală",
+      "prompt": "Numărul participanților crește de la 112 la 140. Care este creșterea procentuală?",
+      "options": [
+        "25 %",
+        "20 %",
+        "30 %",
+        "125 %"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Creșterea absolută: 140 − 112 = 28.",
+          "Raportează la inițial: 28 ÷ 112 × 100 = 25%.",
+          "Verificare: rezultatul cerut este 25 %."
+        ],
+        "rule": "Creșterea procentuală se raportează la valoarea inițială.",
+        "trap": "125% este noul nivel față de inițial, nu creșterea.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "25",
+        "options": [
+          "25",
+          "20",
+          "30",
+          "125"
+        ]
+      },
+      "historical": false,
+      "id": "t19-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Productivitate simultană",
+      "prompt": "A termină singură o lucrare în 22 zile, B în 44 zile. În cât timp o termină împreună, la ritm constant?",
+      "options": [
+        "22 zile",
+        "33 zile",
+        "11 zile",
+        "44/3 zile"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Ritmuri: 1/22 și 1/44 din lucrare pe zi.",
+          "Ritmul comun este 3/44.",
+          "Timpul este inversul ritmului: 44/3 = 44/3 zile.",
+          "Verificare: rezultatul cerut este 44/3 zile."
+        ],
+        "rule": "Adună ritmurile, apoi inversează pentru durata unei lucrări.",
+        "trap": "Nu aduna și nu media duratele individuale.",
+        "alternative": "Metoda unităților: alege ca volum al lucrării durata echipei mai lente, exprimată în unități. Echipa lentă face o unitate pe zi, iar cealaltă două. Împreună fac trei. Împarte volumul ales la trei pentru a afla durata. Această metodă și metoda fracțiilor dau același rezultat."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "44/3",
+        "options": [
+          "22",
+          "33",
+          "11",
+          "44/3"
+        ]
+      },
+      "historical": false,
+      "id": "t19-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Probabilitate simplă",
+      "prompt": "Într-o urnă sunt 22 bile identice ca formă, numerotate distinct. Una singură este roșie. La extragere aleatoare, probabilitatea unei bile roșii este:",
+      "options": [
+        "1/23",
+        "21/22",
+        "1/22",
+        "1/11"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Rezultate favorabile: 1 bilă roșie.",
+          "Rezultate posibile, echiprobabile: 22.",
+          "Probabilitatea: 1/22.",
+          "Verificare: rezultatul cerut este 1/22."
+        ],
+        "rule": "Probabilitate = cazuri favorabile ÷ cazuri posibile echiprobabile.",
+        "trap": "Nu calcula probabilitatea bilelor care nu sunt roșii.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "1/22",
+        "options": [
+          "1/23",
+          "21/22",
+          "1/22",
+          "1/11"
+        ]
+      },
+      "historical": false,
+      "id": "t19-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Totaluri în tabel",
+      "prompt": "Împrumuturi de cărți (clasa A / clasa B):\nLuni: 40 / 34\nMarți: 38 / 43\nMiercuri: 49 / 35\nJoi: 40 / 38\nÎn ce zi este cel mai mare total?",
+      "options": [
+        "Joi",
+        "Luni",
+        "Marți",
+        "Miercuri"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Adună valorile pe fiecare rând.",
+          "Totalurile, în ordinea zilelor, sunt: 74, 81, 84, 78.",
+          "Compară totalurile: maximul este 84.",
+          "Acest total aparține zilei Miercuri."
+        ],
+        "rule": "Compară totaluri corespunzătoare aceleiași unități.",
+        "trap": "Nu alege ziua cu maximul unei singure clase.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "maximum",
+        "values": [
+          74,
+          81,
+          84,
+          78
+        ],
+        "result": 2
+      },
+      "historical": true,
+      "chart": {
+        "title": "Împrumuturi pe zile — clasele A și B împreună",
+        "labels": [
+          "Luni",
+          "Marți",
+          "Miercuri",
+          "Joi"
+        ],
+        "values": [
+          74,
+          81,
+          84,
+          78
+        ]
+      },
+      "id": "t19-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Ordine parțială: variantă posibilă",
+      "prompt": "Daria trebuie înainte de Ana, iar Emil înainte de Daria. Care ordine respectă ambele reguli?",
+      "options": [
+        "Daria → Emil → Ana → Bogdan",
+        "Emil → Daria → Ana → Bogdan",
+        "Bogdan → Ana → Emil → Daria",
+        "Ana → Daria → Emil → Bogdan"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Combină regulile: Emil → Daria → Ana.",
+          "Poziția lui Bogdan nu este restricționată.",
+          "Varianta Emil → Daria → Ana → Bogdan respectă ambele reguli.",
+          "Se cere o ordine posibilă dintre variante, nu ordinea unică a tuturor persoanelor."
+        ],
+        "rule": "Verifică fiecare regulă în fiecare variantă.",
+        "trap": "Nu adăuga o condiție pentru persoana despre care enunțul nu spune nimic.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Numărare de ordini posibile",
+      "prompt": "Daria, Emil și Ana prezintă fiecare o dată. Singura regulă este că Daria trebuie înainte de Emil. Câte ordini sunt posibile?",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "1"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Trei persoane pot fi ordonate în 3 × 2 × 1 = 6 moduri.",
+          "Exact jumătate au Daria înainte de Emil.",
+          "Ordini valide: Daria–Emil–Ana, Daria–Ana–Emil, Ana–Daria–Emil.",
+          "Rezultă 3 ordini."
+        ],
+        "rule": "Enumeră sistematic posibilitățile și elimină-le pe cele care încalcă regula.",
+        "trap": "Nu calcula toate permutările fără să aplici restricția.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Silogism cu excludere",
+      "prompt": "Toți coordonatorii atelierului de biologie sunt profesori. Niciun profesor nu este voluntar în proiectul X. Ce rezultă?",
+      "options": [
+        "Unii coordonatori sunt voluntari în X.",
+        "Toți voluntarii în X sunt coordonatori.",
+        "Niciun coordonator nu este voluntar în proiectul X.",
+        "Toți profesorii sunt coordonatori."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Coordonatori ⊆ profesori.",
+          "Profesorii nu au membri comuni cu voluntarii în X.",
+          "Nici subcategoria coordonatorilor nu poate avea membri comuni cu voluntarii.",
+          "Nu inversa incluziunea: nu toți profesorii trebuie să fie coordonatori."
+        ],
+        "rule": "O excludere a unei categorii se aplică și subcategoriilor ei.",
+        "trap": "Nu deduce existența unor membri dacă premisele nu o garantează.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Ordonare cu vecinătate",
+      "prompt": "Daria prezintă înainte de Emil. Ana prezintă imediat după Emil. Bogdan prezintă înainte de Daria. Care este ordinea celor patru?",
+      "options": [
+        "Bogdan → Emil → Ana → Daria",
+        "Daria → Emil → Ana → Bogdan",
+        "Bogdan → Daria → Ana → Emil",
+        "Bogdan → Daria → Emil → Ana"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Pereche obligatorie consecutivă: Emil → Ana.",
+          "Daria trebuie înaintea perechii.",
+          "Bogdan trebuie înaintea lui Daria.",
+          "Ordinea unică: Bogdan → Daria → Emil → Ana."
+        ],
+        "rule": "Unește întâi blocurile consecutive, apoi aplică relațiile de ordine.",
+        "trap": "Imediat după este mai restrictiv decât undeva după.",
+        "alternative": "Metoda blocurilor: tratează cele două persoane care trebuie să fie consecutive ca pe un singur bloc. Așază celelalte persoane în raport cu blocul, respectând fiecare condiție. La sfârșit, desfă blocul și verifică toate regulile pe ordinea completă."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "unique",
+        "solutions": [
+          [
+            "Bogdan",
+            "Daria",
+            "Emil",
+            "Ana"
+          ]
+        ],
+        "options": [
+          [
+            "Daria",
+            "Emil",
+            "Ana",
+            "Bogdan"
+          ],
+          [
+            "Bogdan",
+            "Daria",
+            "Ana",
+            "Emil"
+          ],
+          [
+            "Bogdan",
+            "Daria",
+            "Emil",
+            "Ana"
+          ],
+          [
+            "Bogdan",
+            "Emil",
+            "Ana",
+            "Daria"
+          ]
+        ],
+        "result": 2
+      },
+      "historical": false,
+      "id": "t19-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Modus ponens",
+      "prompt": "Dacă Daria finalizează cursul, primește certificatul. Daria a finalizat cursul. Ce rezultă?",
+      "options": [
+        "Daria primește certificatul.",
+        "Daria nu primește certificatul.",
+        "Oricine primește certificatul a finalizat acest curs.",
+        "Toți participanții au finalizat cursul."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Regula are forma P → Q.",
+          "Premisa afirmă P: cursul a fost finalizat.",
+          "Aplică regula și obține Q: primește certificatul.",
+          "Nu extinde informația la toți participanții și nu inversa regula."
+        ],
+        "rule": "Din P → Q și P rezultă Q.",
+        "trap": "Concluzia trebuie să se refere la persoana pentru care avem premisa.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unei conjuncții",
+      "prompt": "Care este negarea exactă a enunțului „Daria este prezent și Emil este prezent”?",
+      "options": [
+        "Daria și Emil sunt amândoi absenți.",
+        "Daria este prezent sau Emil este prezent.",
+        "Daria și Emil sunt amândoi prezenți.",
+        "Daria este absent sau Emil este absent, inclusiv posibil amândoi."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Afirmația inițială cere prezența ambelor persoane.",
+          "Este falsă dacă lipsește cel puțin una.",
+          "Lipsa ambelor este posibilă, dar nu este obligatorie.",
+          "Negarea lui P și Q este nu P sau nu Q, cu sau inclusiv."
+        ],
+        "rule": "Legea lui De Morgan: nu(P și Q) = nu P sau nu Q.",
+        "trap": "Negarea nu impune absența ambelor persoane.",
+        "alternative": "Verifică cele patru cazuri: ambii prezenți, doar primul prezent, doar al doilea prezent, ambii absenți. Afirmația inițială este adevărată numai în primul caz. Negarea trebuie să acopere celelalte trei, adică absența cel puțin a unei persoane."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t19-q20"
+    }
+  ]
+}

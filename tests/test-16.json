@@ -1,0 +1,643 @@
+{
+  "id": 16,
+  "title": "Quantificatori și ritmuri",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Fapt și apreciere",
+      "prompt": "Care enunț despre atelierul de voluntariat este o apreciere subiectivă, nu o constatare verificabilă direct?",
+      "options": [
+        "Au participat 27 elevi.",
+        "Atelierul a început la ora 10.",
+        "Activitatea a durat două ore.",
+        "Atelierul a fost cel mai frumos eveniment al anului."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "O constatare poate fi verificată prin numărare, program sau înregistrare.",
+          "Numărul participanților, ora și durata au criterii obiective de verificare.",
+          "Cel mai frumos exprimă o evaluare personală, în absența unor criterii precizate.",
+          "Alege enunțul a cărui apreciere poate diferi de la o persoană la alta."
+        ],
+        "rule": "Distinge datele observabile de judecățile de valoare.",
+        "trap": "Un enunț poate fi sincer fără să fie o constatare obiectivă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t16-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Slăbirea unei generalizări",
+      "prompt": "„Toți elevii care au participat la atelierul de voluntariat au obținut punctaj maxim.” Ce informație contrazice direct afirmația?",
+      "options": [
+        "Un elev absent a obținut punctaj maxim.",
+        "Unii participanți au obținut punctaj maxim.",
+        "Sonia a participat și nu a obținut punctaj maxim.",
+        "Un elev absent nu a obținut punctaj maxim."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Afirmația privește toți participanții.",
+          "Pentru a o contrazice, trebuie un participant care nu îndeplinește rezultatul afirmat.",
+          "Sonia este tocmai un asemenea contraexemplu.",
+          "Rezultatele absenților nu contrazic o regulă despre participanți."
+        ],
+        "rule": "O afirmație universală este respinsă de un singur contraexemplu relevant.",
+        "trap": "Contraexemplul trebuie să aparțină categoriei despre care se vorbește.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t16-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Ordinea ideilor",
+      "prompt": "Aranjează propozițiile într-o succesiune firească:\n1. În final, participanții au prezentat produsele.\n2. Mai întâi, au primit instrucțiunile.\n3. Apoi, au lucrat în echipe la tema de voluntariat.",
+      "options": [
+        "3–2–1",
+        "2–3–1",
+        "1–2–3",
+        "2–1–3"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Identifică marcatorii temporali: mai întâi, apoi, în final.",
+          "Instrucțiunile preced activitatea.",
+          "Lucrul în echipe precedă prezentarea produselor.",
+          "Ordinea este 2, 3, 1."
+        ],
+        "rule": "Marcatorii temporali și relația dintre acțiuni stabilesc succesiunea.",
+        "trap": "Ordinea tipăririi propozițiilor nu este neapărat ordinea evenimentelor.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t16-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Concluzie excesivă",
+      "prompt": "„Doi participanți la atelierul de voluntariat au spus că preferă dimineața. Prin urmare, toți participanții preferă dimineața.” De ce concluzia este insuficient susținută?",
+      "options": [
+        "Preferința a două persoane este extinsă nejustificat la întregul grup.",
+        "Textul dovedește că nimeni nu preferă dimineața.",
+        "Preferințele celor două persoane sunt identice cu programul.",
+        "Concluzia privește numai cele două persoane."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Premisa conține informații despre două persoane.",
+          "Concluzia privește toți participanții.",
+          "Nu avem informații despre preferințele celorlalți.",
+          "Argumentul generalizează dintr-un grup restrâns fără justificare."
+        ],
+        "rule": "Mărimea și reprezentativitatea informației trebuie să susțină amploarea concluziei.",
+        "trap": "Nu confunda doi sau unii cu toți.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t16-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Informație explicită",
+      "prompt": "„Clubul de voluntariat și-a prelungit programul în două zile ale săptămânii. Numărul participanților a crescut. Raportul nu stabilește cauza creșterii.”\nCare afirmație este susținută de text?",
+      "options": [
+        "Programul s-a prelungit în fiecare zi.",
+        "Programul prelungit a provocat creșterea.",
+        "Fiecare participant a venit mai des.",
+        "Numărul participanților a crescut."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Citește cerința: se caută o afirmație susținută de text.",
+          "Textul afirmă direct creșterea numărului de participanți.",
+          "Nu avem o cauză demonstrată și nici informații despre frecvența fiecărei persoane.",
+          "Alege constatarea explicită, fără să o transformi într-o explicație cauzală."
+        ],
+        "rule": "Separă observația de explicația ei.",
+        "trap": "În fiecare zi este mai mult decât în două zile; totalul nu descrie fiecare persoană.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t16-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Analogie: măsură–caracteristică geometrică",
+      "prompt": "În fișa atelierului de voluntariat, completează relația: perimetru : lungime = arie : …",
+      "options": [
+        "masă",
+        "durată",
+        "suprafață",
+        "viteză"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Identifică prima relație: perimetru și lungime sunt legate prin măsură–caracteristică geometrică.",
+          "Păstrează sensul și ordinea aceleiași relații pentru arie.",
+          "Termenul corespunzător este suprafață.",
+          "Verifică ambele perechi: trebuie să aibă aceeași relație, nu doar cuvinte din același domeniu."
+        ],
+        "rule": "La analogii, numește relația înainte de a căuta răspunsul.",
+        "trap": "O asociere tematică nu este suficientă; relația și direcția trebuie păstrate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t16-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Sens în context",
+      "prompt": "În raportul atelierului de voluntariat apare enunțul „Planul este fezabil.”. Ce înseamnă „fezabil”?",
+      "options": [
+        "terminat",
+        "realizabil",
+        "imposibil",
+        "obligatoriu"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Citește enunțul întreg, nu doar cuvântul izolat.",
+          "În acest context, fezabil are sensul realizabil.",
+          "Înlocuiește mental cuvântul cu varianta aleasă.",
+          "Sensul propoziției trebuie să rămână același."
+        ],
+        "rule": "Sinonimul potrivit păstrează sensul contextual.",
+        "trap": "Nu alege un cuvânt doar pentru că are o conotație asemănătoare.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t16-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Media și valoarea lipsă",
+      "prompt": "Trei valori au media 26. Primele două sunt 23 și 26. Care este a treia?",
+      "options": [
+        "29",
+        "26",
+        "32",
+        "78"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Suma celor trei valori: 3 × 26 = 78.",
+          "Suma celor două cunoscute: 23 + 26 = 49.",
+          "Valoarea lipsă: 78 − 49 = 29.",
+          "Verificare: rezultatul cerut este 29."
+        ],
+        "rule": "Din medie și efectiv obții suma, apoi scazi valorile cunoscute.",
+        "trap": "Media nu este automat valoarea lipsă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "29",
+        "options": [
+          "29",
+          "26",
+          "32",
+          "78"
+        ]
+      },
+      "historical": false,
+      "id": "t16-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Pondere complementară",
+      "prompt": "Din 400 de dosare, 70% sunt complete. Câte sunt incomplete?",
+      "options": [
+        "280",
+        "130",
+        "140",
+        "120"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Procentul incompletelor: 100% − 70% = 30%.",
+          "Număr: 400 × 0,30 = 120.",
+          "Verificare: rezultatul cerut este 120."
+        ],
+        "rule": "Folosește complementul dacă se cere categoria rămasă.",
+        "trap": "Nu calcula categoria menționată în enunț când se cere opusul ei.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "120",
+        "options": [
+          "280",
+          "130",
+          "140",
+          "120"
+        ]
+      },
+      "historical": false,
+      "id": "t16-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Procent dintr-o parte",
+      "prompt": "Un buget este de 2500 lei. 40% se alocă materialelor, iar 25% din suma pentru materiale se folosește pentru hârtie. Cât costă hârtia?",
+      "options": [
+        "1000 lei",
+        "270 lei",
+        "250 lei",
+        "625 lei"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Materiale: 2500 × 0,40 = 1000 lei.",
+          "Hârtie: 1000 × 0,25 = 250 lei.",
+          "Verificare: rezultatul cerut este 250 lei."
+        ],
+        "rule": "Citește baza fiecărui procent; al doilea poate viza doar o parte.",
+        "trap": "25% se aplică bugetului pentru materiale, nu bugetului total.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "250",
+        "options": [
+          "1000",
+          "270",
+          "250",
+          "625"
+        ]
+      },
+      "historical": false,
+      "id": "t16-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Perimetru",
+      "prompt": "O sală dreptunghiulară are lungimea 22 m și lățimea 20 m. Care este perimetrul?",
+      "options": [
+        "86 m",
+        "84 m",
+        "440 m",
+        "42 m"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Sunt două laturi de 22 m și două de 20 m.",
+          "Perimetru: 2 × (22 + 20) = 84 m.",
+          "Verificare: rezultatul cerut este 84 m."
+        ],
+        "rule": "Perimetrul este suma lungimilor laturilor.",
+        "trap": "Lungime × lățime reprezintă aria, nu perimetrul.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "84",
+        "options": [
+          "86",
+          "84",
+          "440",
+          "42"
+        ]
+      },
+      "historical": false,
+      "id": "t16-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Tarif pe unitate",
+      "prompt": "Ana parcurge 270 km, iar Bogdan 140 km. Tariful este 0,50 lei/km. Cu câți lei primește Ana mai mult?",
+      "options": [
+        "65 lei",
+        "75 lei",
+        "130 lei",
+        "70 lei"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Diferența de distanță: 270 − 140 = 130 km.",
+          "Diferența de plată: 130 × 0,50 = 65 lei.",
+          "Verificare: rezultatul cerut este 65 lei."
+        ],
+        "rule": "Înmulțește diferența de cantitate cu tariful comun.",
+        "trap": "Kilometrii și leii sunt unități diferite.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "65",
+        "options": [
+          "65",
+          "75",
+          "130",
+          "70"
+        ]
+      },
+      "historical": false,
+      "id": "t16-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Productivitate cu retragere",
+      "prompt": "A termină o lucrare în 36 zile, B în 72 zile. Lucrează împreună 12 zile, apoi A se retrage. Câte zile suplimentare îi trebuie lui B?",
+      "options": [
+        "35 zile",
+        "38 zile",
+        "72 zile",
+        "36 zile"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "A face zilnic 1/36; B face 1/72.",
+          "Împreună: 3/72 din lucrare pe zi.",
+          "În 12 zile fac 1/2 din lucrare.",
+          "B realizează jumătatea rămasă în 72 ÷ 2 = 36 zile.",
+          "Verificare: rezultatul cerut este 36 zile."
+        ],
+        "rule": "Lucrează cu fracții din lucrare pe unitatea de timp.",
+        "trap": "Nu scădea pur și simplu zilele lucrate din durata individuală.",
+        "alternative": "Metoda unei lucrări împărțite în unități: alege drept întreg un număr de unități egal cu durata individuală a echipei mai lente. Aceasta face o unitate pe zi, iar echipa mai rapidă face două. Împreună fac trei unități pe zi. Scade ce au făcut împreună, apoi atribuie restul echipei lente."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "36",
+        "options": [
+          "35",
+          "38",
+          "72",
+          "36"
+        ]
+      },
+      "historical": false,
+      "id": "t16-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Proporționalitate directă",
+      "prompt": "4 dosare identice se verifică în 12 minute. La același ritm, câte minute necesită 19 dosare?",
+      "options": [
+        "63 minute",
+        "66 minute",
+        "57 minute",
+        "60 minute"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Un dosar necesită 12 ÷ 4 = 3 minute.",
+          "19 dosare necesită 19 × 3 = 57 minute.",
+          "Verificare: rezultatul cerut este 57 minute."
+        ],
+        "rule": "La ritm constant, timpul este direct proporțional cu numărul sarcinilor.",
+        "trap": "Nu folosi o proporție inversă când o singură persoană are mai multe sarcini.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "57",
+        "options": [
+          "63",
+          "66",
+          "57",
+          "60"
+        ]
+      },
+      "historical": false,
+      "id": "t16-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Ordonare cu vecinătate",
+      "prompt": "Sonia prezintă înainte de Tudor. Vlad prezintă imediat după Tudor. Daria prezintă înainte de Sonia. Care este ordinea celor patru?",
+      "options": [
+        "Daria → Tudor → Vlad → Sonia",
+        "Sonia → Tudor → Vlad → Daria",
+        "Daria → Sonia → Vlad → Tudor",
+        "Daria → Sonia → Tudor → Vlad"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Pereche obligatorie consecutivă: Tudor → Vlad.",
+          "Sonia trebuie înaintea perechii.",
+          "Daria trebuie înaintea lui Sonia.",
+          "Ordinea unică: Daria → Sonia → Tudor → Vlad."
+        ],
+        "rule": "Unește întâi blocurile consecutive, apoi aplică relațiile de ordine.",
+        "trap": "Imediat după este mai restrictiv decât undeva după.",
+        "alternative": "Metoda blocurilor: tratează cele două persoane care trebuie să fie consecutive ca pe un singur bloc. Așază celelalte persoane în raport cu blocul, respectând fiecare condiție. La sfârșit, desfă blocul și verifică toate regulile pe ordinea completă."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "unique",
+        "solutions": [
+          [
+            "Daria",
+            "Sonia",
+            "Tudor",
+            "Vlad"
+          ]
+        ],
+        "options": [
+          [
+            "Sonia",
+            "Tudor",
+            "Vlad",
+            "Daria"
+          ],
+          [
+            "Daria",
+            "Sonia",
+            "Vlad",
+            "Tudor"
+          ],
+          [
+            "Daria",
+            "Sonia",
+            "Tudor",
+            "Vlad"
+          ],
+          [
+            "Daria",
+            "Tudor",
+            "Vlad",
+            "Sonia"
+          ]
+        ],
+        "result": 2
+      },
+      "historical": false,
+      "id": "t16-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Modus ponens",
+      "prompt": "Dacă Sonia finalizează cursul, primește certificatul. Sonia a finalizat cursul. Ce rezultă?",
+      "options": [
+        "Sonia primește certificatul.",
+        "Sonia nu primește certificatul.",
+        "Oricine primește certificatul a finalizat acest curs.",
+        "Toți participanții au finalizat cursul."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Regula are forma P → Q.",
+          "Premisa afirmă P: cursul a fost finalizat.",
+          "Aplică regula și obține Q: primește certificatul.",
+          "Nu extinde informația la toți participanții și nu inversa regula."
+        ],
+        "rule": "Din P → Q și P rezultă Q.",
+        "trap": "Concluzia trebuie să se refere la persoana pentru care avem premisa.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t16-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unei conjuncții",
+      "prompt": "Care este negarea exactă a enunțului „Sonia este prezent și Tudor este prezent”?",
+      "options": [
+        "Sonia și Tudor sunt amândoi absenți.",
+        "Sonia este prezent sau Tudor este prezent.",
+        "Sonia și Tudor sunt amândoi prezenți.",
+        "Sonia este absent sau Tudor este absent, inclusiv posibil amândoi."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Afirmația inițială cere prezența ambelor persoane.",
+          "Este falsă dacă lipsește cel puțin una.",
+          "Lipsa ambelor este posibilă, dar nu este obligatorie.",
+          "Negarea lui P și Q este nu P sau nu Q, cu sau inclusiv."
+        ],
+        "rule": "Legea lui De Morgan: nu(P și Q) = nu P sau nu Q.",
+        "trap": "Negarea nu impune absența ambelor persoane.",
+        "alternative": "Verifică cele patru cazuri: ambii prezenți, doar primul prezent, doar al doilea prezent, ambii absenți. Afirmația inițială este adevărată numai în primul caz. Negarea trebuie să acopere celelalte trei, adică absența cel puțin a unei persoane."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t16-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Silogism cu existență",
+      "prompt": "Unii participanți la voluntariat sunt profesori. Toți profesorii din acest grup au ecuson. Ce rezultă?",
+      "options": [
+        "Niciun participant nu are ecuson.",
+        "Toți cei cu ecuson sunt profesori.",
+        "Unii participanți au ecuson.",
+        "Toți participanții sunt profesori."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Unii garantează existența a cel puțin unui participant profesor.",
+          "Pentru acea persoană se aplică regula profesor → ecuson.",
+          "Există deci cel puțin un participant cu ecuson.",
+          "Nu extinde concluzia la toți participanții și nu inversa relația."
+        ],
+        "rule": "O existență dintr-o categorie poate fi transmisă către o categorie care o include.",
+        "trap": "Unii nu înseamnă toți.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t16-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Număr minim garantat",
+      "prompt": "În sertarul lui Sonia sunt șosete de 5 culori, multe din fiecare culoare. Extragi fără să vezi. Câte trebuie extrase pentru a garanta 5 șosete de aceeași culoare?",
+      "options": [
+        "26",
+        "20",
+        "21",
+        "22"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "În cel mai nefavorabil caz, extragi 4 din fiecare culoare.",
+          "Astfel poți avea 5 × 4 = 20 șosete fără să atingi pragul.",
+          "Următoarea șosetă ridică una dintre culori la 5.",
+          "Minimul garantat este 21."
+        ],
+        "rule": "Principiul cutiei: depășește maximul posibil fără atingerea pragului.",
+        "trap": "Se cere garanție în cel mai rău caz, nu o posibilitate favorabilă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t16-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Ordine parțială: variantă posibilă",
+      "prompt": "Sonia trebuie înainte de Vlad, iar Tudor înainte de Sonia. Care ordine respectă ambele reguli?",
+      "options": [
+        "Sonia → Tudor → Vlad → Daria",
+        "Tudor → Sonia → Vlad → Daria",
+        "Daria → Vlad → Tudor → Sonia",
+        "Vlad → Sonia → Tudor → Daria"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Combină regulile: Tudor → Sonia → Vlad.",
+          "Poziția lui Daria nu este restricționată.",
+          "Varianta Tudor → Sonia → Vlad → Daria respectă ambele reguli.",
+          "Se cere o ordine posibilă dintre variante, nu ordinea unică a tuturor persoanelor."
+        ],
+        "rule": "Verifică fiecare regulă în fiecare variantă.",
+        "trap": "Nu adăuga o condiție pentru persoana despre care enunțul nu spune nimic.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t16-q20"
+    }
+  ]
+}

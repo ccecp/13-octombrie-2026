@@ -1,0 +1,626 @@
+{
+  "id": 17,
+  "title": "Cauze și restricții",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Cuantificatori în text",
+      "prompt": "„Majoritatea celor 28 elevi înscriși la educație financiară au venit la prima întâlnire.” Care afirmație rezultă sigur?",
+      "options": [
+        "Mai mult de jumătate dintre cei înscriși au venit.",
+        "Toți cei înscriși au venit.",
+        "Exact jumătate dintre cei înscriși au venit.",
+        "Niciun elev înscris nu a lipsit."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Majoritatea înseamnă mai mult de jumătate din grup.",
+          "Termenul nu precizează numărul exact.",
+          "Poate fi vorba despre toți, dar textul nu garantează acest lucru.",
+          "Concluzia sigură păstrează limita minimă exprimată de majoritatea."
+        ],
+        "rule": "Nu transforma majoritatea în toți sau în exact jumătate.",
+        "trap": "O posibilitate nu este o concluzie obligatorie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t17-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Concluzie excesivă",
+      "prompt": "„Doi participanți la atelierul de educație financiară au spus că preferă dimineața. Prin urmare, toți participanții preferă dimineața.” De ce concluzia este insuficient susținută?",
+      "options": [
+        "Textul dovedește că nimeni nu preferă dimineața.",
+        "Preferințele celor două persoane sunt identice cu programul.",
+        "Concluzia privește numai cele două persoane.",
+        "Preferința a două persoane este extinsă nejustificat la întregul grup."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Premisa conține informații despre două persoane.",
+          "Concluzia privește toți participanții.",
+          "Nu avem informații despre preferințele celorlalți.",
+          "Argumentul generalizează dintr-un grup restrâns fără justificare."
+        ],
+        "rule": "Mărimea și reprezentativitatea informației trebuie să susțină amploarea concluziei.",
+        "trap": "Nu confunda doi sau unii cu toți.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t17-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Informație explicită",
+      "prompt": "„Clubul de educație financiară și-a prelungit programul în două zile ale săptămânii. Numărul participanților a crescut. Raportul nu stabilește cauza creșterii.”\nCare afirmație este susținută de text?",
+      "options": [
+        "Programul prelungit a provocat creșterea.",
+        "Fiecare participant a venit mai des.",
+        "Numărul participanților a crescut.",
+        "Programul s-a prelungit în fiecare zi."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Citește cerința: se caută o afirmație susținută de text.",
+          "Textul afirmă direct creșterea numărului de participanți.",
+          "Nu avem o cauză demonstrată și nici informații despre frecvența fiecărei persoane.",
+          "Alege constatarea explicită, fără să o transformi într-o explicație cauzală."
+        ],
+        "rule": "Separă observația de explicația ei.",
+        "trap": "În fiecare zi este mai mult decât în două zile; totalul nu descrie fiecare persoană.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t17-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Analogie: parte de susținere–întreg",
+      "prompt": "În fișa atelierului de educație financiară, completează relația: rădăcină : copac = fundație : …",
+      "options": [
+        "cameră",
+        "clădire",
+        "acoperiș",
+        "fereastră"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Identifică prima relație: rădăcină și copac sunt legate prin parte de susținere–întreg.",
+          "Păstrează sensul și ordinea aceleiași relații pentru fundație.",
+          "Termenul corespunzător este clădire.",
+          "Verifică ambele perechi: trebuie să aibă aceeași relație, nu doar cuvinte din același domeniu."
+        ],
+        "rule": "La analogii, numește relația înainte de a căuta răspunsul.",
+        "trap": "O asociere tematică nu este suficientă; relația și direcția trebuie păstrate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t17-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Sens în context",
+      "prompt": "În raportul atelierului de educație financiară apare enunțul „A propus un criteriu echitabil.”. Ce înseamnă „echitabil”?",
+      "options": [
+        "corect și imparțial",
+        "aleatoriu",
+        "identic în orice situație",
+        "preferențial"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Citește enunțul întreg, nu doar cuvântul izolat.",
+          "În acest context, echitabil are sensul corect și imparțial.",
+          "Înlocuiește mental cuvântul cu varianta aleasă.",
+          "Sensul propoziției trebuie să rămână același."
+        ],
+        "rule": "Sinonimul potrivit păstrează sensul contextual.",
+        "trap": "Nu alege un cuvânt doar pentru că are o conotație asemănătoare.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t17-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Ideea principală",
+      "prompt": "„Pentru clubul de educație financiară, informațiile sunt publicate într-un singur loc. Astfel, participanții găsesc mai ușor programul, iar modificările nu mai circulă în versiuni diferite.” Care este ideea principală?",
+      "options": [
+        "Programul nu se modifică niciodată.",
+        "Participanții nu trebuie să citească informațiile.",
+        "Toate cluburile folosesc aceeași platformă.",
+        "Centralizarea informațiilor facilitează accesul și reduce confuziile."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Caută ideea care leagă cele două propoziții.",
+          "Prima descrie centralizarea; a doua explică avantajele ei.",
+          "Varianta corectă cuprinde atât accesul mai ușor, cât și reducerea confuziilor.",
+          "Celelalte variante introduc afirmații absolute sau informații absente."
+        ],
+        "rule": "Ideea principală acoperă mesajul întregului fragment.",
+        "trap": "Un detaliu inventat nu devine idee principală doar pentru că este plauzibil.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t17-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Sensul unei concesii",
+      "prompt": "„Deși materialele pentru educație financiară au sosit târziu, atelierul a început la ora stabilită.” Ce exprimă relația dintre cele două idei?",
+      "options": [
+        "Materialele au sosit înainte de termen.",
+        "Ora atelierului nu fusese stabilită.",
+        "Atelierul a început la timp în ciuda întârzierii materialelor.",
+        "Atelierul a întârziat din cauza materialelor."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Observă conectorul deși.",
+          "Acesta introduce un obstacol sau o situație contrară așteptării.",
+          "Continuarea spune că rezultatul a fost totuși începutul la timp.",
+          "Nu schimba rezultatul: textul nu afirmă întârzierea atelierului."
+        ],
+        "rule": "Deși exprimă concesie: rezultatul apare în pofida unui obstacol.",
+        "trap": "Nu interpreta o relație concesivă ca una cauzală.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t17-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Productivitate simultană",
+      "prompt": "A termină singură o lucrare în 20 zile, B în 40 zile. În cât timp o termină împreună, la ritm constant?",
+      "options": [
+        "10 zile",
+        "40/3 zile",
+        "20 zile",
+        "30 zile"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Ritmuri: 1/20 și 1/40 din lucrare pe zi.",
+          "Ritmul comun este 3/40.",
+          "Timpul este inversul ritmului: 40/3 = 40/3 zile.",
+          "Verificare: rezultatul cerut este 40/3 zile."
+        ],
+        "rule": "Adună ritmurile, apoi inversează pentru durata unei lucrări.",
+        "trap": "Nu aduna și nu media duratele individuale.",
+        "alternative": "Metoda unităților: alege ca volum al lucrării durata echipei mai lente, exprimată în unități. Echipa lentă face o unitate pe zi, iar cealaltă două. Împreună fac trei. Împarte volumul ales la trei pentru a afla durata. Această metodă și metoda fracțiilor dau același rezultat."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "40/3",
+        "options": [
+          "10",
+          "40/3",
+          "20",
+          "30"
+        ]
+      },
+      "historical": false,
+      "id": "t17-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Probabilitate simplă",
+      "prompt": "Într-o urnă sunt 20 bile identice ca formă, numerotate distinct. Una singură este roșie. La extragere aleatoare, probabilitatea unei bile roșii este:",
+      "options": [
+        "0,05",
+        "0,1",
+        "1/21",
+        "0,95"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Rezultate favorabile: 1 bilă roșie.",
+          "Rezultate posibile, echiprobabile: 20.",
+          "Probabilitatea: 1/20.",
+          "Verificare: rezultatul cerut este 0,05."
+        ],
+        "rule": "Probabilitate = cazuri favorabile ÷ cazuri posibile echiprobabile.",
+        "trap": "Nu calcula probabilitatea bilelor care nu sunt roșii.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "1/20",
+        "options": [
+          "1/20",
+          "1/10",
+          "1/21",
+          "19/20"
+        ]
+      },
+      "historical": false,
+      "id": "t17-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Totaluri în tabel",
+      "prompt": "Împrumuturi de cărți (clasa A / clasa B):\nLuni: 38 / 32\nMarți: 36 / 41\nMiercuri: 47 / 33\nJoi: 38 / 36\nÎn ce zi este cel mai mare total?",
+      "options": [
+        "Marți",
+        "Miercuri",
+        "Joi",
+        "Luni"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Adună valorile pe fiecare rând.",
+          "Totalurile, în ordinea zilelor, sunt: 70, 77, 80, 74.",
+          "Compară totalurile: maximul este 80.",
+          "Acest total aparține zilei Miercuri."
+        ],
+        "rule": "Compară totaluri corespunzătoare aceleiași unități.",
+        "trap": "Nu alege ziua cu maximul unei singure clase.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "maximum",
+        "values": [
+          70,
+          77,
+          80,
+          74
+        ],
+        "result": 2
+      },
+      "historical": true,
+      "chart": {
+        "title": "Împrumuturi pe zile — clasele A și B împreună",
+        "labels": [
+          "Luni",
+          "Marți",
+          "Miercuri",
+          "Joi"
+        ],
+        "values": [
+          70,
+          77,
+          80,
+          74
+        ]
+      },
+      "id": "t17-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Medie ponderată",
+      "prompt": "26 elevi au media 8, iar alți 52 au media 9. Media celor 78 elevi este:",
+      "options": [
+        "8,75",
+        "9",
+        "26/3",
+        "8,5"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Suma valorilor: 26 × 8 + 52 × 9 = 676.",
+          "Împarte la efectivul total: 676 ÷ 78 = 26/3.",
+          "Verificare: rezultatul cerut este 26/3."
+        ],
+        "rule": "Ponderează fiecare medie cu numărul persoanelor.",
+        "trap": "Media simplă 8,5 ar fi valabilă pentru grupuri de aceeași mărime.",
+        "alternative": "Imaginează-ți că ai scris nota fiecărui elev pe câte un bilețel. Media întregului grup este suma tuturor bilețelelor împărțită la numărul lor. Grupul mai numeros contribuie cu mai multe bilețele, deci are o influență mai mare asupra mediei finale."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "26/3",
+        "options": [
+          "35/4",
+          "9",
+          "26/3",
+          "17/2"
+        ]
+      },
+      "historical": false,
+      "id": "t17-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Preț inițial",
+      "prompt": "După o reducere de 20%, prețul este 288 lei. Care a fost prețul inițial?",
+      "options": [
+        "370 lei",
+        "360 lei",
+        "345,6 lei",
+        "308 lei"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Prețul final reprezintă 80% din cel inițial.",
+          "Inițialul: 288 ÷ 0,80 = 360 lei.",
+          "Control: 360 × 0,80 = 288.",
+          "Verificare: rezultatul cerut este 360 lei."
+        ],
+        "rule": "Pentru a recupera întregul, împarte partea la proporția ei.",
+        "trap": "A adăuga 20% prețului final nu anulează reducerea de 20%.",
+        "alternative": "Regula de trei simplă: prețul final corespunde lui 80%, iar prețul inițial lui 100%. Scrie final / 80 = inițial / 100. Prin înmulțire în cruce, inițial = final × 100 / 80. Verifică aplicând din nou reducerea la prețul inițial obținut."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "360",
+        "options": [
+          "370",
+          "360",
+          "1728/5",
+          "308"
+        ]
+      },
+      "historical": false,
+      "id": "t17-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Distanță și conversie de timp",
+      "prompt": "Un vehicul merge cu 72 km/h timp de 1 oră și 30 de minute. Ce distanță parcurge?",
+      "options": [
+        "108 km",
+        "144 km",
+        "102 km",
+        "118 km"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "1 oră și 30 de minute = 1,5 ore.",
+          "Distanța = viteză × timp = 72 × 1,5 = 108 km.",
+          "Verificare: rezultatul cerut este 108 km."
+        ],
+        "rule": "Transformă timpul în aceeași unitate cu cea folosită în viteză.",
+        "trap": "1 h 30 min înseamnă 1,5 h, nu 1,30 h.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "108",
+        "options": [
+          "108",
+          "144",
+          "102",
+          "118"
+        ]
+      },
+      "historical": false,
+      "id": "t17-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Reuniunea a două grupuri",
+      "prompt": "46 elevi aleg engleza, 41 aleg franceza, iar 10 le aleg pe ambele. Câți aleg cel puțin una dintre cele două?",
+      "options": [
+        "87",
+        "67",
+        "82",
+        "77"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Adunarea simplă: 46 + 41 = 87.",
+          "Elevii care aleg ambele limbi sunt numărați de două ori.",
+          "Scade o dată intersecția: 87 − 10 = 77.",
+          "Verificare: rezultatul cerut este 77."
+        ],
+        "rule": "Reuniune = primul grup + al doilea − intersecție.",
+        "trap": "Cel puțin una îi include și pe cei care aleg ambele.",
+        "alternative": "Metoda mulțimilor: imaginează două cercuri care se suprapun. Zona comună este inclusă în fiecare cerc. Când aduni efectivele, o numeri de două ori. Scazi intersecția o singură dată pentru a rămâne cu fiecare persoană numărată exact o dată."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "77",
+        "options": [
+          "87",
+          "67",
+          "82",
+          "77"
+        ]
+      },
+      "historical": false,
+      "id": "t17-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Disjuncție exclusivă",
+      "prompt": "Tudor participă fie la atelierul de educație financiară, fie la cel de teatru, dar nu la ambele. Nu participă la teatru. Ce rezultă?",
+      "options": [
+        "Participă la ambele ateliere.",
+        "Informația nu permite nicio concluzie.",
+        "Participă la atelierul de educație financiară.",
+        "Nu participă la niciun atelier."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Enunțul cere participarea la exact unul dintre două ateliere.",
+          "Varianta teatru este eliminată.",
+          "Rămâne cealaltă variantă, care trebuie să fie adevărată.",
+          "Absența de la ambele ar încălca regula inițială."
+        ],
+        "rule": "Dacă exact una dintre două alternative este adevărată, negarea uneia impune cealaltă.",
+        "trap": "Fie… fie, dar nu ambele este exclusiv, nu facultativ.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t17-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unei implicații",
+      "prompt": "Care situație face falsă regula „Dacă Tudor este înscris, atunci primește materialele”?",
+      "options": [
+        "Este înscris și primește materialele.",
+        "Este înscris și nu primește materialele.",
+        "Nu este înscris și primește materialele.",
+        "Nu este înscris și nu primește materialele."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Regula promite materiale în cazul înscrierii.",
+          "Este încălcată numai când înscrierea există, dar materialele lipsesc.",
+          "Dacă înscrierea lipsește, regula nu decide distribuirea materialelor.",
+          "Situația falsificatoare are forma P și nu Q."
+        ],
+        "rule": "O implicație este falsă când antecedentul este adevărat și consecventul fals.",
+        "trap": "Regula nu spune numai cei înscriși primesc materiale.",
+        "alternative": "Tabelul de adevăr are patru cazuri pentru P și Q. P adevărat și Q adevărat respectă regula; P fals și Q adevărat nu o încalcă; P fals și Q fals nu o încalcă. Numai P adevărat și Q fals o încalcă. Acesta este cazul căutat."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t17-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Exact unul adevărat",
+      "prompt": "Despre locul lui Tudor în clasament, două afirmații sunt: 1. „Este pe locul 1.” 2. „Este pe locul 1 sau 2.” Exact una este adevărată. Pe ce loc este?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Nu se poate determina"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Dacă ar fi pe 1, ambele afirmații ar fi adevărate.",
+          "Dacă ar fi pe 2, prima ar fi falsă și a doua adevărată.",
+          "Pe orice alt loc, ambele ar fi false.",
+          "Singura posibilitate cu exact o afirmație adevărată este locul 2."
+        ],
+        "rule": "Testează variantele și numără valorile de adevăr.",
+        "trap": "Exact una elimină atât cazul cu zero, cât și cazul cu două afirmații adevărate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "truth-position",
+        "result": 2
+      },
+      "historical": false,
+      "id": "t17-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Relație tranzitivă",
+      "prompt": "Tudor este mai înalt decât Vlad. Vlad este mai înalt decât Daria. Emil este mai scund decât Daria. Cine este cel mai înalt?",
+      "options": [
+        "Vlad",
+        "Daria",
+        "Emil",
+        "Tudor"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Prima regulă: Tudor > Vlad.",
+          "A doua: Vlad > Daria.",
+          "A treia: Daria > Emil.",
+          "Lanțul este Tudor > Vlad > Daria > Emil."
+        ],
+        "rule": "Transformă comparațiile într-un lanț orientat.",
+        "trap": "Mai scund decât inversează ordinea față de mai înalt decât.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t17-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Condiție necesară",
+      "prompt": "Accesul lui Tudor este permis numai dacă are legitimație. Accesul i-a fost permis. Ce rezultă?",
+      "options": [
+        "Oricine are legitimație primește acces.",
+        "Legitimația este singura condiție posibilă.",
+        "Are legitimație.",
+        "Nu are legitimație."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Numai dacă introduce o condiție necesară.",
+          "Acces permis → legitimație.",
+          "Premisa confirmă accesul permis.",
+          "Aplică regula și deduci legitimația; nu deduci că legitimația singură garantează accesul."
+        ],
+        "rule": "În P numai dacă Q, direcția este P → Q.",
+        "trap": "Necesar nu înseamnă suficient.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t17-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Bicondițional",
+      "prompt": "Tudor primește ecuson dacă și numai dacă este înscris. Nu a primit ecuson. Ce rezultă?",
+      "options": [
+        "Toți cei înscriși nu primesc ecuson.",
+        "Nu este înscris.",
+        "Este înscris.",
+        "Nu se poate determina înscrierea."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Dacă și numai dacă exprimă două reguli: înscris → ecuson și ecuson → înscris.",
+          "Pentru prima regulă avem lipsa consecventului: nu ecuson.",
+          "Prin modus tollens rezultă nu înscris.",
+          "Concluzia privește persoana dată, nu întregul grup."
+        ],
+        "rule": "Bicondiționalul permite ambele direcții ale relației.",
+        "trap": "Nu trata dacă și numai dacă drept o simplă asociere posibilă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t17-q20"
+    }
+  ]
+}

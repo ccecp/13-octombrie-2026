@@ -1,0 +1,657 @@
+{
+  "id": 1,
+  "title": "Reperele de bază",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Informație explicită",
+      "prompt": "„În semestrul al doilea, biblioteca a prelungit programul în două zile ale săptămânii. Numărul împrumuturilor a crescut față de semestrul întâi. Raportul nu stabilește cauza acestei creșteri.”\nCare afirmație este susținută de text?",
+      "options": [
+        "Creșterea împrumuturilor a fost provocată de programul prelungit.",
+        "Programul bibliotecii a fost prelungit în fiecare zi.",
+        "În semestrul al doilea au fost mai multe împrumuturi.",
+        "Toți elevii au împrumutat mai multe cărți."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Se cere o informație susținută de text, nu o presupunere.",
+          "Textul spune explicit că numărul împrumuturilor a crescut.",
+          "Raportul nu stabilește cauza, deci nu putem atribui creșterea programului prelungit.",
+          "Creșterea totalului nu arată că fiecare elev a împrumutat mai mult; două zile nu înseamnă fiecare zi."
+        ],
+        "rule": "Caută dovada exactă în text.",
+        "trap": "Nu transforma asocierea în cauză și totalul în proprietatea fiecărui elev.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t01-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Informație absentă",
+      "prompt": "„Atelierul de lectură este opțional. Toți elevii înscriși au primit materialele. Unii dintre ei au participat și la întâlnirea de vineri.”\nCare afirmație NU poate fi stabilită din text?",
+      "options": [
+        "Maria a participat la întâlnirea de vineri.",
+        "Participarea la atelier este opțională.",
+        "Cel puțin un elev înscris a participat vineri.",
+        "Elevii înscriși au primit materialele."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Observă NU: se caută o informație pe care nu o avem.",
+          "Prima și a treia variantă sunt exprimate direct în text.",
+          "Unii implică existența cel puțin a unui participant vineri.",
+          "Maria nu este menționată. Nu putem decide dacă a participat sau nu."
+        ],
+        "rule": "Informația absentă nu este automat falsă.",
+        "trap": "Nu alege o afirmație explicită atunci când cerința solicită ce NU se poate stabili.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t01-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Analogie: loc–conținut",
+      "prompt": "Completează relația: Bibliotecă : cărți = arhivă : …",
+      "options": [
+        "rafturi",
+        "secretari",
+        "documente",
+        "cititori"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Identifică prima relație: bibliotecă și cărți sunt legate prin loc–conținut.",
+          "Păstrează sensul și ordinea aceleiași relații pentru arhivă.",
+          "Termenul corespunzător este documente.",
+          "Verifică ambele perechi: trebuie să aibă aceeași relație, nu doar cuvinte din același domeniu."
+        ],
+        "rule": "La analogii, numește relația înainte de a căuta răspunsul.",
+        "trap": "O asociere tematică nu este suficientă; relația și direcția trebuie păstrate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t01-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Analogie: instrument–mărime măsurată",
+      "prompt": "Completează relația: Termometru : temperatură = cronometru : …",
+      "options": [
+        "viteză",
+        "timp",
+        "distanță",
+        "presiune"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Identifică prima relație: termometru și temperatură sunt legate prin instrument–mărime măsurată.",
+          "Păstrează sensul și ordinea aceleiași relații pentru cronometru.",
+          "Termenul corespunzător este timp.",
+          "Verifică ambele perechi: trebuie să aibă aceeași relație, nu doar cuvinte din același domeniu."
+        ],
+        "rule": "La analogii, numește relația înainte de a căuta răspunsul.",
+        "trap": "O asociere tematică nu este suficientă; relația și direcția trebuie păstrate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t01-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Categorie comună",
+      "prompt": "Din lista „autobuz, caiet, tramvai, creion, bibliotecă, profesor”, care pereche este formată din două mijloace de transport?",
+      "options": [
+        "Autobuz și tramvai",
+        "Bibliotecă și profesor",
+        "Caiet și creion",
+        "Tramvai și bibliotecă"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Se cere o categorie precisă: mijloace de transport.",
+          "Autobuzul și tramvaiul transportă persoane.",
+          "Caietul și creionul au o categorie comună, dar sunt rechizite.",
+          "În celelalte perechi nu există două mijloace de transport."
+        ],
+        "rule": "Categoria cerută trebuie să includă ambii termeni.",
+        "trap": "O pereche cu o altă categorie comună nu răspunde cerinței.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t01-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Sens în context",
+      "prompt": "În enunțul „Datele preliminare vor fi verificate înaintea raportului final”, cuvântul „preliminare” înseamnă:",
+      "options": [
+        "definitive",
+        "eronate",
+        "irelevante",
+        "inițiale"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Citește enunțul întreg, nu doar cuvântul izolat.",
+          "În acest context, preliminare are sensul inițiale.",
+          "Înlocuiește mental cuvântul cu varianta aleasă.",
+          "Sensul propoziției trebuie să rămână același."
+        ],
+        "rule": "Sinonimul potrivit păstrează sensul contextual.",
+        "trap": "Nu alege un cuvânt doar pentru că are o conotație asemănătoare.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t01-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Corelație și cauzalitate",
+      "prompt": "„Participanții la clubul de lectură au avut rezultate mai bune. Așadar, clubul a produs rezultatele mai bune.” Care este problema argumentului?",
+      "options": [
+        "Concluzia afirmă că rezultatele sunt identice.",
+        "Argumentul compară elevii cu profesorii.",
+        "O asociere este tratată ca dovadă suficientă a cauzei.",
+        "Premisa spune că nu există participanți."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Premisa constată o asociere între participare și rezultate.",
+          "Concluzia adaugă o relație de cauzalitate.",
+          "Pot exista alte explicații: pregătire inițială, motivație sau sprijin suplimentar.",
+          "Prin urmare, asocierea singură nu demonstrează că participarea a produs diferența."
+        ],
+        "rule": "O corelație nu demonstrează singură o cauză.",
+        "trap": "Nu introduce în premisă informații care apar numai în concluzie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t01-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Totaluri în tabel",
+      "prompt": "Cărți împrumutate (clasa A / clasa B):\nLuni: 24 / 18\nMarți: 19 / 27\nMiercuri: 31 / 16\nJoi: 22 / 20\nÎn ce zi este cel mai mare total?",
+      "options": [
+        "Joi",
+        "Luni",
+        "Marți",
+        "Miercuri"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Luni: 24 + 18 = 42.",
+          "Marți: 19 + 27 = 46.",
+          "Miercuri: 31 + 16 = 47. Joi: 22 + 20 = 42.",
+          "Maximul este 47, corespunzător zilei de miercuri."
+        ],
+        "rule": "Calculează totalurile pe rânduri, apoi compară.",
+        "trap": "Nu compara doar una dintre clase.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "maximum",
+        "values": [
+          42,
+          46,
+          47,
+          42
+        ],
+        "result": 2
+      },
+      "historical": true,
+      "id": "t01-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Tarif pe unitate",
+      "prompt": "Distanțe parcurse:\nLuni: Ana — 120 km; Bogdan — 80 km.\nMarți: Ana — 150 km; Bogdan — 110 km.\nFiecare primește 0,50 lei/km. Cu câți lei este mai mare suma totală primită de Ana?",
+      "options": [
+        "40 lei",
+        "20 lei",
+        "30 lei",
+        "80 lei"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Ana: 120 + 150 = 270 km.",
+          "Bogdan: 80 + 110 = 190 km.",
+          "Diferența: 270 − 190 = 80 km.",
+          "Diferența de plată: 80 × 0,50 = 40 lei.",
+          "Verificare: rezultatul cerut este 40 lei."
+        ],
+        "rule": "Adună ambele zile pentru fiecare persoană, apoi aplică tariful.",
+        "trap": "20 lei este diferența unei singure zile; 80 este diferența în kilometri.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "40",
+        "options": [
+          "40",
+          "20",
+          "30",
+          "80"
+        ]
+      },
+      "historical": false,
+      "id": "t01-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Procente succesive",
+      "prompt": "Un produs de 200 lei se scumpește cu 10%, apoi noul preț scade cu 10%. Prețul final este:",
+      "options": [
+        "200 lei",
+        "180 lei",
+        "202 lei",
+        "198 lei"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Creșterea: 200 × 1,10 = 220 lei.",
+          "Reducerea se aplică noului preț: 220 × 0,90 = 198 lei.",
+          "Verificare: rezultatul cerut este 198 lei."
+        ],
+        "rule": "La procente succesive, înmulțește factorii de modificare.",
+        "trap": "+10% și −10% nu se anulează: bazele sunt diferite.",
+        "alternative": "Poți gândi în factori: o creștere de 10% înseamnă înmulțire cu 1,10, iar o reducere de 10% înseamnă înmulțire cu 0,90. Produsul lor este 0,99. Așadar, prețul final este 99% din prețul inițial, adică o scădere totală de 1%."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "198",
+        "options": [
+          "200",
+          "180",
+          "202",
+          "198"
+        ]
+      },
+      "historical": false,
+      "id": "t01-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Raport parte–parte",
+      "prompt": "Într-un grup de 30 elevi, raportul fete : băieți este 3 : 2. Câte fete sunt?",
+      "options": [
+        "20",
+        "23",
+        "18",
+        "12"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Raportul are 3 + 2 = 5 părți.",
+          "O parte: 30 ÷ 5 = 6.",
+          "Fetele: 3 × 6 = 18.",
+          "Verificare: rezultatul cerut este 18."
+        ],
+        "rule": "Adună părțile raportului înainte să calculezi o parte.",
+        "trap": "3 : 2 nu înseamnă că fetele sunt 3/2 din întreg.",
+        "alternative": "Metoda segmentelor: desenează mental trei segmente egale pentru fete și două pentru băieți. Întregul conține cinci segmente. Împarte numărul total de elevi la cinci și ia trei asemenea părți pentru fete. Controlul se face adunând fetele și băieții și verificând raportul."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "18",
+        "options": [
+          "20",
+          "23",
+          "18",
+          "12"
+        ]
+      },
+      "historical": false,
+      "id": "t01-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Medie ponderată",
+      "prompt": "10 elevi au media 8, iar alți 20 au media 9. Media celor 30 elevi este:",
+      "options": [
+        "9",
+        "26/3",
+        "8,5",
+        "8,75"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Suma valorilor: 10 × 8 + 20 × 9 = 260.",
+          "Împarte la efectivul total: 260 ÷ 30 = 26/3.",
+          "Verificare: rezultatul cerut este 26/3."
+        ],
+        "rule": "Ponderează fiecare medie cu numărul persoanelor.",
+        "trap": "Media simplă 8,5 ar fi valabilă pentru grupuri de aceeași mărime.",
+        "alternative": "Imaginează-ți că ai scris nota fiecărui elev pe câte un bilețel. Media întregului grup este suma tuturor bilețelelor împărțită la numărul lor. Grupul mai numeros contribuie cu mai multe bilețele, deci are o influență mai mare asupra mediei finale."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "26/3",
+        "options": [
+          "9",
+          "26/3",
+          "17/2",
+          "35/4"
+        ]
+      },
+      "historical": false,
+      "id": "t01-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Productivitate cu retragere",
+      "prompt": "A termină o lucrare în 6 zile, B în 12 zile. Lucrează împreună 2 zile, apoi A se retrage. Câte zile suplimentare îi trebuie lui B?",
+      "options": [
+        "6 zile",
+        "5 zile",
+        "8 zile",
+        "12 zile"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "A face zilnic 1/6; B face 1/12.",
+          "Împreună: 3/12 din lucrare pe zi.",
+          "În 2 zile fac 1/2 din lucrare.",
+          "B realizează jumătatea rămasă în 12 ÷ 2 = 6 zile.",
+          "Verificare: rezultatul cerut este 6 zile."
+        ],
+        "rule": "Lucrează cu fracții din lucrare pe unitatea de timp.",
+        "trap": "Nu scădea pur și simplu zilele lucrate din durata individuală.",
+        "alternative": "Metoda unei lucrări împărțite în unități: alege drept întreg un număr de unități egal cu durata individuală a echipei mai lente. Aceasta face o unitate pe zi, iar echipa mai rapidă face două. Împreună fac trei unități pe zi. Scade ce au făcut împreună, apoi atribuie restul echipei lente."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "6",
+        "options": [
+          "6",
+          "5",
+          "8",
+          "12"
+        ]
+      },
+      "historical": false,
+      "id": "t01-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Șir cu diferențe crescătoare",
+      "prompt": "Diferențele cresc cu 2. Completează: 3, 7, 13, 21, 31, …",
+      "options": [
+        "41",
+        "45",
+        "47",
+        "43"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Calculează diferențele: 4, 6, 8, 10.",
+          "Următoarea diferență este 12.",
+          "Următorul termen: 31 + 12 = 43.",
+          "Verificare: rezultatul cerut este 43."
+        ],
+        "rule": "Analizează diferențele când termenii nu cresc cu aceeași cantitate.",
+        "trap": "Regula privește diferențele, nu simpla repetare a ultimei creșteri.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "43",
+        "options": [
+          "41",
+          "45",
+          "47",
+          "43"
+        ]
+      },
+      "historical": false,
+      "id": "t01-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Silogism cu excludere",
+      "prompt": "Toți coordonatorii atelierului de lectură sunt profesori. Niciun profesor nu este voluntar în proiectul X. Ce rezultă?",
+      "options": [
+        "Unii coordonatori sunt voluntari în X.",
+        "Toți voluntarii în X sunt coordonatori.",
+        "Niciun coordonator nu este voluntar în proiectul X.",
+        "Toți profesorii sunt coordonatori."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Coordonatori ⊆ profesori.",
+          "Profesorii nu au membri comuni cu voluntarii în X.",
+          "Nici subcategoria coordonatorilor nu poate avea membri comuni cu voluntarii.",
+          "Nu inversa incluziunea: nu toți profesorii trebuie să fie coordonatori."
+        ],
+        "rule": "O excludere a unei categorii se aplică și subcategoriilor ei.",
+        "trap": "Nu deduce existența unor membri dacă premisele nu o garantează.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t01-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Modus tollens",
+      "prompt": "Dacă dosarul lui Radu este aprobat, atunci este complet. Dosarul lui Radu nu este complet. Ce rezultă obligatoriu?",
+      "options": [
+        "Dosarul este complet.",
+        "Dosarul nu este aprobat.",
+        "Dosarul este aprobat.",
+        "Dosarul va fi completat mâine."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Notează P = aprobat și Q = complet.",
+          "Regula este P → Q.",
+          "Avem nu Q. Dacă ar exista P, ar trebui Q, ceea ce contrazice informația.",
+          "Rezultă nu P: dosarul nu este aprobat."
+        ],
+        "rule": "Din P → Q și nu Q rezultă nu P.",
+        "trap": "Nu confunda această deducție cu inversarea condiției.",
+        "alternative": "Gândește prin contradicție: presupune că dosarul ar fi aprobat. Regula ar impune să fie complet. Dar știm că este incomplet. Presupunerea duce la o contradicție, deci aprobarea nu poate fi adevărată."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t01-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unui cuantificator",
+      "prompt": "Care este negarea exactă a afirmației „Toți evaluatorii au verificat cel puțin un dosar”?",
+      "options": [
+        "Cel puțin un evaluator nu a verificat niciun dosar.",
+        "Niciun evaluator nu a verificat niciun dosar.",
+        "Toți evaluatorii au verificat exact un dosar.",
+        "Cel puțin un evaluator a verificat toate dosarele."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Structura este: pentru fiecare evaluator există un dosar verificat.",
+          "Negarea lui pentru fiecare este există cel puțin unul.",
+          "Pentru acel evaluator negăm existența unui dosar verificat: nu există niciunul.",
+          "Rezultă un evaluator care nu a verificat niciun dosar; nu trebuie să fie toți."
+        ],
+        "rule": "La negare, schimbă toți în cel puțin unul și neagă proprietatea.",
+        "trap": "Niciun evaluator este o afirmație mai puternică decât negarea exactă.",
+        "alternative": "Poți testa afirmația cu un contraexemplu. Pentru a respinge „toți au verificat măcar un dosar”, ai nevoie de un singur evaluator care nu a verificat niciunul. Nu ai nevoie ca întregul grup să fi procedat astfel. Negarea exactă este minimul logic care face afirmația inițială falsă."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t01-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Ordonare cu vecinătate",
+      "prompt": "Ana prezintă înainte de Bogdan. Carmen prezintă imediat după Bogdan. Dan prezintă înainte de Ana. Care este ordinea celor patru?",
+      "options": [
+        "Dan → Ana → Carmen → Bogdan",
+        "Dan → Ana → Bogdan → Carmen",
+        "Dan → Bogdan → Carmen → Ana",
+        "Ana → Bogdan → Carmen → Dan"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Pereche obligatorie consecutivă: Bogdan → Carmen.",
+          "Ana trebuie înaintea perechii.",
+          "Dan trebuie înaintea lui Ana.",
+          "Ordinea unică: Dan → Ana → Bogdan → Carmen."
+        ],
+        "rule": "Unește întâi blocurile consecutive, apoi aplică relațiile de ordine.",
+        "trap": "Imediat după este mai restrictiv decât undeva după.",
+        "alternative": "Metoda blocurilor: tratează cele două persoane care trebuie să fie consecutive ca pe un singur bloc. Așază celelalte persoane în raport cu blocul, respectând fiecare condiție. La sfârșit, desfă blocul și verifică toate regulile pe ordinea completă."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "unique",
+        "solutions": [
+          [
+            "Dan",
+            "Ana",
+            "Bogdan",
+            "Carmen"
+          ]
+        ],
+        "options": [
+          [
+            "Ana",
+            "Bogdan",
+            "Carmen",
+            "Dan"
+          ],
+          [
+            "Dan",
+            "Ana",
+            "Carmen",
+            "Bogdan"
+          ],
+          [
+            "Dan",
+            "Ana",
+            "Bogdan",
+            "Carmen"
+          ],
+          [
+            "Dan",
+            "Bogdan",
+            "Carmen",
+            "Ana"
+          ]
+        ],
+        "result": 2
+      },
+      "historical": false,
+      "id": "t01-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Repartizare imposibilă",
+      "prompt": "Ana, Bogdan, Carmen și Dan formează două echipe de câte două persoane. Ana nu poate fi cu Bogdan, iar Carmen trebuie să fie cu Dan. Ce rezultă?",
+      "options": [
+        "Bogdan trebuie să fie cu Dan.",
+        "Există două repartizări valide.",
+        "Nu există o repartizare care respectă toate condițiile.",
+        "Ana trebuie să fie cu Carmen."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Carmen și Dan ocupă complet prima echipă.",
+          "Rămân numai Ana și Bogdan pentru a doua.",
+          "Dar asocierea Ana–Bogdan este interzisă.",
+          "Cele două condiții, împreună cu mărimea echipelor, sunt incompatibile."
+        ],
+        "rule": "Aplică întâi perechea obligatorie și examinează persoanele rămase.",
+        "trap": "Nu rezolva o condiție ignorând-o pe cealaltă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t01-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Bloc de simboluri repetat",
+      "prompt": "Blocul ○, △, △, □ se repetă identic. Ce simbol se află pe poziția 14?",
+      "options": [
+        "Nu se poate determina",
+        "○",
+        "△",
+        "□"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Blocul conține 4 poziții.",
+          "Împarte 14 la 4; restul este 2.",
+          "Resturile 1, 2, 3 desemnează pozițiile respective; restul 0 desemnează poziția 4.",
+          "Simbolul cerut este △."
+        ],
+        "rule": "Folosește restul împărțirii la lungimea blocului.",
+        "trap": "La rest 0, poziția este ultima din bloc, nu prima.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "symbol",
+        "block": [
+          "○",
+          "△",
+          "△",
+          "□"
+        ],
+        "position": 14,
+        "result": "△"
+      },
+      "historical": false,
+      "id": "t01-q20"
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "id": 13,
+  "title": "Argumente și contraexemple",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Comparație și concluzie",
+      "prompt": "„Atelierul de arte digitale are mai mulți înscriși decât clubul de teatru. Clubul de teatru are mai mulți înscriși decât clubul de șah.” Ce rezultă?",
+      "options": [
+        "Atelierul de arte digitale are mai mulți înscriși decât clubul de șah.",
+        "Clubul de șah are mai mulți înscriși decât clubul de teatru.",
+        "Cele trei grupuri au același număr de înscriși.",
+        "Clubul de teatru are cei mai mulți înscriși."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Notează A > B pentru prima comparație.",
+          "Notează B > C pentru a doua.",
+          "Prin tranzitivitate, A > C.",
+          "Nu știm numerele exacte, dar știm ordinea celor trei efective."
+        ],
+        "rule": "Relația mai mare decât se transmite printr-un lanț de comparații.",
+        "trap": "Nu ai nevoie de numere concrete pentru a compara extremitățile lanțului.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t13-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Conector de cauză",
+      "prompt": "„Atelierul de arte digitale a fost mutat în interior deoarece ploua.” Ce relație exprimă „deoarece”?",
+      "options": [
+        "Comparație",
+        "Concesie",
+        "Succesiune fără cauză",
+        "Cauză"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Identifică evenimentul: mutarea în interior.",
+          "Identifică explicația: ploaia.",
+          "Deoarece introduce motivul mutării.",
+          "Nu exprimă o comparație sau un rezultat în pofida unui obstacol."
+        ],
+        "rule": "Conectorii indică relația dintre idei.",
+        "trap": "Nu interpreta toți conectorii ca simple semne de ordine temporală.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t13-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Informație absentă",
+      "prompt": "„Atelierul de arte digitale este opțional. Toți cei înscriși au primit materialele. Unii au participat vineri.”\nCare afirmație NU poate fi stabilită din text?",
+      "options": [
+        "Atelierul este opțional.",
+        "Cel puțin un participant înscris a venit vineri.",
+        "Toți cei înscriși au primit materialele.",
+        "Oana a participat vineri."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Observă cuvântul NU: căutăm o informație absentă.",
+          "Textul nu menționează persoana Oana.",
+          "Nu putem transforma o informație despre unii participanți într-o informație despre o persoană precisă.",
+          "Celelalte variante reproduc informații explicite sau sensul lui unii."
+        ],
+        "rule": "Lipsa informației nu dovedește nici adevărul, nici falsitatea unei afirmații.",
+        "trap": "A alege o afirmație adevărată când se cere ce NU se poate stabili inversează cerința.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t13-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Categorie comună",
+      "prompt": "Pe fișa lui Oana, ce categorie comună, suficient de precisă, include atât „triunghi”, cât și „pătrat”?",
+      "options": [
+        "forme de comunicare verbală",
+        "figuri geometrice plane",
+        "obiecte sau concepte fără categorie comună",
+        "unități de timp"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Analizează separat sensul lui triunghi și al lui pătrat.",
+          "Ambele se încadrează în categoria figuri geometrice plane.",
+          "Categoria trebuie să fie valabilă pentru ambii termeni.",
+          "Respinge o categorie care descrie numai un termen sau un domeniu diferit."
+        ],
+        "rule": "Clasifică pe baza trăsăturilor esențiale comune.",
+        "trap": "Nu confunda asemănările accidentale cu apartenența la aceeași categorie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t13-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Corelație și cauzalitate",
+      "prompt": "„Participanții la clubul de arte digitale au avut rezultate mai bune. Așadar, clubul a produs rezultatele mai bune.” Care este problema argumentului?",
+      "options": [
+        "O asociere este tratată ca dovadă suficientă a cauzei.",
+        "Premisa spune că nu există participanți.",
+        "Concluzia afirmă că rezultatele sunt identice.",
+        "Argumentul compară elevii cu profesorii."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Premisa constată o asociere între participare și rezultate.",
+          "Concluzia adaugă o relație de cauzalitate.",
+          "Pot exista alte explicații: pregătire inițială, motivație sau sprijin suplimentar.",
+          "Prin urmare, asocierea singură nu demonstrează că participarea a produs diferența."
+        ],
+        "rule": "O corelație nu demonstrează singură o cauză.",
+        "trap": "Nu introduce în premisă informații care apar numai în concluzie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t13-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Rezumat fidel",
+      "prompt": "„La atelierul de arte digitale, înscrierea se face până joi. Dacă rămân locuri libere, se acceptă înscrieri și vineri.” Care rezumat păstrează exact informația?",
+      "options": [
+        "Înscrierile sunt obligatoriu doar vineri.",
+        "Oricine se poate înscrie vineri, indiferent de locuri.",
+        "Joi nu se acceptă înscrieri.",
+        "Înscrierile sunt până joi, cu posibilă prelungire vineri dacă există locuri."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Identifică regula generală: înscriere până joi.",
+          "Identifică excepția: vineri numai dacă rămân locuri.",
+          "Un rezumat fidel păstrează regula și condiția excepției.",
+          "Respinge rezumatele care elimină condiția sau inversează termenul."
+        ],
+        "rule": "La rezumat, păstrează condițiile și limitele afirmației.",
+        "trap": "Eliminarea expresiei dacă există locuri schimbă mesajul.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t13-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Sensul unei restricții",
+      "prompt": "„La sesiunea de arte digitale sunt admiși numai elevii înscriși.” Ce reformulare păstrează sensul?",
+      "options": [
+        "Niciun elev înscris nu este admis.",
+        "Toți elevii școlii sunt admiși.",
+        "Orice elev admis este înscris.",
+        "Orice elev înscris este neapărat admis."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Cuvântul numai limitează categoria celor admiși.",
+          "Înscrierea este o condiție necesară pentru admitere.",
+          "Din faptul că cineva este admis rezultă că este înscris.",
+          "Nu rezultă automat că înscrierea garantează admiterea."
+        ],
+        "rule": "Numai introduce o condiție necesară.",
+        "trap": "Nu inversa sensul relației dintre înscriere și admitere.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t13-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Fracție și rest",
+      "prompt": "Din 170 de cărți, 1/2 sunt romane și 3/10 sunt poezie. Restul sunt eseuri. Câte eseuri sunt?",
+      "options": [
+        "39",
+        "34",
+        "85",
+        "51"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Partea ocupată: 1/2 + 3/10 = 8/10.",
+          "Restul: 1 − 8/10 = 2/10 = 1/5.",
+          "Număr eseuri: 170 ÷ 5 = 34.",
+          "Verificare: rezultatul cerut este 34."
+        ],
+        "rule": "Adună fracțiile folosind un numitor comun, apoi calculează restul.",
+        "trap": "Fracțiile au aceeași bază: totalul cărților.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "34",
+        "options": [
+          "39",
+          "34",
+          "85",
+          "51"
+        ]
+      },
+      "historical": false,
+      "id": "t13-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Împărțire cu rotunjire în sus",
+      "prompt": "24 persoane sunt transportate în vehicule cu câte 5 locuri disponibile. Care este numărul minim de vehicule?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Împarte 24 la 5.",
+          "4 vehicule oferă numai 20 locuri, insuficiente.",
+          "5 vehicule oferă 25 locuri, suficiente.",
+          "Verificare: rezultatul cerut este 5."
+        ],
+        "rule": "Când restul reprezintă persoane care trebuie transportate, rotunjește în sus.",
+        "trap": "O fracție de vehicul nu poate fi folosită pentru persoanele rămase.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "5",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ]
+      },
+      "historical": false,
+      "id": "t13-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Procente succesive",
+      "prompt": "Un produs de 1400 lei se scumpește cu 10%, apoi noul preț scade cu 10%. Prețul final este:",
+      "options": [
+        "1400 lei",
+        "1260 lei",
+        "1390 lei",
+        "1386 lei"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Creșterea: 1400 × 1,10 = 1540 lei.",
+          "Reducerea se aplică noului preț: 1540 × 0,90 = 1386 lei.",
+          "Verificare: rezultatul cerut este 1386 lei."
+        ],
+        "rule": "La procente succesive, înmulțește factorii de modificare.",
+        "trap": "+10% și −10% nu se anulează: bazele sunt diferite.",
+        "alternative": "Poți gândi în factori: o creștere de 10% înseamnă înmulțire cu 1,10, iar o reducere de 10% înseamnă înmulțire cu 0,90. Produsul lor este 0,99. Așadar, prețul final este 99% din prețul inițial, adică o scădere totală de 1%."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "1386",
+        "options": [
+          "1400",
+          "1260",
+          "1390",
+          "1386"
+        ]
+      },
+      "historical": false,
+      "id": "t13-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Șir cu diferențe crescătoare",
+      "prompt": "Diferențele cresc cu 2. Completează: 15, 19, 25, 33, 43, …",
+      "options": [
+        "57",
+        "59",
+        "55",
+        "53"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Calculează diferențele: 4, 6, 8, 10.",
+          "Următoarea diferență este 12.",
+          "Următorul termen: 43 + 12 = 55.",
+          "Verificare: rezultatul cerut este 55."
+        ],
+        "rule": "Analizează diferențele când termenii nu cresc cu aceeași cantitate.",
+        "trap": "Regula privește diferențele, nu simpla repetare a ultimei creșteri.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "55",
+        "options": [
+          "57",
+          "59",
+          "55",
+          "53"
+        ]
+      },
+      "historical": false,
+      "id": "t13-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Proporționalitate inversă",
+      "prompt": "6 lucrători termină în 24 zile. În câte zile termină 9 lucrători cu același randament, lucrând simultan la aceeași lucrare?",
+      "options": [
+        "18 zile",
+        "16 zile",
+        "24 zile",
+        "36 zile"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Volumul este 6 × 24 = 144 om-zile.",
+          "Cu 9 lucrători: 144 ÷ 9 = 16 zile.",
+          "Verificare: rezultatul cerut este 16 zile."
+        ],
+        "rule": "Pentru aceeași lucrare, numărul lucrătorilor și durata sunt invers proporționale.",
+        "trap": "Mai mulți lucrători reduc durata, în ipoteza randamentului identic.",
+        "alternative": "Metoda om-zile: o zi lucrată de o persoană este o unitate de muncă. Pentru aceeași lucrare, produsul dintre persoane și zile rămâne constant. Întâi calculezi volumul din situația cunoscută, apoi îl împarți la noul număr de lucrători."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "16",
+        "options": [
+          "18",
+          "16",
+          "24",
+          "36"
+        ]
+      },
+      "historical": false,
+      "id": "t13-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Vârste",
+      "prompt": "Acum 15 ani, un copil avea 12 ani, iar părintele de trei ori vârsta lui. Ce vârstă are copilul acum?",
+      "options": [
+        "27",
+        "12",
+        "51",
+        "42"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Copilul avea 12 ani.",
+          "Adaugă timpul scurs: 12 + 15 = 27.",
+          "Verificare: rezultatul cerut este 27."
+        ],
+        "rule": "Vârsta crește cu numărul anilor scurși.",
+        "trap": "Selectează datele relevante; vârsta părintelui nu este cerută.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "27",
+        "options": [
+          "27",
+          "12",
+          "51",
+          "42"
+        ]
+      },
+      "historical": false,
+      "id": "t13-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Creștere procentuală",
+      "prompt": "Numărul participanților crește de la 88 la 110. Care este creșterea procentuală?",
+      "options": [
+        "20 %",
+        "30 %",
+        "125 %",
+        "25 %"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Creșterea absolută: 110 − 88 = 22.",
+          "Raportează la inițial: 22 ÷ 88 × 100 = 25%.",
+          "Verificare: rezultatul cerut este 25 %."
+        ],
+        "rule": "Creșterea procentuală se raportează la valoarea inițială.",
+        "trap": "125% este noul nivel față de inițial, nu creșterea.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "25",
+        "options": [
+          "20",
+          "30",
+          "125",
+          "25"
+        ]
+      },
+      "historical": false,
+      "id": "t13-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Silogism cu existență",
+      "prompt": "Unii participanți la arte digitale sunt profesori. Toți profesorii din acest grup au ecuson. Ce rezultă?",
+      "options": [
+        "Niciun participant nu are ecuson.",
+        "Toți cei cu ecuson sunt profesori.",
+        "Unii participanți au ecuson.",
+        "Toți participanții sunt profesori."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Unii garantează existența a cel puțin unui participant profesor.",
+          "Pentru acea persoană se aplică regula profesor → ecuson.",
+          "Există deci cel puțin un participant cu ecuson.",
+          "Nu extinde concluzia la toți participanții și nu inversa relația."
+        ],
+        "rule": "O existență dintr-o categorie poate fi transmisă către o categorie care o include.",
+        "trap": "Unii nu înseamnă toți.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t13-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Număr minim garantat",
+      "prompt": "În sertarul lui Oana sunt șosete de 2 culori, multe din fiecare culoare. Extragi fără să vezi. Câte trebuie extrase pentru a garanta 5 șosete de aceeași culoare?",
+      "options": [
+        "11",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "În cel mai nefavorabil caz, extragi 4 din fiecare culoare.",
+          "Astfel poți avea 2 × 4 = 8 șosete fără să atingi pragul.",
+          "Următoarea șosetă ridică una dintre culori la 5.",
+          "Minimul garantat este 9."
+        ],
+        "rule": "Principiul cutiei: depășește maximul posibil fără atingerea pragului.",
+        "trap": "Se cere garanție în cel mai rău caz, nu o posibilitate favorabilă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t13-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Ordine parțială: variantă posibilă",
+      "prompt": "Oana trebuie înainte de Radu, iar Paul înainte de Oana. Care ordine respectă ambele reguli?",
+      "options": [
+        "Oana → Paul → Radu → Sonia",
+        "Paul → Oana → Radu → Sonia",
+        "Sonia → Radu → Paul → Oana",
+        "Radu → Oana → Paul → Sonia"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Combină regulile: Paul → Oana → Radu.",
+          "Poziția lui Sonia nu este restricționată.",
+          "Varianta Paul → Oana → Radu → Sonia respectă ambele reguli.",
+          "Se cere o ordine posibilă dintre variante, nu ordinea unică a tuturor persoanelor."
+        ],
+        "rule": "Verifică fiecare regulă în fiecare variantă.",
+        "trap": "Nu adăuga o condiție pentru persoana despre care enunțul nu spune nimic.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t13-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Numărare de ordini posibile",
+      "prompt": "Oana, Paul și Radu prezintă fiecare o dată. Singura regulă este că Oana trebuie înainte de Paul. Câte ordini sunt posibile?",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "1"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Trei persoane pot fi ordonate în 3 × 2 × 1 = 6 moduri.",
+          "Exact jumătate au Oana înainte de Paul.",
+          "Ordini valide: Oana–Paul–Radu, Oana–Radu–Paul, Radu–Oana–Paul.",
+          "Rezultă 3 ordini."
+        ],
+        "rule": "Enumeră sistematic posibilitățile și elimină-le pe cele care încalcă regula.",
+        "trap": "Nu calcula toate permutările fără să aplici restricția.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t13-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Silogism cu excludere",
+      "prompt": "Toți coordonatorii atelierului de arte digitale sunt profesori. Niciun profesor nu este voluntar în proiectul X. Ce rezultă?",
+      "options": [
+        "Unii coordonatori sunt voluntari în X.",
+        "Toți voluntarii în X sunt coordonatori.",
+        "Niciun coordonator nu este voluntar în proiectul X.",
+        "Toți profesorii sunt coordonatori."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Coordonatori ⊆ profesori.",
+          "Profesorii nu au membri comuni cu voluntarii în X.",
+          "Nici subcategoria coordonatorilor nu poate avea membri comuni cu voluntarii.",
+          "Nu inversa incluziunea: nu toți profesorii trebuie să fie coordonatori."
+        ],
+        "rule": "O excludere a unei categorii se aplică și subcategoriilor ei.",
+        "trap": "Nu deduce existența unor membri dacă premisele nu o garantează.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t13-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Ordonare cu vecinătate",
+      "prompt": "Oana prezintă înainte de Paul. Radu prezintă imediat după Paul. Sonia prezintă înainte de Oana. Care este ordinea celor patru?",
+      "options": [
+        "Sonia → Paul → Radu → Oana",
+        "Oana → Paul → Radu → Sonia",
+        "Sonia → Oana → Radu → Paul",
+        "Sonia → Oana → Paul → Radu"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Pereche obligatorie consecutivă: Paul → Radu.",
+          "Oana trebuie înaintea perechii.",
+          "Sonia trebuie înaintea lui Oana.",
+          "Ordinea unică: Sonia → Oana → Paul → Radu."
+        ],
+        "rule": "Unește întâi blocurile consecutive, apoi aplică relațiile de ordine.",
+        "trap": "Imediat după este mai restrictiv decât undeva după.",
+        "alternative": "Metoda blocurilor: tratează cele două persoane care trebuie să fie consecutive ca pe un singur bloc. Așază celelalte persoane în raport cu blocul, respectând fiecare condiție. La sfârșit, desfă blocul și verifică toate regulile pe ordinea completă."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "unique",
+        "solutions": [
+          [
+            "Sonia",
+            "Oana",
+            "Paul",
+            "Radu"
+          ]
+        ],
+        "options": [
+          [
+            "Oana",
+            "Paul",
+            "Radu",
+            "Sonia"
+          ],
+          [
+            "Sonia",
+            "Oana",
+            "Radu",
+            "Paul"
+          ],
+          [
+            "Sonia",
+            "Oana",
+            "Paul",
+            "Radu"
+          ],
+          [
+            "Sonia",
+            "Paul",
+            "Radu",
+            "Oana"
+          ]
+        ],
+        "result": 2
+      },
+      "historical": false,
+      "id": "t13-q20"
+    }
+  ]
+}

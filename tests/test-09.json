@@ -1,0 +1,622 @@
+{
+  "id": 9,
+  "title": "Precizie și repartizare",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Concluzie excesivă",
+      "prompt": "„Doi participanți la atelierul de muzică au spus că preferă dimineața. Prin urmare, toți participanții preferă dimineața.” De ce concluzia este insuficient susținută?",
+      "options": [
+        "Preferința a două persoane este extinsă nejustificat la întregul grup.",
+        "Textul dovedește că nimeni nu preferă dimineața.",
+        "Preferințele celor două persoane sunt identice cu programul.",
+        "Concluzia privește numai cele două persoane."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Premisa conține informații despre două persoane.",
+          "Concluzia privește toți participanții.",
+          "Nu avem informații despre preferințele celorlalți.",
+          "Argumentul generalizează dintr-un grup restrâns fără justificare."
+        ],
+        "rule": "Mărimea și reprezentativitatea informației trebuie să susțină amploarea concluziei.",
+        "trap": "Nu confunda doi sau unii cu toți.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Informație explicită",
+      "prompt": "„Clubul de muzică și-a prelungit programul în două zile ale săptămânii. Numărul participanților a crescut. Raportul nu stabilește cauza creșterii.”\nCare afirmație este susținută de text?",
+      "options": [
+        "Programul s-a prelungit în fiecare zi.",
+        "Programul prelungit a provocat creșterea.",
+        "Fiecare participant a venit mai des.",
+        "Numărul participanților a crescut."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Citește cerința: se caută o afirmație susținută de text.",
+          "Textul afirmă direct creșterea numărului de participanți.",
+          "Nu avem o cauză demonstrată și nici informații despre frecvența fiecărei persoane.",
+          "Alege constatarea explicită, fără să o transformi într-o explicație cauzală."
+        ],
+        "rule": "Separă observația de explicația ei.",
+        "trap": "În fiecare zi este mai mult decât în două zile; totalul nu descrie fiecare persoană.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t09-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Analogie: unitate temporală–unitate mai mare care o include",
+      "prompt": "În fișa atelierului de muzică, completează relația: zi : săptămână = lună : …",
+      "options": [
+        "minut",
+        "secol",
+        "an",
+        "oră"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Identifică prima relație: zi și săptămână sunt legate prin unitate temporală–unitate mai mare care o include.",
+          "Păstrează sensul și ordinea aceleiași relații pentru lună.",
+          "Termenul corespunzător este an.",
+          "Verifică ambele perechi: trebuie să aibă aceeași relație, nu doar cuvinte din același domeniu."
+        ],
+        "rule": "La analogii, numește relația înainte de a căuta răspunsul.",
+        "trap": "O asociere tematică nu este suficientă; relația și direcția trebuie păstrate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t09-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Sens în context",
+      "prompt": "În raportul atelierului de muzică apare enunțul „Acesta este un obiectiv prioritar.”. Ce înseamnă „prioritar”?",
+      "options": [
+        "opțional",
+        "cu întâietate",
+        "deja îndeplinit",
+        "fără importanță"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Citește enunțul întreg, nu doar cuvântul izolat.",
+          "În acest context, prioritar are sensul cu întâietate.",
+          "Înlocuiește mental cuvântul cu varianta aleasă.",
+          "Sensul propoziției trebuie să rămână același."
+        ],
+        "rule": "Sinonimul potrivit păstrează sensul contextual.",
+        "trap": "Nu alege un cuvânt doar pentru că are o conotație asemănătoare.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Ideea principală",
+      "prompt": "„Pentru clubul de muzică, informațiile sunt publicate într-un singur loc. Astfel, participanții găsesc mai ușor programul, iar modificările nu mai circulă în versiuni diferite.” Care este ideea principală?",
+      "options": [
+        "Centralizarea informațiilor facilitează accesul și reduce confuziile.",
+        "Programul nu se modifică niciodată.",
+        "Participanții nu trebuie să citească informațiile.",
+        "Toate cluburile folosesc aceeași platformă."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Caută ideea care leagă cele două propoziții.",
+          "Prima descrie centralizarea; a doua explică avantajele ei.",
+          "Varianta corectă cuprinde atât accesul mai ușor, cât și reducerea confuziilor.",
+          "Celelalte variante introduc afirmații absolute sau informații absente."
+        ],
+        "rule": "Ideea principală acoperă mesajul întregului fragment.",
+        "trap": "Un detaliu inventat nu devine idee principală doar pentru că este plauzibil.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Referință pronominală",
+      "prompt": "„Elevii au prezentat proiectul de muzică în fața comisiei. Ei au răspuns apoi la întrebări.” La cine se referă „ei”?",
+      "options": [
+        "La comisie",
+        "La proiect",
+        "La întrebări",
+        "La elevi"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Identifică antecedentele posibile: elevii, comisia, proiectul.",
+          "Pronumele ei este masculin plural și desemnează persoanele care au prezentat.",
+          "Elevii corespunde ca număr, gen și rol în succesiunea acțiunilor.",
+          "Comisia și proiectul sunt singular; întrebările nu sunt persoanele care răspund."
+        ],
+        "rule": "Urmărește acordul gramatical și continuitatea acțiunilor.",
+        "trap": "Apropierea unui cuvânt de pronume nu este suficientă pentru a-l face antecedent.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Fapt și apreciere",
+      "prompt": "Care enunț despre atelierul de muzică este o apreciere subiectivă, nu o constatare verificabilă direct?",
+      "options": [
+        "Atelierul a început la ora 10.",
+        "Activitatea a durat două ore.",
+        "Atelierul a fost cel mai frumos eveniment al anului.",
+        "Au participat 20 elevi."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "O constatare poate fi verificată prin numărare, program sau înregistrare.",
+          "Numărul participanților, ora și durata au criterii obiective de verificare.",
+          "Cel mai frumos exprimă o evaluare personală, în absența unor criterii precizate.",
+          "Alege enunțul a cărui apreciere poate diferi de la o persoană la alta."
+        ],
+        "rule": "Distinge datele observabile de judecățile de valoare.",
+        "trap": "Un enunț poate fi sincer fără să fie o constatare obiectivă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Probabilitate simplă",
+      "prompt": "Într-o urnă sunt 12 bile identice ca formă, numerotate distinct. Una singură este roșie. La extragere aleatoare, probabilitatea unei bile roșii este:",
+      "options": [
+        "11/12",
+        "1/12",
+        "1/6",
+        "1/13"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Rezultate favorabile: 1 bilă roșie.",
+          "Rezultate posibile, echiprobabile: 12.",
+          "Probabilitatea: 1/12.",
+          "Verificare: rezultatul cerut este 1/12."
+        ],
+        "rule": "Probabilitate = cazuri favorabile ÷ cazuri posibile echiprobabile.",
+        "trap": "Nu calcula probabilitatea bilelor care nu sunt roșii.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "1/12",
+        "options": [
+          "11/12",
+          "1/12",
+          "1/6",
+          "1/13"
+        ]
+      },
+      "historical": false,
+      "id": "t09-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Totaluri în tabel",
+      "prompt": "Împrumuturi de cărți (clasa A / clasa B):\nLuni: 30 / 24\nMarți: 28 / 33\nMiercuri: 39 / 25\nJoi: 30 / 28\nÎn ce zi este cel mai mare total?",
+      "options": [
+        "Luni",
+        "Marți",
+        "Miercuri",
+        "Joi"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Adună valorile pe fiecare rând.",
+          "Totalurile, în ordinea zilelor, sunt: 54, 61, 64, 58.",
+          "Compară totalurile: maximul este 64.",
+          "Acest total aparține zilei Miercuri."
+        ],
+        "rule": "Compară totaluri corespunzătoare aceleiași unități.",
+        "trap": "Nu alege ziua cu maximul unei singure clase.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "maximum",
+        "values": [
+          54,
+          61,
+          64,
+          58
+        ],
+        "result": 2
+      },
+      "historical": true,
+      "chart": {
+        "title": "Împrumuturi pe zile — clasele A și B împreună",
+        "labels": [
+          "Luni",
+          "Marți",
+          "Miercuri",
+          "Joi"
+        ],
+        "values": [
+          54,
+          61,
+          64,
+          58
+        ]
+      },
+      "id": "t09-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Medie ponderată",
+      "prompt": "18 elevi au media 8, iar alți 36 au media 9. Media celor 54 elevi este:",
+      "options": [
+        "8,5",
+        "8,75",
+        "9",
+        "26/3"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Suma valorilor: 18 × 8 + 36 × 9 = 468.",
+          "Împarte la efectivul total: 468 ÷ 54 = 26/3.",
+          "Verificare: rezultatul cerut este 26/3."
+        ],
+        "rule": "Ponderează fiecare medie cu numărul persoanelor.",
+        "trap": "Media simplă 8,5 ar fi valabilă pentru grupuri de aceeași mărime.",
+        "alternative": "Imaginează-ți că ai scris nota fiecărui elev pe câte un bilețel. Media întregului grup este suma tuturor bilețelelor împărțită la numărul lor. Grupul mai numeros contribuie cu mai multe bilețele, deci are o influență mai mare asupra mediei finale."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "26/3",
+        "options": [
+          "17/2",
+          "35/4",
+          "9",
+          "26/3"
+        ]
+      },
+      "historical": false,
+      "id": "t09-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Preț inițial",
+      "prompt": "După o reducere de 20%, prețul este 224 lei. Care a fost prețul inițial?",
+      "options": [
+        "244 lei",
+        "290 lei",
+        "280 lei",
+        "268,8 lei"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Prețul final reprezintă 80% din cel inițial.",
+          "Inițialul: 224 ÷ 0,80 = 280 lei.",
+          "Control: 280 × 0,80 = 224.",
+          "Verificare: rezultatul cerut este 280 lei."
+        ],
+        "rule": "Pentru a recupera întregul, împarte partea la proporția ei.",
+        "trap": "A adăuga 20% prețului final nu anulează reducerea de 20%.",
+        "alternative": "Regula de trei simplă: prețul final corespunde lui 80%, iar prețul inițial lui 100%. Scrie final / 80 = inițial / 100. Prin înmulțire în cruce, inițial = final × 100 / 80. Verifică aplicând din nou reducerea la prețul inițial obținut."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "280",
+        "options": [
+          "244",
+          "290",
+          "280",
+          "1344/5"
+        ]
+      },
+      "historical": false,
+      "id": "t09-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Distanță și conversie de timp",
+      "prompt": "Un vehicul merge cu 56 km/h timp de 1 oră și 30 de minute. Ce distanță parcurge?",
+      "options": [
+        "94 km",
+        "84 km",
+        "112 km",
+        "86 km"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "1 oră și 30 de minute = 1,5 ore.",
+          "Distanța = viteză × timp = 56 × 1,5 = 84 km.",
+          "Verificare: rezultatul cerut este 84 km."
+        ],
+        "rule": "Transformă timpul în aceeași unitate cu cea folosită în viteză.",
+        "trap": "1 h 30 min înseamnă 1,5 h, nu 1,30 h.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "84",
+        "options": [
+          "94",
+          "84",
+          "112",
+          "86"
+        ]
+      },
+      "historical": false,
+      "id": "t09-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Reuniunea a două grupuri",
+      "prompt": "38 elevi aleg engleza, 33 aleg franceza, iar 10 le aleg pe ambele. Câți aleg cel puțin una dintre cele două?",
+      "options": [
+        "61",
+        "71",
+        "51",
+        "66"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Adunarea simplă: 38 + 33 = 71.",
+          "Elevii care aleg ambele limbi sunt numărați de două ori.",
+          "Scade o dată intersecția: 71 − 10 = 61.",
+          "Verificare: rezultatul cerut este 61."
+        ],
+        "rule": "Reuniune = primul grup + al doilea − intersecție.",
+        "trap": "Cel puțin una îi include și pe cei care aleg ambele.",
+        "alternative": "Metoda mulțimilor: imaginează două cercuri care se suprapun. Zona comună este inclusă în fiecare cerc. Când aduni efectivele, o numeri de două ori. Scazi intersecția o singură dată pentru a rămâne cu fiecare persoană numărată exact o dată."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "61",
+        "options": [
+          "61",
+          "71",
+          "51",
+          "66"
+        ]
+      },
+      "historical": false,
+      "id": "t09-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Cost fix și variabil",
+      "prompt": "Un transport costă 12 lei taxă fixă și 11 lei pentru fiecare colet. Cât costă 5 colete?",
+      "options": [
+        "115 lei",
+        "55 lei",
+        "72 lei",
+        "67 lei"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Cost variabil: 5 × 11 = 55 lei.",
+          "Adaugă o singură taxă fixă: 55 + 12 = 67 lei.",
+          "Verificare: rezultatul cerut este 67 lei."
+        ],
+        "rule": "Total = cost fix + număr de unități × cost unitar.",
+        "trap": "Taxa fixă se plătește o dată, nu pentru fiecare colet.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "67",
+        "options": [
+          "115",
+          "55",
+          "72",
+          "67"
+        ]
+      },
+      "historical": false,
+      "id": "t09-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Calendar și periodicitate",
+      "prompt": "Întâlnirea lui Ioana este luni. Următoarea este peste 15 zile. Ce zi a săptămânii va fi?",
+      "options": [
+        "miercuri",
+        "joi",
+        "luni",
+        "marți"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Zilele săptămânii se repetă din 7 în 7.",
+          "15 împărțit la 7 are restul 1.",
+          "Avansează de luni cu 1 zile.",
+          "Ziua rezultată este marți."
+        ],
+        "rule": "Elimină săptămânile complete și folosește restul.",
+        "trap": "Peste o zi de luni înseamnă marți; nu număra ziua inițială drept prima zi scursă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Repartizare pe roluri",
+      "prompt": "Ioana, Luca și Mara au, fiecare, un rol diferit: moderator, secretar, observator. Ioana nu este moderator și nu este secretar. Luca nu este moderator. Cine este moderator?",
+      "options": [
+        "Nu se poate determina",
+        "Ioana",
+        "Luca",
+        "Mara"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Ioana nu poate avea primele două roluri, deci este observator.",
+          "Luca nu este moderator și nu mai poate fi observator, deci este secretar.",
+          "Rolul rămas pentru Mara este moderator.",
+          "Verifică: fiecare persoană are un singur rol și toate rolurile sunt diferite."
+        ],
+        "rule": "Rezolvă mai întâi persoana cu cele mai multe excluderi.",
+        "trap": "Nu permite același rol la două persoane când rolurile sunt distincte.",
+        "alternative": "Metoda tabelului: pune persoanele pe rânduri și rolurile pe coloane. Taie celulele interzise. Când pe un rând rămâne un singur rol, îl atribui și îl elimini pentru celelalte persoane. Repetă până când toate rolurile sunt stabilite."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Suficiența informației",
+      "prompt": "Ioana, Luca, Mara au punctaje diferite. Știm numai că Ioana are mai mult decât Luca și mai mult decât Mara. Ce se poate determina sigur?",
+      "options": [
+        "Ioana are cel mai mare punctaj.",
+        "Luca are cel mai mic punctaj.",
+        "Mara are cel mai mic punctaj.",
+        "Luca are mai mult decât Mara."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Ioana depășește fiecare dintre celelalte două persoane.",
+          "Așadar, maximul este determinat.",
+          "Nu avem comparația dintre celelalte două persoane.",
+          "Nu putem stabili minimul sau ordinea completă."
+        ],
+        "rule": "Separă partea determinată a ordinii de partea încă necunoscută.",
+        "trap": "Informația suficientă pentru maxim poate fi insuficientă pentru minim.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Modus tollens",
+      "prompt": "Dacă dosarul lui Ioana este aprobat, atunci este complet. Dosarul nu este complet. Ce rezultă?",
+      "options": [
+        "Dosarul este aprobat.",
+        "Dosarul va fi completat mâine.",
+        "Dosarul este complet.",
+        "Dosarul nu este aprobat."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Notează P = aprobat și Q = complet.",
+          "Regula este P → Q.",
+          "Avem nu Q. Dacă ar exista P, ar trebui Q, ceea ce contrazice informația.",
+          "Rezultă nu P: dosarul nu este aprobat."
+        ],
+        "rule": "Din P → Q și nu Q rezultă nu P.",
+        "trap": "Nu confunda această deducție cu inversarea condiției.",
+        "alternative": "Gândește prin contradicție: presupune că dosarul ar fi aprobat. Regula ar impune să fie complet. Dar știm că este incomplet. Presupunerea duce la o contradicție, deci aprobarea nu poate fi adevărată."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Repartizare imposibilă",
+      "prompt": "Ioana, Luca, Mara și Nora formează două echipe de câte două persoane. Ioana nu poate fi cu Luca, iar Mara trebuie să fie cu Nora. Ce rezultă?",
+      "options": [
+        "Luca trebuie să fie cu Nora.",
+        "Există două repartizări valide.",
+        "Nu există o repartizare care respectă toate condițiile.",
+        "Ioana trebuie să fie cu Mara."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Mara și Nora ocupă complet prima echipă.",
+          "Rămân numai Ioana și Luca pentru a doua.",
+          "Dar asocierea Ioana–Luca este interzisă.",
+          "Cele două condiții, împreună cu mărimea echipelor, sunt incompatibile."
+        ],
+        "rule": "Aplică întâi perechea obligatorie și examinează persoanele rămase.",
+        "trap": "Nu rezolva o condiție ignorând-o pe cealaltă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Afirmarea consecventului",
+      "prompt": "Dacă Ioana este coordonator, are acces la sală. Ioana are acces la sală. Ce putem afirma despre statutul său?",
+      "options": [
+        "Niciun coordonator nu are acces.",
+        "Nu se poate determina dacă este coordonator.",
+        "Este obligatoriu coordonator.",
+        "Este obligatoriu necoordonator."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Regula spune că statutul de coordonator este suficient pentru acces.",
+          "Nu spune că numai coordonatorii au acces.",
+          "Accesul ar putea fi permis și altor persoane.",
+          "Din Q și P → Q nu rezultă nici P, nici nu P."
+        ],
+        "rule": "O condiție suficientă nu este automat necesară.",
+        "trap": "Afirmarea rezultatului nu dovedește condiția inițială.",
+        "alternative": "Construiește două scenarii compatibile: persoana este coordonator și are acces; sau persoana nu este coordonator, dar primește acces din alt motiv. Ambele respectă regula dată. Cum există două scenarii cu statut diferit, statutul nu poate fi determinat."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t09-q20"
+    }
+  ]
+}

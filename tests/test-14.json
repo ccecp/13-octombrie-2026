@@ -1,0 +1,616 @@
+{
+  "id": 14,
+  "title": "Medii și tipare",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "category": "verbal",
+      "model": "Analogie: reprezentare–obiect reprezentat",
+      "prompt": "În fișa atelierului de șah, completează relația: hartă : teritoriu = plan de clădire : …",
+      "options": [
+        "constructor",
+        "clădire",
+        "călător",
+        "busolă"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Identifică prima relație: hartă și teritoriu sunt legate prin reprezentare–obiect reprezentat.",
+          "Păstrează sensul și ordinea aceleiași relații pentru plan de clădire.",
+          "Termenul corespunzător este clădire.",
+          "Verifică ambele perechi: trebuie să aibă aceeași relație, nu doar cuvinte din același domeniu."
+        ],
+        "rule": "La analogii, numește relația înainte de a căuta răspunsul.",
+        "trap": "O asociere tematică nu este suficientă; relația și direcția trebuie păstrate.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t14-q01"
+    },
+    {
+      "category": "verbal",
+      "model": "Categorie comună",
+      "prompt": "Pe fișa lui Paul, ce categorie comună, suficient de precisă, include atât „roman”, cât și „nuvelă”?",
+      "options": [
+        "specii literare epice",
+        "obiecte sau concepte fără categorie comună",
+        "unități de timp",
+        "forme de comunicare verbală"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Analizează separat sensul lui roman și al lui nuvelă.",
+          "Ambele se încadrează în categoria specii literare epice.",
+          "Categoria trebuie să fie valabilă pentru ambii termeni.",
+          "Respinge o categorie care descrie numai un termen sau un domeniu diferit."
+        ],
+        "rule": "Clasifică pe baza trăsăturilor esențiale comune.",
+        "trap": "Nu confunda asemănările accidentale cu apartenența la aceeași categorie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": true,
+      "id": "t14-q02"
+    },
+    {
+      "category": "verbal",
+      "model": "Corelație și cauzalitate",
+      "prompt": "„Participanții la clubul de șah au avut rezultate mai bune. Așadar, clubul a produs rezultatele mai bune.” Care este problema argumentului?",
+      "options": [
+        "Premisa spune că nu există participanți.",
+        "Concluzia afirmă că rezultatele sunt identice.",
+        "Argumentul compară elevii cu profesorii.",
+        "O asociere este tratată ca dovadă suficientă a cauzei."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Premisa constată o asociere între participare și rezultate.",
+          "Concluzia adaugă o relație de cauzalitate.",
+          "Pot exista alte explicații: pregătire inițială, motivație sau sprijin suplimentar.",
+          "Prin urmare, asocierea singură nu demonstrează că participarea a produs diferența."
+        ],
+        "rule": "O corelație nu demonstrează singură o cauză.",
+        "trap": "Nu introduce în premisă informații care apar numai în concluzie.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t14-q03"
+    },
+    {
+      "category": "verbal",
+      "model": "Referință pronominală",
+      "prompt": "„Elevii au prezentat proiectul de șah în fața comisiei. Ei au răspuns apoi la întrebări.” La cine se referă „ei”?",
+      "options": [
+        "La proiect",
+        "La întrebări",
+        "La elevi",
+        "La comisie"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Identifică antecedentele posibile: elevii, comisia, proiectul.",
+          "Pronumele ei este masculin plural și desemnează persoanele care au prezentat.",
+          "Elevii corespunde ca număr, gen și rol în succesiunea acțiunilor.",
+          "Comisia și proiectul sunt singular; întrebările nu sunt persoanele care răspund."
+        ],
+        "rule": "Urmărește acordul gramatical și continuitatea acțiunilor.",
+        "trap": "Apropierea unui cuvânt de pronume nu este suficientă pentru a-l face antecedent.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t14-q04"
+    },
+    {
+      "category": "verbal",
+      "model": "Sensul unei restricții",
+      "prompt": "„La sesiunea de șah sunt admiși numai elevii înscriși.” Ce reformulare păstrează sensul?",
+      "options": [
+        "Toți elevii școlii sunt admiși.",
+        "Orice elev admis este înscris.",
+        "Orice elev înscris este neapărat admis.",
+        "Niciun elev înscris nu este admis."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Cuvântul numai limitează categoria celor admiși.",
+          "Înscrierea este o condiție necesară pentru admitere.",
+          "Din faptul că cineva este admis rezultă că este înscris.",
+          "Nu rezultă automat că înscrierea garantează admiterea."
+        ],
+        "rule": "Numai introduce o condiție necesară.",
+        "trap": "Nu inversa sensul relației dintre înscriere și admitere.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t14-q05"
+    },
+    {
+      "category": "verbal",
+      "model": "Susținerea unei concluzii",
+      "prompt": "Concluzie: „Mutarea atelierului de șah într-o sală mai mare ar rezolva problema locurilor insuficiente.” Ce informație susține cel mai direct concluzia?",
+      "options": [
+        "Sala actuală are 20 de locuri, sunt 28 de înscriși, iar sala nouă are 35 de locuri.",
+        "Sala nouă are pereții albaștri.",
+        "Unii elevi preferă activitățile în aer liber.",
+        "Atelierul este organizat și anul viitor."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Identifică problema exactă: capacitatea sălii.",
+          "Comparația 20 < 28 arată insuficiența sălii actuale.",
+          "Comparația 35 ≥ 28 arată că sala nouă poate găzdui înscrișii.",
+          "Celelalte informații nu stabilesc dacă există suficiente locuri."
+        ],
+        "rule": "O dovadă relevantă răspunde exact problemei concluziei.",
+        "trap": "Detaliile atractive despre sală nu demonstrează capacitatea ei.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t14-q06"
+    },
+    {
+      "category": "verbal",
+      "model": "Ordinea ideilor",
+      "prompt": "Aranjează propozițiile într-o succesiune firească:\n1. În final, participanții au prezentat produsele.\n2. Mai întâi, au primit instrucțiunile.\n3. Apoi, au lucrat în echipe la tema de șah.",
+      "options": [
+        "1–2–3",
+        "2–1–3",
+        "3–2–1",
+        "2–3–1"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Identifică marcatorii temporali: mai întâi, apoi, în final.",
+          "Instrucțiunile preced activitatea.",
+          "Lucrul în echipe precedă prezentarea produselor.",
+          "Ordinea este 2, 3, 1."
+        ],
+        "rule": "Marcatorii temporali și relația dintre acțiuni stabilesc succesiunea.",
+        "trap": "Ordinea tipăririi propozițiilor nu este neapărat ordinea evenimentelor.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t14-q07"
+    },
+    {
+      "category": "numeric",
+      "model": "Tarif pe unitate",
+      "prompt": "Ana parcurge 250 km, iar Bogdan 132 km. Tariful este 0,50 lei/km. Cu câți lei primește Ana mai mult?",
+      "options": [
+        "118 lei",
+        "64 lei",
+        "59 lei",
+        "69 lei"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Diferența de distanță: 250 − 132 = 118 km.",
+          "Diferența de plată: 118 × 0,50 = 59 lei.",
+          "Verificare: rezultatul cerut este 59 lei."
+        ],
+        "rule": "Înmulțește diferența de cantitate cu tariful comun.",
+        "trap": "Kilometrii și leii sunt unități diferite.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "59",
+        "options": [
+          "118",
+          "64",
+          "59",
+          "69"
+        ]
+      },
+      "historical": false,
+      "id": "t14-q08"
+    },
+    {
+      "category": "numeric",
+      "model": "Productivitate simultană",
+      "prompt": "A termină singură o lucrare în 17 zile, B în 34 zile. În cât timp o termină împreună, la ritm constant?",
+      "options": [
+        "8,5 zile",
+        "34/3 zile",
+        "17 zile",
+        "25,5 zile"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Ritmuri: 1/17 și 1/34 din lucrare pe zi.",
+          "Ritmul comun este 3/34.",
+          "Timpul este inversul ritmului: 34/3 = 34/3 zile.",
+          "Verificare: rezultatul cerut este 34/3 zile."
+        ],
+        "rule": "Adună ritmurile, apoi inversează pentru durata unei lucrări.",
+        "trap": "Nu aduna și nu media duratele individuale.",
+        "alternative": "Metoda unităților: alege ca volum al lucrării durata echipei mai lente, exprimată în unități. Echipa lentă face o unitate pe zi, iar cealaltă două. Împreună fac trei. Împarte volumul ales la trei pentru a afla durata. Această metodă și metoda fracțiilor dau același rezultat."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "34/3",
+        "options": [
+          "17/2",
+          "34/3",
+          "17",
+          "51/2"
+        ]
+      },
+      "historical": false,
+      "id": "t14-q09"
+    },
+    {
+      "category": "numeric",
+      "model": "Proporționalitate directă",
+      "prompt": "4 dosare identice se verifică în 12 minute. La același ritm, câte minute necesită 17 dosare?",
+      "options": [
+        "51 minute",
+        "54 minute",
+        "57 minute",
+        "60 minute"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Un dosar necesită 12 ÷ 4 = 3 minute.",
+          "17 dosare necesită 17 × 3 = 51 minute.",
+          "Verificare: rezultatul cerut este 51 minute."
+        ],
+        "rule": "La ritm constant, timpul este direct proporțional cu numărul sarcinilor.",
+        "trap": "Nu folosi o proporție inversă când o singură persoană are mai multe sarcini.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "51",
+        "options": [
+          "51",
+          "54",
+          "57",
+          "60"
+        ]
+      },
+      "historical": false,
+      "id": "t14-q10"
+    },
+    {
+      "category": "numeric",
+      "model": "Sumă și diferență",
+      "prompt": "Două echipe au împreună 56 elevi. A doua are cu 6 mai mulți decât prima. Câți elevi are prima?",
+      "options": [
+        "28",
+        "31",
+        "56",
+        "25"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Scoate diferența din total: 56 − 6 = 50.",
+          "Rămân două părți egale: 50 ÷ 2 = 25.",
+          "Control: 25 + 31 = 56.",
+          "Verificare: rezultatul cerut este 25."
+        ],
+        "rule": "Numărul mai mic este (suma − diferența) ÷ 2.",
+        "trap": "Împărțirea totalului la doi ignoră diferența.",
+        "alternative": "Metoda segmentelor: desenează mental două segmente egale, apoi adaugă șase unități unuia dintre ele. Totalul cuprinde două segmente plus șase. Scoți cele șase unități și împarți restul la doi pentru a găsi segmentul mai mic."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "25",
+        "options": [
+          "28",
+          "31",
+          "56",
+          "25"
+        ]
+      },
+      "historical": false,
+      "id": "t14-q11"
+    },
+    {
+      "category": "numeric",
+      "model": "Șir geometric",
+      "prompt": "Fiecare termen este dublul precedentului. Completează: 18, 36, 72, 144, 288, …",
+      "options": [
+        "581",
+        "1152",
+        "576",
+        "290"
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Regula precizată este înmulțirea cu 2.",
+          "Ultimul termen este 288.",
+          "Următorul: 288 × 2 = 576.",
+          "Verificare: rezultatul cerut este 576."
+        ],
+        "rule": "Păstrează raportul constant al șirului geometric.",
+        "trap": "Nu trece de la înmulțire la o diferență arbitrară.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "576",
+        "options": [
+          "581",
+          "1152",
+          "576",
+          "290"
+        ]
+      },
+      "historical": false,
+      "id": "t14-q12"
+    },
+    {
+      "category": "numeric",
+      "model": "Scară de hartă",
+      "prompt": "Pe o hartă, 1 cm reprezintă 3 km. Două localități sunt la 21 cm. Care este distanța reală?",
+      "options": [
+        "2100 km",
+        "63 km",
+        "21 km",
+        "66 km"
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Fiecărui centimetru îi corespund 3 km.",
+          "21 × 3 = 63 km.",
+          "Verificare: rezultatul cerut este 63 km."
+        ],
+        "rule": "Aplică aceeași scară fiecărei unități măsurate.",
+        "trap": "Nu folosi o conversie cm–km directă; harta are o scară precizată.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "63",
+        "options": [
+          "2100",
+          "63",
+          "21",
+          "66"
+        ]
+      },
+      "historical": false,
+      "id": "t14-q13"
+    },
+    {
+      "category": "numeric",
+      "model": "Unități de timp",
+      "prompt": "Un vehicul merge cu 138 km/h. Ce distanță parcurge în 30 de minute?",
+      "options": [
+        "69 km",
+        "138 km",
+        "4140 km",
+        "84 km"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "30 de minute = 1/2 oră.",
+          "Distanța: 138 × 1/2 = 69 km.",
+          "Verificare: rezultatul cerut este 69 km."
+        ],
+        "rule": "Convertește minutele în ore înainte să folosești km/h.",
+        "trap": "Înmulțirea vitezei cu 30 ar trata minutele drept ore.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric",
+        "result": "69",
+        "options": [
+          "69",
+          "138",
+          "4140",
+          "84"
+        ]
+      },
+      "historical": false,
+      "id": "t14-q14"
+    },
+    {
+      "category": "logic",
+      "model": "Relație tranzitivă",
+      "prompt": "Paul este mai înalt decât Radu. Radu este mai înalt decât Sonia. Tudor este mai scund decât Sonia. Cine este cel mai înalt?",
+      "options": [
+        "Radu",
+        "Sonia",
+        "Tudor",
+        "Paul"
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Prima regulă: Paul > Radu.",
+          "A doua: Radu > Sonia.",
+          "A treia: Sonia > Tudor.",
+          "Lanțul este Paul > Radu > Sonia > Tudor."
+        ],
+        "rule": "Transformă comparațiile într-un lanț orientat.",
+        "trap": "Mai scund decât inversează ordinea față de mai înalt decât.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t14-q15"
+    },
+    {
+      "category": "logic",
+      "model": "Condiție necesară",
+      "prompt": "Accesul lui Paul este permis numai dacă are legitimație. Accesul i-a fost permis. Ce rezultă?",
+      "options": [
+        "Oricine are legitimație primește acces.",
+        "Legitimația este singura condiție posibilă.",
+        "Are legitimație.",
+        "Nu are legitimație."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Numai dacă introduce o condiție necesară.",
+          "Acces permis → legitimație.",
+          "Premisa confirmă accesul permis.",
+          "Aplică regula și deduci legitimația; nu deduci că legitimația singură garantează accesul."
+        ],
+        "rule": "În P numai dacă Q, direcția este P → Q.",
+        "trap": "Necesar nu înseamnă suficient.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t14-q16"
+    },
+    {
+      "category": "logic",
+      "model": "Bicondițional",
+      "prompt": "Paul primește ecuson dacă și numai dacă este înscris. Nu a primit ecuson. Ce rezultă?",
+      "options": [
+        "Toți cei înscriși nu primesc ecuson.",
+        "Nu este înscris.",
+        "Este înscris.",
+        "Nu se poate determina înscrierea."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Dacă și numai dacă exprimă două reguli: înscris → ecuson și ecuson → înscris.",
+          "Pentru prima regulă avem lipsa consecventului: nu ecuson.",
+          "Prin modus tollens rezultă nu înscris.",
+          "Concluzia privește persoana dată, nu întregul grup."
+        ],
+        "rule": "Bicondiționalul permite ambele direcții ale relației.",
+        "trap": "Nu trata dacă și numai dacă drept o simplă asociere posibilă.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t14-q17"
+    },
+    {
+      "category": "logic",
+      "model": "Negarea unui cuantificator",
+      "prompt": "Care este negarea exactă a afirmației „Toți evaluatorii atelierului de șah au verificat cel puțin un dosar”?",
+      "options": [
+        "Cel puțin un evaluator nu a verificat niciun dosar.",
+        "Niciun evaluator nu a verificat niciun dosar.",
+        "Toți evaluatorii au verificat exact un dosar.",
+        "Cel puțin un evaluator a verificat toate dosarele."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Structura este: pentru fiecare evaluator există un dosar verificat.",
+          "Negarea lui pentru fiecare este există cel puțin unul.",
+          "Pentru acel evaluator negăm existența unui dosar verificat: nu există niciunul.",
+          "Rezultă un evaluator care nu a verificat niciun dosar; nu trebuie să fie toți."
+        ],
+        "rule": "La negare, schimbă toți în cel puțin unul și neagă proprietatea.",
+        "trap": "Niciun evaluator este o afirmație mai puternică decât negarea exactă.",
+        "alternative": "Poți testa afirmația cu un contraexemplu. Pentru a respinge „toți au verificat măcar un dosar”, ai nevoie de un singur evaluator care nu a verificat niciunul. Nu ai nevoie ca întregul grup să fi procedat astfel. Negarea exactă este minimul logic care face afirmația inițială falsă."
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t14-q18"
+    },
+    {
+      "category": "logic",
+      "model": "Bloc de simboluri repetat",
+      "prompt": "Blocul ○, △, △, □ se repetă identic. Ce simbol se află pe poziția 27?",
+      "options": [
+        "△",
+        "□",
+        "Nu se poate determina",
+        "○"
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Blocul conține 4 poziții.",
+          "Împarte 27 la 4; restul este 3.",
+          "Resturile 1, 2, 3 desemnează pozițiile respective; restul 0 desemnează poziția 4.",
+          "Simbolul cerut este △."
+        ],
+        "rule": "Folosește restul împărțirii la lungimea blocului.",
+        "trap": "La rest 0, poziția este ultima din bloc, nu prima.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": {
+        "kind": "symbol",
+        "block": [
+          "○",
+          "△",
+          "△",
+          "□"
+        ],
+        "position": 27,
+        "result": "△"
+      },
+      "historical": false,
+      "id": "t14-q19"
+    },
+    {
+      "category": "logic",
+      "model": "Disjuncție exclusivă",
+      "prompt": "Paul participă fie la atelierul de șah, fie la cel de teatru, dar nu la ambele. Nu participă la teatru. Ce rezultă?",
+      "options": [
+        "Participă la ambele ateliere.",
+        "Informația nu permite nicio concluzie.",
+        "Participă la atelierul de șah.",
+        "Nu participă la niciun atelier."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Enunțul cere participarea la exact unul dintre două ateliere.",
+          "Varianta teatru este eliminată.",
+          "Rămâne cealaltă variantă, care trebuie să fie adevărată.",
+          "Absența de la ambele ar încălca regula inițială."
+        ],
+        "rule": "Dacă exact una dintre două alternative este adevărată, negarea uneia impune cealaltă.",
+        "trap": "Fie… fie, dar nu ambele este exclusiv, nu facultativ.",
+        "alternative": ""
+      },
+      "hint": "",
+      "proof": null,
+      "historical": false,
+      "id": "t14-q20"
+    }
+  ]
+}
