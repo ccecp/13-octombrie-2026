@@ -18,7 +18,7 @@ function setup(){
 }
 async function main(){
   let env=setup();await new Promise(r=>setImmediate(r));
-  assert.equal(env.run('manifest.length'),20);assert.match(env.elements.get('#app').innerHTML,/400/);
+  assert.equal(env.run('manifest.length'),50);assert.match(env.elements.get('#app').innerHTML,/1000/);
   await env.run('start(1)');assert.equal(env.run('remaining()'),3600);
   assert(!env.elements.get('#app').innerHTML.includes('Cum rezolvăm'));
   env.click('answer',{index:'2'});assert.equal(env.run('state.answers[0]'),2);
@@ -39,14 +39,14 @@ async function main(){
   const deadline=env.run('state.deadline');env=setup();await new Promise(r=>setImmediate(r));await env.run('start(2)');assert.equal(env.run('state.deadline'),deadline);assert.equal(env.run('answered(state)'),1);
   env.run('state.deadline=Date.now()-1000;updateTimer();');assert.equal(env.run('state.finished'),true);assert.equal(env.run('state.expired'),true);assert.equal(env.run('state.score'),1);
   assert.match(env.elements.get('#app').innerHTML,/0,5/);
-  for(let id=1;id<=20;id++){
+  for(let id=1;id<=50;id++){
     await env.run(`start(${id},true)`);
     for(let i=0;i<20;i++){
       env.run(`current=${i};question();`);assert(!env.elements.get('#app').innerHTML.includes('Cum rezolvăm'));
     }
-    env.run('state.answers=test.questions.map((q,i)=>i<12?q.correct:null);finish();');assert.equal(env.run('state.score'),12);assert.match(env.elements.get('#app').innerHTML,/Pragul de promovare este atins/);
+    env.run('state.answers=test.questions.map((q,i)=>i<12?q.correct:null);finish();');if(id>=41){assert.match(env.elements.get('#app').innerHTML,/Tabel de adevăr/);}assert.equal(env.run('state.score'),12);assert.match(env.elements.get('#app').innerHTML,/Pragul de promovare este atins/);
   }
-  console.log('OK: 20 teste, 400 întrebări randate; punctaj, navigare, răspunsuri, marcaje, verificare, confirmare, blocare după finalizare, explicații ascunse înainte de finalizare.');
+  console.log('OK: 50 teste, 1000 întrebări randate; punctaj, navigare, răspunsuri, marcaje, verificare, confirmare, blocare după finalizare, explicații ascunse înainte de finalizare.');
   console.log('OK: cronometru 60 min, expirare automată, progres și termen păstrate la reîncărcare, pragul 6/10, filtrarea rezultatelor.');
 }
 main().catch(e=>{console.error(e);process.exitCode=1;});

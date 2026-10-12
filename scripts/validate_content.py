@@ -69,3 +69,7 @@ for path in sorted((root/'tests').glob('test-*.json')):
 assert count==400 and len(mixtures)==20
 print('OK: 400 itemi unici, 20 combinații distincte, distribuție 7/7/6, câte 4 opțiuni.')
 print('OK: răspunsurile numerice recalculate independent; tabelele, simbolurile și condițiile verificabile confirmate.')
+
+
+from validate_exam_41_50 import validate
+validate()

@@ -1,46 +1,24 @@
 # Pregătim reușita — Concurs directori 2026
 
-Platformă de pregătire în limba română, cu 20 de teste a câte 20 de întrebări (400 de itemi unici).
+50 de simulări originale × 20 de itemi (1.000 de itemi), pentru pregătirea probei cognitive din 13 octombrie 2026.
 
-## Experiența de lucru
+- Structură: 7 itemi verbali, 7 numerici și 6 logici.
+- 60 de minute, patru variante, un singur răspuns corect.
+- 0,5 puncte/item; prag de promovare 6/10.
+- Răspunsuri și termen de finalizare păstrate în browser.
+- Revizuire înainte de finalizare; soluțiile apar după finalizare.
+- Seria 21–40: dificultate mai mare. Seria 41–50: dificultate moderată.
+- Pentru 41–50: opțiuni în ordine alfabetică românească, etichete a, b, c, d, punctuație finală; explicații pe pași, metode alternative și tabele de adevăr unde sunt relevante.
 
-- 7 itemi verbali, 7 numerici și 6 logici în fiecare test.
-- 60 de minute; termenul se păstrează la reîncărcarea paginii.
-- Grilă de navigare, marcarea întrebărilor și verificarea răspunsurilor alese.
-- Finalizare confirmată; finalizare automată la expirarea timpului.
-- Răspunsurile corecte și explicațiile sunt afișate numai după finalizare.
-- 0,5 puncte pentru un răspuns corect; prag de promovare 6/10.
-- Explicații pe pași, reguli de reținut, capcane și metode alternative pentru familiile relevante.
-- Progres local în browser, posibilitate de reîncepere și tipărirea rezolvărilor.
-- Nuanțe de albastru, accente galbene, adaptare la telefon și navigare cu tastatura.
+Simulările 41–50 sunt exerciții originale. Respectă structura publicată de minister, fără a pretinde identitate cu subiectele care vor fi administrate sau o dificultate etalonată psihometric. Subtipurile exacte și repartizarea lor în interiorul celor trei categorii nu sunt anunțate în informarea de structură.
+
+Structura: https://www.edu.ro/press_rel_67_26_informare_probe_concurs_directori
+
+Formele de interpretare a textelor, analogii, categorii comune și calcule din tabele sunt adaptate din exemplele publice de itemi din 2021, cu texte și date originale: https://www.edu.ro/sites/default/files/_fi%C8%99iere/Minister/2021/concursuri/concurs%20directori/Itemi%20exemple%20selectie%20directori.pdf
 
 Materiale: Prof. dr. Maria-Magdalena Dorcioman.
 
-## Conținut și surse
-
-Simulările sunt originale și nu reprezintă subiecte oficiale, modele aprobate sau predicții ale subiectelor.
-
-Structura urmează [informarea Ministerului din 29 septembrie 2026](https://edu.ro/press_rel_67_26_informare_probe_concurs_directori).
-
-Interpretarea textelor, analogiile, categoria comună și calculele din tabele adaptează forme prezente în [exemplele oficiale din 2021](https://www.edu.ro/sites/default/files/_fi%C8%99iere/Minister/2021/concursuri/concurs%20directori/Itemi%20exemple%20selectie%20directori.pdf). Formulările și datele sunt noi. Se adaugă subtipuri de pregătire care nu sunt garantate pentru concursul din 2026.
-
-Testele au combinații distincte de subtipuri. Unele familii reapar în contexte diferite: nu pretindem că există 400 de modele psihometrice complet independente. Nu sunt etalonate psihometric.
-
-## Rulare
-
-Aplicația este statică, fără instalare sau construire. Se servește directorul repository-ului prin HTTP; deschiderea directă a `index.html` ca fișier poate bloca încărcarea JSON.
-
-```sh
-python -m http.server 8000
-```
-
-## GitHub Pages
-
-Workflow-ul `.github/workflows/pages.yml` verifică datele și funcționalitatea, apoi publică fișierele statice. Pentru prima publicare, activați în **Settings → Pages → Build and deployment → Source: GitHub Actions**. La commituri ulterioare pe `main`, publicarea este automată.
-
-Adresa anticipată, după activarea Pages și finalizarea workflow-ului: `https://ccecp.github.io/13-octombrie-2026/`.
-
-## Verificări
+## Verificare
 
 ```sh
 python scripts/validate_content.py
@@ -48,8 +26,20 @@ node --check app.js
 node scripts/test_app.cjs
 ```
 
-Validatorul recalculează independent itemii numerici, controlează unicitatea, variantele și structura. Testele aplicației verifică randarea celor 400 de itemi într-un mediu DOM simulat, punctarea, timerul, persistența și separarea dintre examen și rezolvări; nu înlocuiesc o inspecție vizuală în browser.
+Validatorul inițial recalculează primele 400 de întrebări. Controlul suplimentar verifică structura tuturor testelor, unicitatea enunțurilor și identificatorilor, apoi recalculează independent problemele numerice și logice noi din 41–50. Testul aplicației parcurge toate cele 1.000 de întrebări și verifică navigarea, punctarea, persistența, timerul, finalizarea și ascunderea explicațiilor înainte de finalizare.
 
-Generatorul `scripts/generate_tests.py` reproduce banca. După modificarea lui, regenerați datele și rulați verificările.
+Reproducerea seriei 41–50:
 
-Datele răspunsurilor sunt păstrate numai în browserul local. Fiind o platformă de antrenament statică, banca de soluții poate fi inspectată în fișierele sursă; aplicația nu este un sistem securizat de examinare oficială.
+```sh
+python scripts/generate_exam_41_50.py
+```
+
+Generatorul necesită Python și Node.js pentru ordonarea variantelor cu collation românească. Nu modifică testele anterioare sau manifestul.
+
+## Publicare
+
+Aplicația este statică. Workflow-ul GitHub Actions verifică și publică pe GitHub Pages după actualizarea ramurii main.
+
+https://ccecp.github.io/13-octombrie-2026/
+
+Progresul se păstrează local în browser. Soluțiile există în fișierele statice, iar aplicația este destinată pregătirii, nu administrării securizate a unui examen oficial.
