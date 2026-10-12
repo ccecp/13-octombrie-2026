@@ -1,6 +1,6 @@
 # Pregătim reușita — Concurs directori 2026
 
-50 de simulări originale × 20 de itemi (1.000 de itemi), pentru pregătirea probei cognitive din 13 octombrie 2026.
+60 de simulări originale × 20 de itemi (1.200 de itemi), pentru pregătirea probei cognitive din 13 octombrie 2026.
 
 - Structură: 7 itemi verbali, 7 numerici și 6 logici.
 - 60 de minute, patru variante, un singur răspuns corect.
@@ -26,7 +26,7 @@ node --check app.js
 node scripts/test_app.cjs
 ```
 
-Validatorul inițial recalculează primele 400 de întrebări. Controlul suplimentar verifică structura tuturor testelor, unicitatea enunțurilor și identificatorilor, apoi recalculează independent problemele numerice și logice noi din 41–50. Testul aplicației parcurge toate cele 1.000 de întrebări și verifică navigarea, punctarea, persistența, timerul, finalizarea și ascunderea explicațiilor înainte de finalizare.
+Validatorul inițial recalculează primele 400 de întrebări. Controlul suplimentar verifică structura tuturor testelor, unicitatea enunțurilor și identificatorilor, apoi recalculează independent problemele numerice și logice noi din 41–50. Testul aplicației parcurge toate cele 1.200 de întrebări și verifică navigarea, punctarea, persistența, timerul, finalizarea și ascunderea explicațiilor înainte de finalizare.
 
 Reproducerea seriei 41–50:
 
@@ -43,3 +43,21 @@ Aplicația este statică. Workflow-ul GitHub Actions verifică și publică pe G
 https://ccecp.github.io/13-octombrie-2026/
 
 Progresul se păstrează local în browser. Soluțiile există în fișierele statice, iar aplicația este destinată pregătirii, nu administrării securizate a unui examen oficial.
+
+## Seria 51–60: surse și adaptare
+
+200 de întrebări originale. Format 7 verbali + 7 numerici + 6 logici, 60 de minute, patru variante și explicații după finalizare. Variante alfabetice românești, cu punctuație finală și litere mici a, b, c, d. Fără figuri rotite sau oglindite. Include zece matrice simple cu număr de simboluri și reguli explicit precizate.
+
+- Modelele oficiale din 2016: completare verbală; sarcinile figurale rotite au fost cercetate, dar excluse la cererea utilizatoarei. https://www.edu.ro/sites/default/files/Modele%20itemi%20proba%20scrisa_0.pdf
+- Modelele din 2017 au fost verificate: documentul consultat conține management și legislație, neincluse în această serie cognitivă. https://edu.ro/sites/default/files/Modele%20itemi%20exemplificativi%20concurs%20dir%20dir%20adj%20iulie%202017_0.pdf
+- Subiectul oficial din 15 octombrie 2021: analogii, text și date numerice. https://www.edu.ro/sites/default/files/_fi%C8%99iere/Minister/2021/concursuri/concurs%20directori/subiecte/Concurs_Directori_si_directori_adjuncti_15_octombrie_2021_Varianta_subiect.pdf
+- Documentele concursurilor din 18 februarie și 8 septembrie 2022, copii ale subiectelor ministerului: https://cdn.edupedu.ro/wp-content/uploads/2022/02/Concurs_Directori_si_directori_adjuncti_18_februarie_2022_Varianta_subiect.pdf și https://cdn.edupedu.ro/wp-content/uploads/2022/09/Concurs_Directori_si_directori_adjuncti_08_septembrie_2022_Varianta_subiect.pdf
+- Descrierea publică a domeniilor de aptitudini la Cognitrom: vocabular, înțelegerea textelor, calcul și raționament. Nu sunt reproduși itemi din bateria profesională. https://www.cognitrom.ro/categorie-produs/teste-psihologice/psihologie-organizationala/aptitudini-cognitive/
+- SHL, document public privind capacitatea verbală, numerică, raționamentul deductiv și abstract: https://service.shl.com/docs/Verify%20General%20Ability%20Screen%20Fact%20Sheet.pdf
+
+Exercițiile noi sunt inspirate de tipurile de sarcini descrise public, nu sunt teste clinice standardizate, nu sunt copii ale unei baterii de cabinet și nu prezic subiectele din 2026. Formatul mai vechi cu trei sau cinci alternative a fost adaptat la cele patru alternative cerute pentru 2026; valorile de adevăr din text sunt cerute prin patru combinații de răspuns.
+
+```sh
+python scripts/generate_exam_51_60.py
+python scripts/validate_exam_51_60.py
+```

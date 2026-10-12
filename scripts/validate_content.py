@@ -73,3 +73,6 @@ print('OK: răspunsurile numerice recalculate independent; tabelele, simbolurile
 
 from validate_exam_41_50 import validate
 validate()
+
+from validate_exam_51_60 import validate as validate_new
+validate_new()

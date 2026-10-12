@@ -19,7 +19,7 @@ def independent_numeric(q):
     raise AssertionError(op)
 def validate():
     manifest=json.loads((root/'tests/manifest.json').read_text())
-    assert [m['id'] for m in manifest]==list(range(1,51))
+    assert [m['id'] for m in manifest]==list(range(1,61))
     seen_ids=set();seen_prompts=set();total=0
     bank={}
     for m in manifest:
@@ -82,7 +82,7 @@ def validate():
                     for s in states:assert (not all(s))==any(not x for x in s) if op=='not-all' else (not any(s))==all(not x for x in s)
                     assert chosen==('Cel puțin un participant nu a trimis formularul' if op=='not-all' else 'Niciun participant nu a sosit înainte de ora 9')
                 else:raise AssertionError(op)
-    assert total==1000
-    print('OK: 50 teste, 1.000 itemi unici; distribuție 7/7/6 și 4 variante per item.')
+    assert total==1200
+    print('OK: 60 teste, 1.200 itemi unici; distribuție 7/7/6 și 4 variante per item.')
     print('OK: toate cele 70 de probleme numerice noi și cele 60 de probleme logice noi verificate independent.')
 if __name__=='__main__':validate()
