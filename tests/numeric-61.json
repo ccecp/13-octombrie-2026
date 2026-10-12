@@ -1,0 +1,2825 @@
+{
+  "id": 61,
+  "title": "Antrenament numeric · toate tipurile",
+  "durationSeconds": 3600,
+  "questions": [
+    {
+      "id": "t61-q01",
+      "category": "numeric",
+      "model": "Totaluri în tabel",
+      "prompt": "Cărți împrumutate (clasa A / clasa B): luni 28 / 17; marți 21 / 31; miercuri 34 / 20; joi 26 / 25. În ce zi este cel mai mare total?",
+      "options": [
+        "Joi.",
+        "Luni.",
+        "Marți.",
+        "Miercuri."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Adunăm cele două clase pentru fiecare zi.",
+          "Luni: 28 + 17 = 45. Marți: 21 + 31 = 52.",
+          "Miercuri: 34 + 20 = 54. Joi: 26 + 25 = 51.",
+          "Comparăm 45, 52, 54 și 51. Cel mai mare total este 54, miercuri."
+        ],
+        "alternative": "Poți compara întâi marți și miercuri, apoi verifica dacă celelalte două totaluri le depășesc.",
+        "rule": "Adună pe rânduri și compară totalurile.",
+        "trap": "Valoarea maximă a unei singure clase nu este automat totalul maxim."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "Miercuri",
+        "options": [
+          "Joi",
+          "Luni",
+          "Marți",
+          "Miercuri"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q02",
+      "category": "numeric",
+      "model": "Totaluri în tabel",
+      "prompt": "Cărți împrumutate (clasa A / clasa B): luni 33 / 22; marți 25 / 34; miercuri 29 / 23; joi 31 / 30. În ce zi este cel mai mare total?",
+      "options": [
+        "Joi.",
+        "Luni.",
+        "Marți.",
+        "Miercuri."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Luni: 33 + 22 = 55.",
+          "Marți: 25 + 34 = 59.",
+          "Miercuri: 29 + 23 = 52; joi: 31 + 30 = 61.",
+          "Cel mai mare total este 61, joi."
+        ],
+        "alternative": "Adună separat contribuțiile claselor pentru fiecare zi.",
+        "rule": "Adună pe rânduri și compară totalurile.",
+        "trap": "Valoarea maximă a unei singure clase nu este automat totalul maxim."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "Joi",
+        "options": [
+          "Joi",
+          "Luni",
+          "Marți",
+          "Miercuri"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q03",
+      "category": "numeric",
+      "model": "Selectarea rândurilor relevante",
+      "prompt": "Atelierele au următorii participanți: A — 27; B — 43; C — 58; D — 36. Câți participanți au împreună numai atelierele B și D?",
+      "options": [
+        "101 participanți.",
+        "164 participanți.",
+        "63 participanți.",
+        "79 participanți."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Subliniem «numai B și D». Valorile A și C nu intră în calcul.",
+          "B are 43 participanți, D are 36.",
+          "Adunăm 43 + 36 = 79.",
+          "Verificăm: 79 − 43 = 36, exact efectivul atelierului D."
+        ],
+        "alternative": "Adunare descompusă: 43 + 30 = 73, apoi 73 + 6 = 79.",
+        "rule": "Selectează datele cerute înainte de calcul.",
+        "trap": "Totalul tuturor atelierelor răspunde altei întrebări."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "79",
+        "options": [
+          "101",
+          "164",
+          "63",
+          "79"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q04",
+      "category": "numeric",
+      "model": "Selectarea rândurilor relevante",
+      "prompt": "Atelierele au următorii participanți: A — 38; B — 52; C — 47; D — 29. Câți participanți au împreună numai atelierele A și C?",
+      "options": [
+        "166 participanți.",
+        "67 participanți.",
+        "81 participanți.",
+        "85 participanți."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Cerința selectează numai A și C.",
+          "A are 38 participanți, C are 47.",
+          "38 + 47 = 85.",
+          "Control: 85 − 38 = 47."
+        ],
+        "alternative": "38 + 40 = 78, apoi 78 + 7 = 85.",
+        "rule": "Selectează datele cerute înainte de calcul.",
+        "trap": "Totalul tuturor atelierelor răspunde altei întrebări."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "85",
+        "options": [
+          "166",
+          "67",
+          "81",
+          "85"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q05",
+      "category": "numeric",
+      "model": "Tarif pe unitate și diferență de sume",
+      "prompt": "Ana parcurge 135 km luni și 165 km marți. Bogdan parcurge 95 km luni și 125 km marți. Fiecare primește 0,75 lei/km. Cu câți lei primește Ana mai mult în total?",
+      "options": [
+        "225 lei.",
+        "30 lei.",
+        "60 lei.",
+        "80 lei."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Ana parcurge 135 + 165 = 300 km.",
+          "Bogdan parcurge 95 + 125 = 220 km.",
+          "Diferența este 300 − 220 = 80 km.",
+          "Aplicăm tariful: 80 × 0,75 = 60 lei.",
+          "Control: Ana primește 225 lei, Bogdan 165 lei; 225 − 165 = 60."
+        ],
+        "alternative": "În fiecare zi diferența este 40 km. Pentru două zile: 2 × 40 × 0,75 = 60 lei.",
+        "rule": "Diferența de plată = diferența distanțelor × tariful comun.",
+        "trap": "80 este o distanță în km, nu o sumă în lei."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "60",
+        "options": [
+          "225",
+          "30",
+          "60",
+          "80"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q06",
+      "category": "numeric",
+      "model": "Tarif pe unitate și diferență de sume",
+      "prompt": "Ana parcurge 145 km luni și 175 km marți. Bogdan parcurge 105 km luni și 115 km marți. Fiecare primește 0,60 lei/km. Cu câți lei primește Ana mai mult în total?",
+      "options": [
+        "100 lei.",
+        "24 lei.",
+        "36 lei.",
+        "60 lei."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Ana: 145 + 175 = 320 km.",
+          "Bogdan: 105 + 115 = 220 km.",
+          "Diferența: 320 − 220 = 100 km.",
+          "100 × 0,60 = 60 lei. Control: 192 − 132 = 60 lei."
+        ],
+        "alternative": "Pe zile: diferențe de 40 și 60 km. (40 + 60) × 0,60 = 60 lei.",
+        "rule": "Diferența de plată = diferența distanțelor × tariful comun.",
+        "trap": "80 este o distanță în km, nu o sumă în lei."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "60",
+        "options": [
+          "100",
+          "24",
+          "36",
+          "60"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q07",
+      "category": "numeric",
+      "model": "Procente succesive",
+      "prompt": "Un produs costă 320 lei. Prețul crește cu 25%, apoi noul preț scade cu 10%. Care este prețul final?",
+      "options": [
+        "288 lei.",
+        "352 lei.",
+        "360 lei.",
+        "400 lei."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "25% din 320 = 80 lei.",
+          "După scumpire: 320 + 80 = 400 lei.",
+          "Reducerea este 10% din 400, adică 40 lei.",
+          "Prețul final: 400 − 40 = 360 lei.",
+          "Control prin factori: 320 × 1,25 × 0,90 = 360."
+        ],
+        "alternative": "25% înseamnă un sfert: 320 + 320/4 = 400. Din 400 scoatem o zecime și rămân 360.",
+        "rule": "Fiecare procent se aplică valorii de la începutul etapei sale.",
+        "trap": "Nu aplica reducerea de 10% prețului inițial."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "360",
+        "options": [
+          "288",
+          "352",
+          "360",
+          "400"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q08",
+      "category": "numeric",
+      "model": "Procente succesive",
+      "prompt": "Un produs costă 450 lei. Prețul crește cu 20%, apoi noul preț scade cu 15%. Care este prețul final?",
+      "options": [
+        "382,5 lei.",
+        "450 lei.",
+        "459 lei.",
+        "472,5 lei."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "20% din 450 = 90 lei; prețul nou este 540 lei.",
+          "15% din 540 = 81 lei.",
+          "Prețul final este 540 − 81 = 459 lei.",
+          "Control: 450 × 1,20 × 0,85 = 459."
+        ],
+        "alternative": "15% din 540 se calculează ca 10% + 5%: 54 + 27 = 81.",
+        "rule": "Fiecare procent se aplică valorii de la începutul etapei sale.",
+        "trap": "Nu aplica reducerea de 10% prețului inițial."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "459",
+        "options": [
+          "382.5",
+          "450",
+          "459",
+          "472.5"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q09",
+      "category": "numeric",
+      "model": "Împărțire în raport",
+      "prompt": "Într-un grup de 42 de elevi, raportul fete : băieți este 4 : 3. Câte fete sunt?",
+      "options": [
+        "18 fete.",
+        "21 fete.",
+        "24 fete.",
+        "28 fete."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Raportul împarte întregul în 4 + 3 = 7 părți egale.",
+          "O parte reprezintă 42 ÷ 7 = 6 elevi.",
+          "Fetele ocupă 4 părți: 4 × 6 = 24.",
+          "Băieții sunt 3 × 6 = 18. Control: 24 + 18 = 42 și 24 : 18 = 4 : 3."
+        ],
+        "alternative": "Metoda segmentelor: patru segmente pentru fete și trei pentru băieți; fiecare segment reprezintă 6 elevi.",
+        "rule": "Adună termenii raportului pentru a afla numărul total de părți.",
+        "trap": "4/3 exprimă fete/băieți; partea fetelor din total este 4/7."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "24",
+        "options": [
+          "18",
+          "21",
+          "24",
+          "28"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q10",
+      "category": "numeric",
+      "model": "Împărțire în raport",
+      "prompt": "Într-un grup de 54 de elevi, raportul fete : băieți este 5 : 4. Câte fete sunt?",
+      "options": [
+        "24 fete.",
+        "27 fete.",
+        "30 fete.",
+        "36 fete."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Totalul are 5 + 4 = 9 părți egale.",
+          "O parte: 54/9 = 6 elevi.",
+          "Fetele: 5 × 6 = 30; băieții: 4 × 6 = 24.",
+          "Control: 30 + 24 = 54 și 30 : 24 = 5 : 4."
+        ],
+        "alternative": "Nouă segmente egale de câte 6; cinci revin fetelor.",
+        "rule": "Adună termenii raportului pentru a afla numărul total de părți.",
+        "trap": "4/3 exprimă fete/băieți; partea fetelor din total este 4/7."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "30",
+        "options": [
+          "24",
+          "27",
+          "30",
+          "36"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q11",
+      "category": "numeric",
+      "model": "Medie ponderată",
+      "prompt": "12 elevi au fiecare nota 7, iar alți 18 elevi au fiecare nota 9. Care este media tuturor celor 30 de note?",
+      "options": [
+        "8,2.",
+        "8,4.",
+        "8,6.",
+        "8."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Primul grup contribuie cu 12 × 7 = 84 puncte.",
+          "Al doilea contribuie cu 18 × 9 = 162 puncte.",
+          "Suma notelor este 84 + 162 = 246.",
+          "Împărțim la 30 de elevi: 246 ÷ 30 = 8,2.",
+          "Media este mai aproape de 9 decât de 7, deoarece grupul cu nota 9 este mai numeros."
+        ],
+        "alternative": "Pornim de la nota 7 pentru toți: cei 18 elevi cu nota 9 adaugă câte 2 puncte. Media crește cu 36/30 = 1,2; 7 + 1,2 = 8,2.",
+        "rule": "Înmulțește fiecare medie cu efectivul grupului său.",
+        "trap": "Media simplă (7 + 9)/2 = 8 ignoră efectivele diferite."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "8,2",
+        "options": [
+          "8,2",
+          "8,4",
+          "8,6",
+          "8"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q12",
+      "category": "numeric",
+      "model": "Medie ponderată",
+      "prompt": "15 elevi au fiecare nota 6, iar alți 25 elevi au fiecare nota 10. Care este media celor 40 de note?",
+      "options": [
+        "7,5.",
+        "8,5.",
+        "8.",
+        "9."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Prima sumă: 15 × 6 = 90.",
+          "A doua sumă: 25 × 10 = 250.",
+          "Suma totală: 340; efectivul: 40.",
+          "Media: 340/40 = 8,5."
+        ],
+        "alternative": "Pornind de la nota 6 pentru toți, creșterea mediei este (25 × 4)/40 = 2,5. 6 + 2,5 = 8,5.",
+        "rule": "Înmulțește fiecare medie cu efectivul grupului său.",
+        "trap": "Media simplă (7 + 9)/2 = 8 ignoră efectivele diferite."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "8,5",
+        "options": [
+          "7,5",
+          "8,5",
+          "8",
+          "9"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q13",
+      "category": "numeric",
+      "model": "Productivitate cu retragere",
+      "prompt": "Echipa A termină singură o lucrare în 10 zile, iar B în 15 zile. Lucrează împreună 3 zile, apoi A se retrage. În câte zile suplimentare termină B restul lucrării?",
+      "options": [
+        "12 zile.",
+        "5 zile.",
+        "6 zile.",
+        "7,5 zile."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "A face 1/10 din lucrare pe zi; B face 1/15.",
+          "Împreună fac 3/30 + 2/30 = 5/30 = 1/6 pe zi.",
+          "În 3 zile fac 3/6 = 1/2 din lucrare.",
+          "Rămâne 1/2. B are nevoie de (1/2) ÷ (1/15) = 7,5 zile.",
+          "Control: 3/10 + 3/15 + 7,5/15 = 0,3 + 0,2 + 0,5 = 1."
+        ],
+        "alternative": "Metoda unităților: lucrarea are 30 unități. A face 3/zi, B 2/zi. Împreună fac 15 unități în 3 zile. B termină cele 15 rămase în 15/2 = 7,5 zile.",
+        "rule": "Adună ritmurile, apoi calculează timpul pentru rest.",
+        "trap": "Se cer zile suplimentare, fără cele 3 zile lucrate împreună."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "7,5",
+        "options": [
+          "12",
+          "5",
+          "6",
+          "7,5"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q14",
+      "category": "numeric",
+      "model": "Productivitate cu retragere",
+      "prompt": "Echipa A termină singură o lucrare în 12 zile, iar B în 18 zile. Lucrează împreună 3 zile, apoi A se retrage. În câte zile suplimentare termină B restul?",
+      "options": [
+        "10,5 zile.",
+        "15 zile.",
+        "7,5 zile.",
+        "9 zile."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Ritmul comun este 1/12 + 1/18 = 5/36 pe zi.",
+          "În 3 zile realizează 15/36 = 5/12 din lucrare.",
+          "Rămân 7/12; B are nevoie de (7/12) × 18 = 10,5 zile.",
+          "Control: 3/12 + 3/18 + 10,5/18 = 1."
+        ],
+        "alternative": "Lucrarea are 36 unități. A face 3/zi, B 2/zi; după 3 zile rămân 21 unități. 21/2 = 10,5 zile.",
+        "rule": "Adună ritmurile, apoi calculează timpul pentru rest.",
+        "trap": "Se cer zile suplimentare, fără cele 3 zile lucrate împreună."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "10,5",
+        "options": [
+          "10,5",
+          "15",
+          "7,5",
+          "9"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q15",
+      "category": "numeric",
+      "model": "Șir cu diferențe crescătoare",
+      "prompt": "Diferențele dintre termenii consecutivi cresc de fiecare dată cu 3. Completează șirul: 4, 9, 17, 28, 42, … .",
+      "options": [
+        "56.",
+        "59.",
+        "60.",
+        "63."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Diferențele sunt 9 − 4 = 5; 17 − 9 = 8; 28 − 17 = 11; 42 − 28 = 14.",
+          "Diferențele 5, 8, 11, 14 cresc cu 3.",
+          "Următoarea diferență este 17.",
+          "Următorul termen: 42 + 17 = 59."
+        ],
+        "alternative": "Scrie sub șir creșterile +5, +8, +11, +14, apoi continuă cu +17.",
+        "rule": "Caută regula diferențelor când termenii nu cresc constant.",
+        "trap": "Nu repeta ultima diferență de 14."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "59",
+        "options": [
+          "56",
+          "59",
+          "60",
+          "63"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q16",
+      "category": "numeric",
+      "model": "Șir cu diferențe crescătoare",
+      "prompt": "Diferențele dintre termenii consecutivi cresc de fiecare dată cu 4. Completează: 6, 12, 22, 36, 54, … .",
+      "options": [
+        "72.",
+        "74.",
+        "76.",
+        "78."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Diferențele sunt 6, 10, 14, 18.",
+          "Fiecare diferență crește cu 4.",
+          "Următoarea diferență este 22.",
+          "54 + 22 = 76."
+        ],
+        "alternative": "Notează sub termeni +6, +10, +14, +18 și continuă cu +22.",
+        "rule": "Caută regula diferențelor când termenii nu cresc constant.",
+        "trap": "Nu repeta ultima diferență de 14."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "76",
+        "options": [
+          "72",
+          "74",
+          "76",
+          "78"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q17",
+      "category": "numeric",
+      "model": "Procent din întreg",
+      "prompt": "Din 240 de elevi, 35% participă la un proiect. Câți elevi participă?",
+      "options": [
+        "156 elevi.",
+        "72 elevi.",
+        "84 elevi.",
+        "96 elevi."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "100% corespunde celor 240 de elevi.",
+          "1% reprezintă 240/100 = 2,4 elevi ca valoare de calcul.",
+          "35% reprezintă 35 × 2,4 = 84 elevi.",
+          "Control: 84/240 = 0,35 = 35%."
+        ],
+        "alternative": "30% din 240 = 72 și 5% = 12; în total 72 + 12 = 84.",
+        "rule": "Procentul p din N este N × p/100.",
+        "trap": "Nu scădea procentul ca și cum ar fi un număr de elevi."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "84",
+        "options": [
+          "156",
+          "72",
+          "84",
+          "96"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q18",
+      "category": "numeric",
+      "model": "Procent din întreg",
+      "prompt": "Din 360 de elevi, 45% participă la un proiect. Câți elevi participă?",
+      "options": [
+        "144 elevi.",
+        "162 elevi.",
+        "180 elevi.",
+        "198 elevi."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "1% din 360 este 3,6.",
+          "45% = 45 × 3,6 = 162.",
+          "Echivalent: 360 × 45/100 = 162.",
+          "Control: 162/360 = 0,45."
+        ],
+        "alternative": "40% din 360 = 144, iar 5% = 18; 144 + 18 = 162.",
+        "rule": "Procentul p din N este N × p/100.",
+        "trap": "Nu scădea procentul ca și cum ar fi un număr de elevi."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "162",
+        "options": [
+          "144",
+          "162",
+          "180",
+          "198"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q19",
+      "category": "numeric",
+      "model": "Viteză medie pe distanțe egale",
+      "prompt": "Un vehicul parcurge 180 km cu 45 km/h și revine pe aceeași distanță cu 60 km/h, fără opriri. Care este viteza medie pe întregul drum?",
+      "options": [
+        "360/7 km/h.",
+        "45 km/h.",
+        "50 km/h.",
+        "52,5 km/h."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "La dus timpul este 180/45 = 4 ore.",
+          "La întors timpul este 180/60 = 3 ore.",
+          "Distanța totală este 360 km, timpul total 7 ore.",
+          "Viteza medie este 360/7 km/h, exact.",
+          "Control: (360/7) × 7 = 360 km."
+        ],
+        "alternative": "Pentru distanțe egale: 2 × 45 × 60/(45 + 60) = 5400/105 = 360/7 km/h.",
+        "rule": "Viteza medie = distanța totală/timpul total.",
+        "trap": "Media aritmetică a vitezelor nu se aplică aici: duratele sunt diferite."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "360/7",
+        "options": [
+          "360/7",
+          "45",
+          "50",
+          "52,5"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q20",
+      "category": "numeric",
+      "model": "Viteză medie pe distanțe egale",
+      "prompt": "Un vehicul parcurge 240 km cu 60 km/h și revine pe aceeași distanță cu 80 km/h, fără opriri. Care este viteza medie pe întregul drum?",
+      "options": [
+        "480/7 km/h.",
+        "60 km/h.",
+        "70 km/h.",
+        "80 km/h."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "La dus: 240/60 = 4 ore.",
+          "La întors: 240/80 = 3 ore.",
+          "Total: 480 km în 7 ore.",
+          "Viteza medie este exact 480/7 km/h; control: (480/7) × 7 = 480."
+        ],
+        "alternative": "Formula pentru distanțe egale: 2 × 60 × 80/(60 + 80) = 480/7.",
+        "rule": "Viteza medie = distanța totală/timpul total.",
+        "trap": "Media aritmetică a vitezelor nu se aplică aici: duratele sunt diferite."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "480/7",
+        "options": [
+          "480/7",
+          "60",
+          "70",
+          "80"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q21",
+      "category": "numeric",
+      "model": "Media și valoarea lipsă",
+      "prompt": "Media a cinci numere este 18. Patru dintre ele sunt 11, 16, 20 și 23. Care este al cincilea?",
+      "options": [
+        "18.",
+        "20.",
+        "22.",
+        "24."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "O medie de 18 pentru 5 numere înseamnă suma 5 × 18 = 90.",
+          "Suma numerelor cunoscute: 11 + 16 + 20 + 23 = 70.",
+          "Numărul lipsă este 90 − 70 = 20.",
+          "Control: (11 + 16 + 20 + 23 + 20)/5 = 90/5 = 18."
+        ],
+        "alternative": "Abaterile față de 18 ale celor patru numere sunt −7, −2, +2, +5, cu suma −2. Numărul lipsă trebuie să fie 18 + 2 = 20.",
+        "rule": "Recuperează suma totală din medie × număr de valori.",
+        "trap": "Nu împărți suma cunoscută la 5 înainte de a găsi valoarea lipsă."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "20",
+        "options": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q22",
+      "category": "numeric",
+      "model": "Media și valoarea lipsă",
+      "prompt": "Media a șase numere este 21. Cinci dintre ele sunt 14, 19, 22, 25 și 27. Care este al șaselea?",
+      "options": [
+        "17.",
+        "19.",
+        "21.",
+        "23."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Suma celor șase numere este 6 × 21 = 126.",
+          "Suma cunoscută: 14 + 19 + 22 + 25 + 27 = 107.",
+          "Valoarea lipsă: 126 − 107 = 19.",
+          "Control: (107 + 19)/6 = 21."
+        ],
+        "alternative": "Abaterile celor cinci față de 21 au suma +2; numărul lipsă este 21 − 2 = 19.",
+        "rule": "Recuperează suma totală din medie × număr de valori.",
+        "trap": "Nu împărți suma cunoscută la 5 înainte de a găsi valoarea lipsă."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "19",
+        "options": [
+          "17",
+          "19",
+          "21",
+          "23"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q23",
+      "category": "numeric",
+      "model": "Pondere complementară",
+      "prompt": "Într-un grup sunt 150 de persoane. 28% sunt bărbați, iar restul sunt femei. Câte femei sunt?",
+      "options": [
+        "108 femei.",
+        "122 femei.",
+        "42 femei.",
+        "72 femei."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Femeile reprezintă 100% − 28% = 72%.",
+          "72% din 150 = 150 × 72/100 = 108.",
+          "Bărbații sunt 150 × 28/100 = 42.",
+          "Control: 108 + 42 = 150."
+        ],
+        "alternative": "Află mai întâi cei 42 de bărbați și scade-i din 150.",
+        "rule": "Partea complementară are ponderea 100% minus ponderea cunoscută.",
+        "trap": "72 este procentul femeilor, nu numărul lor."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "108",
+        "options": [
+          "108",
+          "122",
+          "42",
+          "72"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q24",
+      "category": "numeric",
+      "model": "Pondere complementară",
+      "prompt": "Într-un grup sunt 175 de persoane. 36% sunt bărbați, iar restul sunt femei. Câte femei sunt?",
+      "options": [
+        "100 femei.",
+        "112 femei.",
+        "139 femei.",
+        "63 femei."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Femeile reprezintă 100% − 36% = 64%.",
+          "175 × 64/100 = 112.",
+          "Bărbații sunt 175 × 36/100 = 63.",
+          "Control: 112 + 63 = 175."
+        ],
+        "alternative": "Află mai întâi cei 63 de bărbați și scade din 175.",
+        "rule": "Partea complementară are ponderea 100% minus ponderea cunoscută.",
+        "trap": "72 este procentul femeilor, nu numărul lor."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "112",
+        "options": [
+          "100",
+          "112",
+          "139",
+          "63"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q25",
+      "category": "numeric",
+      "model": "Procent dintr-o parte",
+      "prompt": "O școală are 300 de elevi. 40% sunt în gimnaziu. Dintre elevii de gimnaziu, 25% participă la clubul de lectură. Câți elevi de gimnaziu participă?",
+      "options": [
+        "120 elevi.",
+        "165 elevi.",
+        "30 elevi.",
+        "75 elevi."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Mai întâi aflăm gimnaziul: 300 × 40/100 = 120.",
+          "Clubul cuprinde 25% din cei 120, nu din toți cei 300.",
+          "120 × 25/100 = 30.",
+          "Control: 30/120 = 1/4 = 25%."
+        ],
+        "alternative": "25% din 40% este 10% din întreg. 10% din 300 = 30.",
+        "rule": "Când procentul privește un subgrup, schimbă baza de calcul.",
+        "trap": "75 ar rezulta din aplicarea greșită a lui 25% tuturor elevilor."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "30",
+        "options": [
+          "120",
+          "165",
+          "30",
+          "75"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q26",
+      "category": "numeric",
+      "model": "Procent dintr-o parte",
+      "prompt": "O școală are 450 de elevi. 60% sunt în liceu. Dintre elevii de liceu, 20% participă la clubul de teatru. Câți liceeni participă?",
+      "options": [
+        "180 elevi.",
+        "270 elevi.",
+        "54 elevi.",
+        "90 elevi."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Liceul cuprinde 450 × 60/100 = 270 elevi.",
+          "Participă 20% din cei 270.",
+          "270 × 20/100 = 54.",
+          "Control: 54/270 = 1/5 = 20%."
+        ],
+        "alternative": "20% din 60% este 12% din total. 450 × 12/100 = 54.",
+        "rule": "Când procentul privește un subgrup, schimbă baza de calcul.",
+        "trap": "75 ar rezulta din aplicarea greșită a lui 25% tuturor elevilor."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "54",
+        "options": [
+          "180",
+          "270",
+          "54",
+          "90"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q27",
+      "category": "numeric",
+      "model": "Perimetru",
+      "prompt": "Un teren dreptunghiular are lungimea de 34 m și lățimea de 19 m. Ce lungime de gard este necesară pentru a-l împrejmui complet, fără poartă?",
+      "options": [
+        "106 m.",
+        "53 m.",
+        "646 m.",
+        "87 m."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Dreptunghiul are două laturi de 34 m și două de 19 m.",
+          "Adunăm: 34 + 19 + 34 + 19 = 106 m.",
+          "Echivalent: 2 × (34 + 19) = 2 × 53 = 106 m.",
+          "Rezultatul reprezintă lungime, deci unitatea este metrul."
+        ],
+        "alternative": "Două laturi lungi totalizează 68 m, două laturi scurte 38 m; 68 + 38 = 106 m.",
+        "rule": "Perimetrul dreptunghiului este 2 × (L + l).",
+        "trap": "34 × 19 dă aria în m², nu lungimea gardului."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "106",
+        "options": [
+          "106",
+          "53",
+          "646",
+          "87"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q28",
+      "category": "numeric",
+      "model": "Perimetru",
+      "prompt": "Un teren dreptunghiular are lungimea de 41 m și lățimea de 23 m. Ce lungime de gard este necesară pentru a-l împrejmui complet, fără poartă?",
+      "options": [
+        "105 m.",
+        "128 m.",
+        "64 m.",
+        "943 m."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Sunt două laturi de 41 m și două de 23 m.",
+          "Suma unei lungimi și unei lățimi este 64 m.",
+          "Perimetrul: 2 × 64 = 128 m.",
+          "Control: 82 + 46 = 128 m."
+        ],
+        "alternative": "Adună toate laturile: 41 + 23 + 41 + 23.",
+        "rule": "Perimetrul dreptunghiului este 2 × (L + l).",
+        "trap": "34 × 19 dă aria în m², nu lungimea gardului."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "128",
+        "options": [
+          "105",
+          "128",
+          "64",
+          "943"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q29",
+      "category": "numeric",
+      "model": "Vârste",
+      "prompt": "Mama are acum 38 de ani, iar fiica 14 ani. Peste câți ani vârsta mamei va fi dublul vârstei fiicei?",
+      "options": [
+        "10 ani.",
+        "12 ani.",
+        "5 ani.",
+        "8 ani."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Notăm cu x numărul de ani care trec.",
+          "Atunci mama are 38 + x, fiica 14 + x.",
+          "Condiția este 38 + x = 2 × (14 + x).",
+          "Rezultă 38 + x = 28 + 2x, deci x = 10.",
+          "Control peste 10 ani: 48 și 24; 48 = 2 × 24."
+        ],
+        "alternative": "Diferența de vârstă rămâne 24 ani. Când mama are vârsta dublă, fiica are exact 24 ani, deci mai trebuie 24 − 14 = 10 ani.",
+        "rule": "Adaugă același număr de ani ambelor vârste.",
+        "trap": "Nu modifica numai vârsta mamei."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "10",
+        "options": [
+          "10",
+          "12",
+          "5",
+          "8"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q30",
+      "category": "numeric",
+      "model": "Vârste",
+      "prompt": "Tatăl are acum 47 de ani, iar fiul 17 ani. Peste câți ani vârsta tatălui va fi dublul vârstei fiului?",
+      "options": [
+        "10 ani.",
+        "12 ani.",
+        "13 ani.",
+        "15 ani."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Peste x ani: 47 + x și 17 + x.",
+          "47 + x = 2 × (17 + x).",
+          "47 + x = 34 + 2x, deci x = 13.",
+          "Control: peste 13 ani au 60 și 30 ani."
+        ],
+        "alternative": "Diferența este 30 ani. La raportul 2 : 1, fiul trebuie să aibă 30 ani; 30 − 17 = 13.",
+        "rule": "Adaugă același număr de ani ambelor vârste.",
+        "trap": "Nu modifica numai vârsta mamei."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "13",
+        "options": [
+          "10",
+          "12",
+          "13",
+          "15"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q31",
+      "category": "numeric",
+      "model": "Creștere procentuală",
+      "prompt": "Numărul vizitelor unei biblioteci crește de la 120 la 156. Cu ce procent a crescut?",
+      "options": [
+        "130%.",
+        "23%.",
+        "30%.",
+        "36%."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Creșterea este 156 − 120 = 36 vizite.",
+          "Baza procentului este valoarea inițială, 120.",
+          "36/120 × 100 = 30%.",
+          "Control: 120 × 1,30 = 156."
+        ],
+        "alternative": "10% din 120 este 12; creșterea 36 conține trei asemenea părți, deci 30%.",
+        "rule": "Raportează diferența la valoarea inițială.",
+        "trap": "36 este creșterea absolută, nu procentul."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "30",
+        "options": [
+          "130",
+          "23",
+          "30",
+          "36"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q32",
+      "category": "numeric",
+      "model": "Creștere procentuală",
+      "prompt": "Numărul vizitelor unei biblioteci crește de la 150 la 210. Cu ce procent a crescut?",
+      "options": [
+        "140%.",
+        "28%.",
+        "40%.",
+        "60%."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Diferența: 210 − 150 = 60.",
+          "Baza inițială este 150.",
+          "60/150 × 100 = 40%.",
+          "Control: 150 × 1,40 = 210."
+        ],
+        "alternative": "10% din 150 = 15; creșterea de 60 conține patru asemenea părți.",
+        "rule": "Raportează diferența la valoarea inițială.",
+        "trap": "36 este creșterea absolută, nu procentul."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "40",
+        "options": [
+          "140",
+          "28",
+          "40",
+          "60"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q33",
+      "category": "numeric",
+      "model": "Productivitate simultană",
+      "prompt": "Echipa A realizează singură o lucrare în 8 zile, iar B în 24 de zile. Dacă lucrează împreună la ritm constant, în câte zile o termină?",
+      "options": [
+        "16 zile.",
+        "4 zile.",
+        "6 zile.",
+        "8 zile."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "A face 1/8 din lucrare pe zi, B face 1/24.",
+          "Ritmul comun este 3/24 + 1/24 = 4/24 = 1/6 pe zi.",
+          "Pentru o lucrare completă au nevoie de 1 ÷ (1/6) = 6 zile.",
+          "Control: 6/8 + 6/24 = 3/4 + 1/4 = 1."
+        ],
+        "alternative": "Lucrarea are 24 unități: A face 3/zi, B 1/zi; împreună 4/zi. 24/4 = 6 zile.",
+        "rule": "Adună fracțiile de lucrare pe zi, nu duratele individuale.",
+        "trap": "Media duratelor nu dă durata lucrului împreună."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "6",
+        "options": [
+          "16",
+          "4",
+          "6",
+          "8"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q34",
+      "category": "numeric",
+      "model": "Productivitate simultană",
+      "prompt": "Echipa A realizează singură o lucrare în 14 zile, iar B în 21 de zile. Dacă lucrează împreună la ritm constant, în câte zile o termină?",
+      "options": [
+        "10,5 zile.",
+        "17,5 zile.",
+        "7 zile.",
+        "8,4 zile."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Ritmurile sunt 1/14 și 1/21 pe zi.",
+          "Împreună: 3/42 + 2/42 = 5/42 din lucrare pe zi.",
+          "Durata este 42/5 = 8,4 zile.",
+          "Control: 8,4/14 = 0,6 și 8,4/21 = 0,4; suma este 1."
+        ],
+        "alternative": "Lucrare de 42 unități: A face 3/zi, B 2/zi. 42/5 = 8,4 zile.",
+        "rule": "Adună fracțiile de lucrare pe zi, nu duratele individuale.",
+        "trap": "Media duratelor nu dă durata lucrului împreună."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "8,4",
+        "options": [
+          "10,5",
+          "17,5",
+          "7",
+          "8,4"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q35",
+      "category": "numeric",
+      "model": "Probabilitate simplă",
+      "prompt": "Într-o urnă sunt 7 bile roșii, 5 albastre și 8 verzi. Se extrage la întâmplare o singură bilă, fiecare având aceeași șansă. Care este probabilitatea să fie albastră?",
+      "options": [
+        "1/3.",
+        "1/4.",
+        "1/5.",
+        "3/4."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Totalul bilelor este 7 + 5 + 8 = 20.",
+          "Cazurile favorabile sunt cele 5 bile albastre.",
+          "Probabilitatea este 5/20 = 1/4.",
+          "Control: 1/4 reprezintă 25% din 20, adică 5 bile."
+        ],
+        "alternative": "Împarte cele 20 de bile în patru părți de câte 5: bilele albastre reprezintă o parte.",
+        "rule": "Probabilitate = cazuri favorabile/cazuri posibile, când șansele sunt egale.",
+        "trap": "Numitorul include și bilele de alte culori."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "1/4",
+        "options": [
+          "1/3",
+          "1/4",
+          "1/5",
+          "3/4"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q36",
+      "category": "numeric",
+      "model": "Probabilitate simplă",
+      "prompt": "Într-o urnă sunt 9 bile roșii, 6 albastre și 9 verzi. Se extrage la întâmplare o bilă, fiecare cu aceeași șansă. Care este probabilitatea să fie albastră?",
+      "options": [
+        "1/4.",
+        "1/6.",
+        "3/4.",
+        "3/8."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Totalul este 9 + 6 + 9 = 24.",
+          "Sunt 6 cazuri favorabile.",
+          "Probabilitatea: 6/24 = 1/4.",
+          "Control: un sfert din 24 este 6."
+        ],
+        "alternative": "Cele 6 albastre reprezintă una dintre patru părți de câte 6.",
+        "rule": "Probabilitate = cazuri favorabile/cazuri posibile, când șansele sunt egale.",
+        "trap": "Numitorul include și bilele de alte culori."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "1/4",
+        "options": [
+          "1/4",
+          "1/6",
+          "3/4",
+          "3/8"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q37",
+      "category": "numeric",
+      "model": "Preț inițial după reducere",
+      "prompt": "După o reducere de 20%, un produs costă 216 lei. Care a fost prețul înainte de reducere?",
+      "options": [
+        "240 lei.",
+        "259,2 lei.",
+        "270 lei.",
+        "280 lei."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "După reducere rămâne 80% din prețul inițial.",
+          "216 lei corespund lui 80%, nu lui 100%.",
+          "Prețul inițial este 216/0,80 = 270 lei.",
+          "Control: 20% din 270 = 54; 270 − 54 = 216."
+        ],
+        "alternative": "Regula de trei: 80% → 216 lei; 100% → 216 × 100/80 = 270 lei.",
+        "rule": "Împarte prețul final la proporția rămasă.",
+        "trap": "Adăugarea a 20% la 216 nu inversează reducerea."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "270",
+        "options": [
+          "240",
+          "259.2",
+          "270",
+          "280"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q38",
+      "category": "numeric",
+      "model": "Preț inițial după reducere",
+      "prompt": "După o reducere de 25%, un produs costă 315 lei. Care a fost prețul înainte de reducere?",
+      "options": [
+        "393,75 lei.",
+        "400 lei.",
+        "420 lei.",
+        "450 lei."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "După reducere rămâne 75% din preț.",
+          "315 lei corespund la 75%.",
+          "Prețul inițial: 315/0,75 = 420 lei.",
+          "Control: 420 − 420/4 = 420 − 105 = 315."
+        ],
+        "alternative": "75% sunt trei sferturi; un sfert este 315/3 = 105. Patru sferturi: 420.",
+        "rule": "Împarte prețul final la proporția rămasă.",
+        "trap": "Adăugarea a 20% la 216 nu inversează reducerea."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "420",
+        "options": [
+          "393.75",
+          "400",
+          "420",
+          "450"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q39",
+      "category": "numeric",
+      "model": "Scară de hartă",
+      "prompt": "O hartă are scara 1 : 75.000. Distanța dintre două puncte măsoară 4 cm pe hartă. Care este distanța reală?",
+      "options": [
+        "0,3 km.",
+        "3 km.",
+        "30 km.",
+        "300 km."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "1 cm pe hartă corespunde la 75.000 cm în realitate.",
+          "4 cm corespund la 4 × 75.000 = 300.000 cm.",
+          "1 km = 100.000 cm.",
+          "300.000/100.000 = 3 km."
+        ],
+        "alternative": "75.000 cm = 750 m; 4 × 750 = 3.000 m = 3 km.",
+        "rule": "Înmulțește cu scara, apoi convertește unitățile.",
+        "trap": "Nu confunda 100 cm într-un metru cu 100.000 cm într-un kilometru."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "3",
+        "options": [
+          "0.3",
+          "3",
+          "30",
+          "300"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q40",
+      "category": "numeric",
+      "model": "Scară de hartă",
+      "prompt": "O hartă are scara 1 : 80.000. Distanța dintre două puncte măsoară 6 cm pe hartă. Care este distanța reală?",
+      "options": [
+        "0,48 km.",
+        "4,8 km.",
+        "48 km.",
+        "480 km."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "1 cm reprezintă 80.000 cm reali.",
+          "6 × 80.000 = 480.000 cm.",
+          "1 km = 100.000 cm.",
+          "480.000/100.000 = 4,8 km."
+        ],
+        "alternative": "1 cm reprezintă 800 m; 6 × 800 = 4.800 m = 4,8 km.",
+        "rule": "Înmulțește cu scara, apoi convertește unitățile.",
+        "trap": "Nu confunda 100 cm într-un metru cu 100.000 cm într-un kilometru."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "4.8",
+        "options": [
+          "0.48",
+          "4.8",
+          "48",
+          "480"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q41",
+      "category": "numeric",
+      "model": "Unități de timp",
+      "prompt": "O activitate începe la ora 9:35 și durează 2 ore și 50 de minute. La ce oră se încheie?",
+      "options": [
+        "11:25.",
+        "11:85.",
+        "12:15.",
+        "12:25."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Adăugăm 2 ore la 9:35 și ajungem la 11:35.",
+          "Adăugăm 50 de minute: 35 + 50 = 85 minute.",
+          "85 minute înseamnă 1 oră și 25 minute.",
+          "11:35 + 50 minute = 12:25."
+        ],
+        "alternative": "De la 11:35 la 12:00 sunt 25 minute; din cele 50 rămân încă 25. Ajungem la 12:25.",
+        "rule": "La fiecare 60 de minute treci la ora următoare.",
+        "trap": "Ora 11:85 nu este o oră validă."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "12:25",
+        "options": [
+          "11:25",
+          "11:85",
+          "12:15",
+          "12:25"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q42",
+      "category": "numeric",
+      "model": "Unități de timp",
+      "prompt": "O activitate începe la ora 13:45 și durează 3 ore și 35 minute. La ce oră se încheie?",
+      "options": [
+        "16:20.",
+        "16:80.",
+        "17:10.",
+        "17:20."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "După 3 ore ajungem la 16:45.",
+          "Mai adăugăm 35 minute.",
+          "45 + 35 = 80 minute = 1 oră și 20 minute.",
+          "Ora finală este 17:20."
+        ],
+        "alternative": "15 minute până la 17:00 și încă 20 după 17:00.",
+        "rule": "La fiecare 60 de minute treci la ora următoare.",
+        "trap": "Ora 11:85 nu este o oră validă."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "17:20",
+        "options": [
+          "16:20",
+          "16:80",
+          "17:10",
+          "17:20"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q43",
+      "category": "numeric",
+      "model": "Mediană",
+      "prompt": "Care este mediana numerelor 14, 9, 22, 18, 11, 25?",
+      "options": [
+        "14.",
+        "16,5.",
+        "16.",
+        "18."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Ordonăm crescător: 9, 11, 14, 18, 22, 25.",
+          "Sunt 6 numere, deci cele două din mijloc sunt pozițiile 3 și 4.",
+          "Acestea sunt 14 și 18.",
+          "Mediana este (14 + 18)/2 = 16."
+        ],
+        "alternative": "Elimină perechi de la extremități: 9 cu 25, 11 cu 22. Rămân 14 și 18, a căror medie este 16.",
+        "rule": "Pentru un număr par de valori, ia media celor două centrale după ordonare.",
+        "trap": "Mediana nu este media tuturor celor șase valori."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "16",
+        "options": [
+          "14",
+          "16.5",
+          "16",
+          "18"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q44",
+      "category": "numeric",
+      "model": "Mediană",
+      "prompt": "Care este mediana numerelor 26, 15, 21, 13, 18, 31?",
+      "options": [
+        "18.",
+        "19,5.",
+        "20.",
+        "21."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Ordonăm: 13, 15, 18, 21, 26, 31.",
+          "Cele două poziții centrale sunt 3 și 4.",
+          "Valorile centrale sunt 18 și 21.",
+          "Mediana: (18 + 21)/2 = 19,5."
+        ],
+        "alternative": "Elimină perechi de la extremități; rămân 18 și 21.",
+        "rule": "Pentru un număr par de valori, ia media celor două centrale după ordonare.",
+        "trap": "Mediana nu este media tuturor celor șase valori."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "19.5",
+        "options": [
+          "18",
+          "19.5",
+          "20",
+          "21"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q45",
+      "category": "numeric",
+      "model": "Împărțire cu rotunjire în sus",
+      "prompt": "Trebuie transportați 137 de elevi. Un autocar are 32 de locuri pentru elevi. Care este numărul minim de autocare, dacă fiecare elev trebuie să aibă loc?",
+      "options": [
+        "4 autocare.",
+        "5 autocare.",
+        "6 autocare.",
+        "7 autocare."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Patru autocare au 4 × 32 = 128 locuri.",
+          "128 este mai mic decât 137; rămân 9 elevi fără loc.",
+          "Cinci autocare au 5 × 32 = 160 locuri, suficiente.",
+          "Cum 4 nu ajung și 5 ajung, minimul este 5."
+        ],
+        "alternative": "137/32 = 4 și rest 9. Restul cere încă un autocar.",
+        "rule": "Pentru vehicule sau cutii necesare, rotunjește în sus când există rest.",
+        "trap": "Nu rotunji la cel mai apropiat întreg dacă rămân persoane fără loc."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "5",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q46",
+      "category": "numeric",
+      "model": "Împărțire cu rotunjire în sus",
+      "prompt": "Trebuie transportați 184 de elevi. Un autocar are 35 de locuri pentru elevi. Care este numărul minim de autocare pentru ca fiecare să aibă loc?",
+      "options": [
+        "5 autocare.",
+        "6 autocare.",
+        "7 autocare.",
+        "8 autocare."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "5 × 35 = 175 locuri, insuficiente pentru 184.",
+          "Rămân 9 elevi fără loc.",
+          "6 × 35 = 210 locuri, suficiente.",
+          "Minimul este 6, deoarece 5 nu ajung."
+        ],
+        "alternative": "184/35 = 5 cu rest 9. Restul impune un al șaselea autocar.",
+        "rule": "Pentru vehicule sau cutii necesare, rotunjește în sus când există rest.",
+        "trap": "Nu rotunji la cel mai apropiat întreg dacă rămân persoane fără loc."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "6",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q47",
+      "category": "numeric",
+      "model": "Proporționalitate inversă",
+      "prompt": "6 lucrători termină o lucrare în 15 zile. În câte zile o termină 10 lucrători, cu același ritm individual și fără a se încurca reciproc?",
+      "options": [
+        "10 zile.",
+        "25 zile.",
+        "6 zile.",
+        "9 zile."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Lucrarea necesită 6 × 15 = 90 zile-lucrător.",
+          "Cu 10 lucrători, timpul este 90/10 = 9 zile.",
+          "Mai mulți lucrători trebuie să însemne mai puține zile.",
+          "Control: 10 × 9 = 90, aceeași cantitate de muncă."
+        ],
+        "alternative": "Regula de trei inversă: 6 lucrători → 15 zile; 10 → x. x = 6 × 15/10 = 9.",
+        "rule": "La aceeași lucrare, număr de lucrători × timp este constant.",
+        "trap": "Regula directă ar da 25 zile, sens opus situației."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "9",
+        "options": [
+          "10",
+          "25",
+          "6",
+          "9"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q48",
+      "category": "numeric",
+      "model": "Proporționalitate inversă",
+      "prompt": "8 lucrători termină o lucrare în 18 zile. În câte zile o termină 12 lucrători, cu același ritm individual și fără a se încurca reciproc?",
+      "options": [
+        "12 zile.",
+        "16 zile.",
+        "27 zile.",
+        "8 zile."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Cantitatea de muncă este 8 × 18 = 144 zile-lucrător.",
+          "Cu 12 lucrători durata este 144/12 = 12 zile.",
+          "Creșterea efectivului reduce timpul.",
+          "Control: 12 × 12 = 144."
+        ],
+        "alternative": "Efectivul crește de 1,5 ori, timpul se împarte la 1,5: 18/1,5 = 12.",
+        "rule": "La aceeași lucrare, număr de lucrători × timp este constant.",
+        "trap": "Regula directă ar da 25 zile, sens opus situației."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "12",
+        "options": [
+          "12",
+          "16",
+          "27",
+          "8"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q49",
+      "category": "numeric",
+      "model": "Proporționalitate directă",
+      "prompt": "9 caiete identice costă 63 lei. Cât costă 15 caiete, la același preț pe bucată?",
+      "options": [
+        "105 lei.",
+        "126 lei.",
+        "90 lei.",
+        "98 lei."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Un caiet costă 63/9 = 7 lei.",
+          "15 caiete costă 15 × 7 = 105 lei.",
+          "Control: raportul costurilor este 105/63 = 15/9.",
+          "Cantitatea mai mare produce un cost mai mare la tarif constant."
+        ],
+        "alternative": "Regula de trei directă: 9 → 63 lei; 15 → x. x = 15 × 63/9 = 105.",
+        "rule": "Află prețul unitar și înmulțește cu numărul cerut.",
+        "trap": "Nu păstra costul total constant când cantitatea crește."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "105",
+        "options": [
+          "105",
+          "126",
+          "90",
+          "98"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q50",
+      "category": "numeric",
+      "model": "Proporționalitate directă",
+      "prompt": "8 caiete identice costă 72 lei. Cât costă 13 caiete la același preț pe bucată?",
+      "options": [
+        "104 lei.",
+        "108 lei.",
+        "117 lei.",
+        "144 lei."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Un caiet costă 72/8 = 9 lei.",
+          "13 caiete costă 13 × 9 = 117 lei.",
+          "Control: 117/13 = 9 lei pe caiet.",
+          "Tariful rămâne același."
+        ],
+        "alternative": "10 caiete costă 90 lei, 3 costă 27; total 117.",
+        "rule": "Află prețul unitar și înmulțește cu numărul cerut.",
+        "trap": "Nu păstra costul total constant când cantitatea crește."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "117",
+        "options": [
+          "104",
+          "108",
+          "117",
+          "144"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q51",
+      "category": "numeric",
+      "model": "Sumă și diferență",
+      "prompt": "Două clase au împreună 68 de elevi. Prima are cu 12 elevi mai mult decât a doua. Câți elevi are prima?",
+      "options": [
+        "28 elevi.",
+        "34 elevi.",
+        "40 elevi.",
+        "46 elevi."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Notăm efectivul clasei a doua cu x, al primei cu x + 12.",
+          "Suma este x + x + 12 = 68.",
+          "2x = 56, deci a doua clasă are 28 elevi.",
+          "Prima are 28 + 12 = 40.",
+          "Control: 40 + 28 = 68 și 40 − 28 = 12."
+        ],
+        "alternative": "Metoda segmentelor: scoatem surplusul de 12 din total. Cele 56 de persoane rămase se împart egal: 28 în fiecare segment; prima are încă 12, deci 40.",
+        "rule": "Numărul mai mare este (sumă + diferență)/2.",
+        "trap": "34 ar fi corect numai dacă cele două clase ar fi egale."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "40",
+        "options": [
+          "28",
+          "34",
+          "40",
+          "46"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q52",
+      "category": "numeric",
+      "model": "Sumă și diferență",
+      "prompt": "Două clase au împreună 74 de elevi. Prima are cu 16 elevi mai mult decât a doua. Câți elevi are prima?",
+      "options": [
+        "29 elevi.",
+        "37 elevi.",
+        "45 elevi.",
+        "53 elevi."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Din sumă scoatem surplusul: 74 − 16 = 58.",
+          "Împărțim restul egal: 58/2 = 29 pentru clasa a doua.",
+          "Prima: 29 + 16 = 45.",
+          "Control: 45 + 29 = 74 și 45 − 29 = 16."
+        ],
+        "alternative": "Numărul mai mare este (74 + 16)/2 = 45.",
+        "rule": "Numărul mai mare este (sumă + diferență)/2.",
+        "trap": "34 ar fi corect numai dacă cele două clase ar fi egale."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "45",
+        "options": [
+          "29",
+          "37",
+          "45",
+          "53"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q53",
+      "category": "numeric",
+      "model": "Șir geometric",
+      "prompt": "Fiecare termen este obținut prin înmulțirea precedentului cu același număr. Completează: 5, 15, 45, 135, … .",
+      "options": [
+        "270.",
+        "315.",
+        "405.",
+        "675."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "15/5 = 3; 45/15 = 3; 135/45 = 3.",
+          "Factorul constant este 3.",
+          "Următorul termen este 135 × 3 = 405.",
+          "Control: 405/135 = 3."
+        ],
+        "alternative": "135 + 135 + 135 = 405.",
+        "rule": "La un șir geometric, verifică raportul termenilor consecutivi.",
+        "trap": "Diferențele nu sunt constante: 10, 30, 90."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "405",
+        "options": [
+          "270",
+          "315",
+          "405",
+          "675"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q54",
+      "category": "numeric",
+      "model": "Șir geometric",
+      "prompt": "Fiecare termen este obținut prin înmulțirea precedentului cu același număr. Completează: 7, 28, 112, 448, … .",
+      "options": [
+        "1344.",
+        "1792.",
+        "2240.",
+        "896."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "28/7 = 4, 112/28 = 4, 448/112 = 4.",
+          "Factorul constant este 4.",
+          "448 × 4 = 1.792.",
+          "Control: 1.792/448 = 4."
+        ],
+        "alternative": "Dublez de două ori: 448 × 2 = 896, apoi 896 × 2 = 1.792.",
+        "rule": "La un șir geometric, verifică raportul termenilor consecutivi.",
+        "trap": "Diferențele nu sunt constante: 10, 30, 90."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "1792",
+        "options": [
+          "1344",
+          "1792",
+          "2240",
+          "896"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q55",
+      "category": "numeric",
+      "model": "Distanță și conversie de timp",
+      "prompt": "Un vehicul circulă cu 72 km/h timp de 1 oră și 25 de minute, la viteză constantă. Ce distanță parcurge?",
+      "options": [
+        "102 km.",
+        "108 km.",
+        "90 km.",
+        "96 km."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "25 minute reprezintă 25/60 ore.",
+          "Timpul total este 1 + 25/60 = 85/60 = 17/12 ore.",
+          "Distanța = 72 × 17/12 = 6 × 17 = 102 km.",
+          "Control: la 72 km/h se parcurg 1,2 km/min; 85 × 1,2 = 102 km."
+        ],
+        "alternative": "În prima oră parcurge 72 km. În 25 minute parcurge 25 × 1,2 = 30 km. Total 102.",
+        "rule": "Convertește minutele în ore înainte de înmulțirea cu km/h.",
+        "trap": "1 oră și 25 minute nu înseamnă 1,25 ore."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "102",
+        "options": [
+          "102",
+          "108",
+          "90",
+          "96"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q56",
+      "category": "numeric",
+      "model": "Distanță și conversie de timp",
+      "prompt": "Un vehicul circulă cu 84 km/h timp de 1 oră și 40 minute, la viteză constantă. Ce distanță parcurge?",
+      "options": [
+        "117,6 km.",
+        "126 km.",
+        "140 km.",
+        "168 km."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "40 minute = 40/60 = 2/3 ore.",
+          "Timpul este 1 + 2/3 = 5/3 ore.",
+          "Distanța: 84 × 5/3 = 28 × 5 = 140 km.",
+          "Control: 100 minute × 1,4 km/min = 140 km."
+        ],
+        "alternative": "În prima oră parcurge 84 km, în următoarele 40 minute încă 56; total 140.",
+        "rule": "Convertește minutele în ore înainte de înmulțirea cu km/h.",
+        "trap": "1 oră și 25 minute nu înseamnă 1,25 ore."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "140",
+        "options": [
+          "117.6",
+          "126",
+          "140",
+          "168"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q57",
+      "category": "numeric",
+      "model": "Reuniunea a două grupuri",
+      "prompt": "Într-un grup, 34 de elevi participă la teatru, 29 la muzică și 12 la ambele. Câți elevi participă la cel puțin una dintre cele două activități?",
+      "options": [
+        "51 elevi.",
+        "63 elevi.",
+        "75 elevi.",
+        "87 elevi."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Cei 12 din ambele grupuri sunt numărați și la teatru, și la muzică.",
+          "Suma 34 + 29 = 63 îi numără de două ori.",
+          "Scădem o singură dată suprapunerea: 63 − 12 = 51.",
+          "Control pe zone: numai teatru 22, ambele 12, numai muzică 17; 22 + 12 + 17 = 51."
+        ],
+        "alternative": "Metoda mulțimilor: două cercuri care se intersectează. Scriem 12 în intersecție, 22 și 17 în zonele separate, apoi adunăm.",
+        "rule": "Reuniunea = primul grup + al doilea − intersecția.",
+        "trap": "Nu scădea intersecția de două ori."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "51",
+        "options": [
+          "51",
+          "63",
+          "75",
+          "87"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q58",
+      "category": "numeric",
+      "model": "Reuniunea a două grupuri",
+      "prompt": "41 elevi participă la teatru, 36 la muzică și 15 la ambele. Câți participă la cel puțin una dintre cele două activități?",
+      "options": [
+        "47 elevi.",
+        "62 elevi.",
+        "77 elevi.",
+        "92 elevi."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Suma efectivelor este 41 + 36 = 77.",
+          "Cei 15 din ambele au fost numărați de două ori.",
+          "Reuniunea: 77 − 15 = 62.",
+          "Control: numai teatru 26, numai muzică 21, ambele 15; total 62."
+        ],
+        "alternative": "Desenează două mulțimi: 26 în prima zonă, 15 la intersecție, 21 în a doua.",
+        "rule": "Reuniunea = primul grup + al doilea − intersecția.",
+        "trap": "Nu scădea intersecția de două ori."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "62",
+        "options": [
+          "47",
+          "62",
+          "77",
+          "92"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q59",
+      "category": "numeric",
+      "model": "Cost fix și variabil",
+      "prompt": "O activitate are un cost fix de 65 lei și un cost de 14 lei pentru fiecare participant. Participă 9 persoane. Care este costul total?",
+      "options": [
+        "126 lei.",
+        "191 lei.",
+        "205 lei.",
+        "711 lei."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Costul fix de 65 lei se plătește o singură dată.",
+          "Costul celor 9 participanți este 9 × 14 = 126 lei.",
+          "Totalul este 65 + 126 = 191 lei.",
+          "Control: (191 − 65)/9 = 14 lei/participant."
+        ],
+        "alternative": "9 × 14 = 10 × 14 − 14 = 126; apoi adaugi 65.",
+        "rule": "Total = cost fix + cost pe participant × număr participanți.",
+        "trap": "Nu înmulți și cei 65 lei cu 9."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "191",
+        "options": [
+          "126",
+          "191",
+          "205",
+          "711"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q60",
+      "category": "numeric",
+      "model": "Cost fix și variabil",
+      "prompt": "O activitate are un cost fix de 85 lei și un cost de 16 lei pentru fiecare participant. Participă 11 persoane. Care este costul total?",
+      "options": [
+        "1111 lei.",
+        "176 lei.",
+        "245 lei.",
+        "261 lei."
+      ],
+      "correct": 3,
+      "solution": {
+        "steps": [
+          "Costul fix este 85 lei, o singură dată.",
+          "Costul variabil: 11 × 16 = 176 lei.",
+          "Total: 85 + 176 = 261 lei.",
+          "Control: (261 − 85)/11 = 16."
+        ],
+        "alternative": "10 participanți costă 160 lei; încă unul 16 lei. Adaugă apoi cei 85 lei.",
+        "rule": "Total = cost fix + cost pe participant × număr participanți.",
+        "trap": "Nu înmulți și cei 65 lei cu 9."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "261",
+        "options": [
+          "1111",
+          "176",
+          "245",
+          "261"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q61",
+      "category": "numeric",
+      "model": "Fracție și rest",
+      "prompt": "Dintr-un fond de 280 lei se cheltuiesc 3/7. Câți lei rămân?",
+      "options": [
+        "120 lei.",
+        "140 lei.",
+        "160 lei.",
+        "200 lei."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "O șeptime este 280/7 = 40 lei.",
+          "Se cheltuiesc 3 × 40 = 120 lei.",
+          "Rămân 280 − 120 = 160 lei.",
+          "Control: restul reprezintă 4/7; 4 × 40 = 160."
+        ],
+        "alternative": "Împarte fondul în 7 segmente de 40 lei. După folosirea a 3, rămân 4.",
+        "rule": "Restul după cheltuirea fracției f este (1 − f) din întreg.",
+        "trap": "120 reprezintă suma cheltuită, nu restul."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "160",
+        "options": [
+          "120",
+          "140",
+          "160",
+          "200"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q62",
+      "category": "numeric",
+      "model": "Fracție și rest",
+      "prompt": "Dintr-un fond de 432 lei se cheltuiesc 5/9. Câți lei rămân?",
+      "options": [
+        "192 lei.",
+        "216 lei.",
+        "240 lei.",
+        "384 lei."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "O nouime: 432/9 = 48 lei.",
+          "Se cheltuiesc 5 × 48 = 240 lei.",
+          "Restul: 432 − 240 = 192 lei.",
+          "Control: rămân 4 nouimi; 4 × 48 = 192."
+        ],
+        "alternative": "Nouă segmente de 48; se folosesc cinci și rămân patru.",
+        "rule": "Restul după cheltuirea fracției f este (1 − f) din întreg.",
+        "trap": "120 reprezintă suma cheltuită, nu restul."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "192",
+        "options": [
+          "192",
+          "216",
+          "240",
+          "384"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q63",
+      "category": "numeric",
+      "model": "Probabilitate fără înlocuire",
+      "prompt": "Într-o urnă sunt 6 bile roșii și 4 albastre. Se extrag succesiv două bile fără a o pune la loc pe prima. Care este probabilitatea ca ambele să fie roșii?",
+      "options": [
+        "1/3.",
+        "1/5.",
+        "2/3.",
+        "9/25."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "La prima extragere sunt 6 bile roșii din 10: probabilitate 6/10.",
+          "Dacă prima este roșie, rămân 5 roșii din 9 bile.",
+          "Probabilitatea celei de-a doua roșii în acest caz este 5/9.",
+          "Înmulțim: (6/10) × (5/9) = 30/90 = 1/3.",
+          "Control prin perechi: sunt 6 × 5 = 30 perechi ordonate roșii din 10 × 9 = 90 perechi totale."
+        ],
+        "alternative": "Prin combinații: 15 perechi de bile roșii din 45 perechi posibile; 15/45 = 1/3.",
+        "rule": "Fără înlocuire, scad atât totalul, cât și numărul bilelor favorabile extrase.",
+        "trap": "(6/10)² ar presupune repunerea primei bile."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "1/3",
+        "options": [
+          "1/3",
+          "1/5",
+          "2/3",
+          "9/25"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q64",
+      "category": "numeric",
+      "model": "Probabilitate fără înlocuire",
+      "prompt": "Într-o urnă sunt 8 bile roșii și 4 albastre. Se extrag succesiv două bile fără înlocuire. Care este probabilitatea ca ambele să fie roșii?",
+      "options": [
+        "14/33.",
+        "2/3.",
+        "4/9.",
+        "7/11."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Prima roșie: 8/12.",
+          "După ea rămân 7 roșii din 11 bile.",
+          "Probabilitatea ambelor: (8/12) × (7/11) = 56/132 = 14/33.",
+          "Control prin perechi ordonate: 8 × 7 favorabile din 12 × 11 posibile."
+        ],
+        "alternative": "Sunt 28 perechi roșii neordonate din 66 totale; 28/66 = 14/33.",
+        "rule": "Fără înlocuire, scad atât totalul, cât și numărul bilelor favorabile extrase.",
+        "trap": "(6/10)² ar presupune repunerea primei bile."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "14/33",
+        "options": [
+          "14/33",
+          "2/3",
+          "4/9",
+          "7/11"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q65",
+      "category": "numeric",
+      "model": "Periodicitate / CMMMC",
+      "prompt": "Două semnale se aprind la fiecare 12 minute, respectiv la fiecare 18 minute. Se aprind simultan la ora 10:00. La ce oră se vor aprinde prima dată din nou simultan?",
+      "options": [
+        "10:24.",
+        "10:30.",
+        "10:36.",
+        "10:54."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Multiplii lui 12 sunt 12, 24, 36, 48… .",
+          "Multiplii lui 18 sunt 18, 36, 54… .",
+          "Primul multiplu comun pozitiv este 36 minute.",
+          "Adăugăm 36 minute la 10:00 și obținem 10:36."
+        ],
+        "alternative": "Descompunere: 12 = 2² × 3, 18 = 2 × 3². CMMMC = 2² × 3² = 36.",
+        "rule": "Prima repetare simultană apare după cel mai mic multiplu comun pozitiv.",
+        "trap": "Nu aduna pur și simplu intervalele 12 și 18."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "10:36",
+        "options": [
+          "10:24",
+          "10:30",
+          "10:36",
+          "10:54"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q66",
+      "category": "numeric",
+      "model": "Periodicitate / CMMMC",
+      "prompt": "Două semnale se aprind la fiecare 15 minute, respectiv la fiecare 20 minute. Se aprind simultan la 11:10. La ce oră se aprind prima dată din nou simultan?",
+      "options": [
+        "11:45.",
+        "12:00.",
+        "12:10.",
+        "12:30."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Multiplii lui 15: 15, 30, 45, 60.",
+          "Multiplii lui 20: 20, 40, 60.",
+          "Primul multiplu comun pozitiv este 60 minute.",
+          "11:10 + 60 minute = 12:10."
+        ],
+        "alternative": "15 = 3 × 5, 20 = 2² × 5. CMMMC = 2² × 3 × 5 = 60.",
+        "rule": "Prima repetare simultană apare după cel mai mic multiplu comun pozitiv.",
+        "trap": "Nu aduna pur și simplu intervalele 12 și 18."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "12:10",
+        "options": [
+          "11:45",
+          "12:00",
+          "12:10",
+          "12:30"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q67",
+      "category": "numeric",
+      "model": "Raport cu modificarea unei părți",
+      "prompt": "Într-un club, raportul fete : băieți este 3 : 2. Se înscriu încă 8 băieți, fără alte schimbări, iar raportul devine 1 : 1. Câte fete erau inițial?",
+      "options": [
+        "16 fete.",
+        "20 fete.",
+        "24 fete.",
+        "32 fete."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Scriem inițial fete = 3x și băieți = 2x.",
+          "După înscriere, băieții sunt 2x + 8, iar fetele rămân 3x.",
+          "Raportul 1 : 1 înseamnă 3x = 2x + 8.",
+          "Rezultă x = 8, deci fetele sunt 3 × 8 = 24.",
+          "Control: inițial 24 fete și 16 băieți; după înscriere sunt 24 și 24."
+        ],
+        "alternative": "Metoda segmentelor: fetele au un segment în plus. Cei 8 băieți noi umplu exact segmentul lipsă, deci un segment = 8.",
+        "rule": "Transformă raporturile în părți egale și aplică schimbarea numai grupului afectat.",
+        "trap": "Cei 8 nu se adaugă și fetelor."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "24",
+        "options": [
+          "16",
+          "20",
+          "24",
+          "32"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q68",
+      "category": "numeric",
+      "model": "Raport cu modificarea unei părți",
+      "prompt": "Într-un club, raportul fete : băieți este 5 : 3. Se înscriu încă 12 băieți, fără alte schimbări, iar raportul devine 1 : 1. Câte fete erau inițial?",
+      "options": [
+        "18 fete.",
+        "24 fete.",
+        "30 fete.",
+        "36 fete."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Inițial avem 5x fete și 3x băieți.",
+          "După înscriere: 5x = 3x + 12.",
+          "2x = 12, deci x = 6.",
+          "Fetele sunt 5 × 6 = 30. Control: 18 băieți + 12 = 30."
+        ],
+        "alternative": "Diferența de două segmente este completată de cei 12 băieți; un segment este 6.",
+        "rule": "Transformă raporturile în părți egale și aplică schimbarea numai grupului afectat.",
+        "trap": "Cei 8 nu se adaugă și fetelor."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "30",
+        "options": [
+          "18",
+          "24",
+          "30",
+          "36"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q69",
+      "category": "numeric",
+      "model": "Șir alternant cu două reguli",
+      "prompt": "Termenii de pe poziții impare cresc cu 3, iar cei de pe poziții pare se înjumătățesc. Completează: 4, 80, 7, 40, 10, 20, … .",
+      "options": [
+        "10.",
+        "13.",
+        "15.",
+        "17."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Separăm pozițiile impare: 4, 7, 10, … .",
+          "Ele cresc cu 3, deci următoarea valoare este 13.",
+          "Pozițiile pare sunt 80, 40, 20 și respectă înjumătățirea.",
+          "Termenul cerut ocupă poziția 7, impară, deci este 13."
+        ],
+        "alternative": "Scrie două rânduri: pozițiile 1, 3, 5, 7 și pozițiile 2, 4, 6. Continuă numai rândul cerut.",
+        "rule": "La un șir alternant, urmărește separat cele două subșiruri.",
+        "trap": "10 este următorul termen al subșirului par, dar nu al poziției cerute."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "13",
+        "options": [
+          "10",
+          "13",
+          "15",
+          "17"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q70",
+      "category": "numeric",
+      "model": "Șir alternant cu două reguli",
+      "prompt": "Termenii de pe poziții impare cresc cu 5, iar cei de pe poziții pare se înjumătățesc. Completează: 3, 96, 8, 48, 13, 24, … .",
+      "options": [
+        "12.",
+        "18.",
+        "19.",
+        "29."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Subșirul impar este 3, 8, 13, … .",
+          "Crește de fiecare dată cu 5.",
+          "Termenul 7 este impar, deci 13 + 5 = 18.",
+          "Subșirul par 96, 48, 24 respectă înjumătățirea."
+        ],
+        "alternative": "Separă șirul în două rânduri și continuă rândul 3, 8, 13.",
+        "rule": "La un șir alternant, urmărește separat cele două subșiruri.",
+        "trap": "10 este următorul termen al subșirului par, dar nu al poziției cerute."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "18",
+        "options": [
+          "12",
+          "18",
+          "19",
+          "29"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q71",
+      "category": "numeric",
+      "model": "Fracții succesive și rest",
+      "prompt": "Un fond are 360 lei. Se cheltuiește mai întâi 1/3 din fond, apoi 1/4 din suma rămasă. Câți lei rămân la final?",
+      "options": [
+        "150 lei.",
+        "180 lei.",
+        "210 lei.",
+        "240 lei."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Prima cheltuială: 360/3 = 120 lei.",
+          "După prima etapă rămân 360 − 120 = 240 lei.",
+          "A doua cheltuială: 240/4 = 60 lei.",
+          "La final rămân 240 − 60 = 180 lei.",
+          "Control: 120 + 60 + 180 = 360."
+        ],
+        "alternative": "Fracția rămasă este (2/3) × (3/4) = 1/2 din fond. Jumătate din 360 este 180.",
+        "rule": "Aplică a doua fracție restului, când cerința spune «din suma rămasă».",
+        "trap": "Nu calcula a doua cheltuială ca 1/4 din 360."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "180",
+        "options": [
+          "150",
+          "180",
+          "210",
+          "240"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q72",
+      "category": "numeric",
+      "model": "Fracții succesive și rest",
+      "prompt": "Un fond are 480 lei. Se cheltuiește mai întâi 1/4 din fond, apoi 1/3 din suma rămasă. Câți lei rămân la final?",
+      "options": [
+        "200 lei.",
+        "240 lei.",
+        "280 lei.",
+        "360 lei."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Prima cheltuială: 480/4 = 120.",
+          "Rămân 360 lei.",
+          "A doua cheltuială: 360/3 = 120.",
+          "Rest final: 360 − 120 = 240. Control: 120 + 120 + 240 = 480."
+        ],
+        "alternative": "Fracția rămasă: (3/4) × (2/3) = 1/2. Jumătate din 480 = 240.",
+        "rule": "Aplică a doua fracție restului, când cerința spune «din suma rămasă».",
+        "trap": "Nu calcula a doua cheltuială ca 1/4 din 360."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "240",
+        "options": [
+          "200",
+          "240",
+          "280",
+          "360"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q73",
+      "category": "numeric",
+      "model": "Raport orientat din date",
+      "prompt": "Un grafic indică 22 participanți în grupa X și 88 în grupa Y. Care este raportul X/Y, exprimat ca fracție simplificată?",
+      "options": [
+        "1/3.",
+        "1/4.",
+        "2/3.",
+        "4."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "Ordinea X/Y cere 22 la numărător și 88 la numitor.",
+          "Simplificăm 22/88 prin împărțirea ambelor numere la 22.",
+          "Rezultatul este 1/4.",
+          "Control: 88 × 1/4 = 22."
+        ],
+        "alternative": "X are un sfert din efectivul lui Y, pentru că 4 × 22 = 88.",
+        "rule": "Păstrează ordinea cerută în raport.",
+        "trap": "Y/X este 4; reprezintă raportul invers."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "1/4",
+        "options": [
+          "1/3",
+          "1/4",
+          "2/3",
+          "4"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q74",
+      "category": "numeric",
+      "model": "Raport orientat din date",
+      "prompt": "Un grafic indică 28 participanți în grupa X și 70 în grupa Y. Care este raportul X/Y, ca fracție simplificată?",
+      "options": [
+        "2/5.",
+        "2/7.",
+        "5/2.",
+        "7/2."
+      ],
+      "correct": 0,
+      "solution": {
+        "steps": [
+          "Ordinea cerută este X/Y = 28/70.",
+          "Împărțim numărătorul și numitorul la 14.",
+          "Obținem 2/5.",
+          "Control: 70 × 2/5 = 28."
+        ],
+        "alternative": "28 reprezintă 40% din 70; 40/100 = 2/5.",
+        "rule": "Păstrează ordinea cerută în raport.",
+        "trap": "Y/X este 3; reprezintă raportul invers."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "2/5",
+        "options": [
+          "2/5",
+          "2/7",
+          "5/2",
+          "7/2"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q75",
+      "category": "numeric",
+      "model": "Consum și cost cu unități",
+      "prompt": "Un vehicul parcurge 240 km și consumă 7 litri la 100 km. În această problemă, combustibilul costă 7,5 lei/litru. Cât costă combustibilul consumat?",
+      "options": [
+        "112,5 lei.",
+        "120 lei.",
+        "126 lei.",
+        "168 lei."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "La 240 km consumul este 240 × 7/100 = 16,8 litri.",
+          "Costul este 16,8 × 7,5 = 126 lei.",
+          "Verificăm unitățile: litri × lei/litru = lei.",
+          "Control: la 100 km costul este 7 × 7,5 = 52,5 lei; 2,4 × 52,5 = 126."
+        ],
+        "alternative": "Regula de trei: 100 km → 52,5 lei, 240 km → 240 × 52,5/100 = 126 lei.",
+        "rule": "Calculează consumul, apoi costul sau costul pe 100 km.",
+        "trap": "16,8 este consumul în litri, nu suma în lei."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "126",
+        "options": [
+          "112.5",
+          "120",
+          "126",
+          "168"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q76",
+      "category": "numeric",
+      "model": "Consum și cost cu unități",
+      "prompt": "Un vehicul parcurge 320 km și consumă 6,5 litri la 100 km. În această problemă, combustibilul costă 8,5 lei/litru. Cât costă combustibilul consumat?",
+      "options": [
+        "156 lei.",
+        "166,4 lei.",
+        "176,8 lei.",
+        "208 lei."
+      ],
+      "correct": 2,
+      "solution": {
+        "steps": [
+          "Consumul: 320 × 6,5/100 = 20,8 litri.",
+          "Costul: 20,8 × 8,5 = 176,8 lei.",
+          "Control: 20,8 × 8 = 166,4; 20,8 × 0,5 = 10,4; suma este 176,8.",
+          "Unitățile finale sunt lei."
+        ],
+        "alternative": "Costul pentru 100 km este 6,5 × 8,5 = 55,25 lei; pentru 320 km: 3,2 × 55,25 = 176,8.",
+        "rule": "Calculează consumul, apoi costul sau costul pe 100 km.",
+        "trap": "16,8 este consumul în litri, nu suma în lei."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "176.8",
+        "options": [
+          "156",
+          "166.4",
+          "176.8",
+          "208"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q77",
+      "category": "numeric",
+      "model": "Scădere succesivă a aceleiași proporții",
+      "prompt": "Un stoc are inițial 1.175 de materiale. Scade cu 20%, apoi cu încă 20% din stocul rămas. Câte materiale rămân?",
+      "options": [
+        "705 materiale.",
+        "752 materiale.",
+        "800 materiale.",
+        "940 materiale."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "După o scădere de 20% rămâne 80%.",
+          "Prima etapă: 1.175 × 0,80 = 940.",
+          "A doua etapă: 940 × 0,80 = 752.",
+          "Control: se folosesc 235 în prima etapă și 188 în a doua; 1.175 − 235 − 188 = 752."
+        ],
+        "alternative": "Factorul final este 0,8 × 0,8 = 0,64. 64% din 1.175 = 752.",
+        "rule": "La reduceri repetate, înmulțește factorii proporțiilor rămase.",
+        "trap": "Două scăderi de 20% nu dau aici o scădere totală de 40%."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "752",
+        "options": [
+          "705",
+          "752",
+          "800",
+          "940"
+        ]
+      },
+      "historical": false
+    },
+    {
+      "id": "t61-q78",
+      "category": "numeric",
+      "model": "Scădere succesivă a aceleiași proporții",
+      "prompt": "Un stoc are inițial 960 materiale. Scade cu 25%, apoi cu încă 25% din stocul rămas. Câte materiale rămân?",
+      "options": [
+        "480 materiale.",
+        "540 materiale.",
+        "600 materiale.",
+        "720 materiale."
+      ],
+      "correct": 1,
+      "solution": {
+        "steps": [
+          "După prima scădere rămân 960 × 0,75 = 720.",
+          "A doua scădere este 25% din 720, adică 180.",
+          "Rămân 720 − 180 = 540.",
+          "Control: 960 − 240 − 180 = 540."
+        ],
+        "alternative": "Factorul final este (3/4)² = 9/16. 960/16 × 9 = 540.",
+        "rule": "La reduceri repetate, înmulțește factorii proporțiilor rămase.",
+        "trap": "Două scăderi de 20% nu dau aici o scădere totală de 40%."
+      },
+      "hint": "",
+      "proof": {
+        "kind": "numeric-review",
+        "result": "540",
+        "options": [
+          "480",
+          "540",
+          "600",
+          "720"
+        ]
+      },
+      "historical": false
+    }
+  ]
+}
